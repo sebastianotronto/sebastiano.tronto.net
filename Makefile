@@ -2,9 +2,10 @@ all: clean
 	./build.sh
 
 clean:
+	mkdir -p http
 	rm -r http
 
-deploy:
+deploy: all
 	rsync -rv --delete --rsync-path=openrsync \
 		http/ tronto.net:/var/www/htdocs/sebastiano.tronto.net
 
