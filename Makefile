@@ -2,7 +2,7 @@ all: clean
 	./build.sh
 
 clean:
-	rm -r http/*
+	rm -r http
 
 deploy:
 	rsync -rv --delete --rsync-path=openrsync \
