@@ -50,6 +50,10 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *Division in modules and Kummer theory*.
+  Invited talk at the University of Groningen, February 2022.
+  [Slides: [pdf](division-groningen.pdf)]
+
 * *A category of division modules*.
   University of Luxembourg Number Theory seminar, November 2021.
   [Notes: [pdf](notes-division-modules.pdf)]
