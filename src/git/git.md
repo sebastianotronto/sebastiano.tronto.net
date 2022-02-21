@@ -41,3 +41,8 @@ I taught at the [University of Luxembourg](https://wwwen.uni.lu)
 * [arithmeticbilliard](https://git.tronto.net/arithmeticbilliard):
   a python program for drawing the path of 2- and 3-dimensional arithmetic
   billiards.
+
+## Miscellanea
+
+* [My personal website](https://git.tronto.net/sebastiano.tronto.net):
+  source files (mostly markdown) and build scripts for this website.
