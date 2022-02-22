@@ -1,4 +1,4 @@
-.menu {
+header nav table {
 	width:			100%;
 }
 
@@ -7,7 +7,7 @@
 	font-weight:		bold;
 }
 
-.footer {
+footer table {
 	font-style:		italic;
 	width:			100%;
 }
