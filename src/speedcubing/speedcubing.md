@@ -11,7 +11,7 @@ also the leader of the WCA Disciplinary Committee. You can see all my official
 results [here](https://www.worldcubeassociation.org/persons/2011TRON02).
 
 If you are interested in Fewest Moves solving, check out my
-[FMC Tutorial](https://github.com/sebastianotronto/fmctutorial). I also
+[FMC Tutorial](https://fmcsolves.cubing.net/). I also
 upload irregularly on 
 [my YouTube channel](https://www.youtube.com/c/SebastianoTronto), but most
 videos are just me solving the cube.
