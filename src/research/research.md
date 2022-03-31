@@ -50,6 +50,12 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *Division in modules*.
+  University of Leiden algebra seminar, April 2022;
+  similar to *A generalization of injective modules* and
+  *Division in modules and Kummer theory*, see below.
+  [Notes: [pdf, 245Kb](division-leiden.pdf)]
+
 * *Division in modules and Kummer theory*.
   Invited talk at the University of Groningen, February 2022.
   [Slides: [pdf, 249Kb](division-groningen.pdf)]
