@@ -50,6 +50,13 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *Kummer theory for algebraic groups*
+  Nederlands Matematisch Congres, April 2022;
+  repeated at the DIAMANT symposium, April 2022.
+  [Notes (NMC): [pdf, 215Kb](slides-kummer-kwg.pdf);
+   Script (NMC): [txt, 9Kb](script-kummer-kwg.txt);
+   Notes (DIAMANT, longer version): [pdf, 223Kb](slides-kummer-diamant.pdf)]
+
 * *Division in modules*.
   University of Leiden algebra seminar, April 2022;
   similar to *A generalization of injective modules* and
