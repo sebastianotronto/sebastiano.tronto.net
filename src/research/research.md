@@ -50,6 +50,10 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *Kummer theory via (J,T)-extensions*.
+  University of Leiden algebra seminar, May 2022;
+  similar to *A category of division modules*, see below.
+
 * *Kummer theory for algebraic groups*
   Nederlands Matematisch Congres, April 2022;
   repeated at the DIAMANT symposium, April 2022.
