@@ -50,11 +50,15 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *A tour of group theory with our companion cube*.
+  University of Luxembourg PhD seminar, May 2022.
+  [Slides: [pdf, 1.1Mb](group-cube.pdf)]
+
 * *Kummer theory via (J,T)-extensions*.
   University of Leiden algebra seminar, May 2022;
   similar to *A category of division modules*, see below.
 
-* *Kummer theory for algebraic groups*
+* *Kummer theory for algebraic groups*.
   Nederlands Matematisch Congres, April 2022;
   repeated at the DIAMANT symposium, April 2022.
   [Notes (NMC): [pdf, 215Kb](slides-kummer-kwg.pdf);
