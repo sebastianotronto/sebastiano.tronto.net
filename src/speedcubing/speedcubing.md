@@ -3,7 +3,7 @@
 ![Me solving a Rubik's cube during an official competition](cubing.png "Me solving a cube")
 
 I have been practicing [speedcubing](https://en.wikipedia.org/wiki/Speedcubing)
-since 2008, and since 2011 I have competed in 49 officially recognized
+since 2008, and since 2011 I have competed in 50 officially recognized
 [WCA](https://www.worldcubeassociation.org) competitions. I currently hold the
 world record for the single best result in the *3x3x3 Fewest Moves* event
 (16 moves), and some national records in different blindfolded events. I am
