@@ -1,29 +1,32 @@
 # Git repositories
 
-You can find all my git repositories at
-[git.tronto.net](https://git.tronto.net/) or on
-[my github page](https://github.com/sebastianotronto).
-You can clone a repository with `git clone https://git.tronto.net/[NAME]`.
-
-## Tutorials
-
-* [fmctutorial](https://git.tronto.net/fmctutorial): an in-depth
-  tutorial for the Rubik's cube *Fewest Moves Challenge*, or FMC.
-
-## Programs and scripts
-
 I started writing code in 2005, with a toy programming language called Dark
 Basic first and with Java shortly after that. In the past I enjoyed learning
 different programming languages (C++, J, Python...), but I have recently found
 more pleasure in writing software in plain C.
 
+You can find all my git repositories at
+[git.tronto.net](https://git.tronto.net/) or on
+[my github page](https://github.com/sebastianotronto).
+You can clone a repository with `git clone https://git.tronto.net/[NAME]`.
+
+Here are some highlights of what you can find in my git repositories.
+
+## Programs and scripts
+
 * [nissy](https://git.tronto.net/nissy): A Rubik's cube solver,
   intended primarily as a tool for practicing FMC.
+  Check out also [the project's homepage](https://nissy.tronto.net).
 * [sdep](https://git.tronto.net/sdep): A minimalistic
   "date+event" line parser. Can be used in combination with some shell scripts
   as a reminder / calendar application.
 * [scripts](https://git.tronto.net/scripts): Various scripts
   for Unix-like systems.
+
+## Tutorials
+
+* [fmctutorial](https://git.tronto.net/fmctutorial): an in-depth
+  tutorial for the Rubik's cube *Fewest Moves Challenge*, or FMC.
 
 ## Math courses and programs
 
@@ -46,3 +49,4 @@ I taught at the [University of Luxembourg](https://wwwen.uni.lu)
 
 * [My personal website](https://git.tronto.net/sebastiano.tronto.net):
   source files (mostly markdown) and build scripts for this website.
+* [Platonic solids](https://git.tronto.net/platonicsolids) in TikZ (LaTeX).
