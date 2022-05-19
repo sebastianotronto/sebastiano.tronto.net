@@ -13,7 +13,3 @@ Download my [cv (pdf, 220Kb)](tronto-cv.pdf).
 * [sebastiano@tronto.net](mailto:sebastiano@tronto.net) (personal)
 * [sebastiano.tronto@uni.lu](mailto:sebastiano.tronto@uni.lu) (work)
 
-### Social
-
-You can find me on many social networks and forums with either my real name
-or the username `porkynator`.
