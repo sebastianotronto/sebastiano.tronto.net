@@ -29,4 +29,34 @@ recursivebuild() {
 	done
 }
 
+makeblog() {
+	bf=src/blog/blog.md
+	ff=src/blog/feed.xml
+
+	printf "# Blog\n\n[RSS Feed](feed.xml)\n\n" > $bf
+	cp feed-top.xml $ff
+
+	for i in $(ls src/blog | sort -r); do
+		if [ -d src/blog/$i ]; then
+			f="src/blog/$i/*.md"
+			d=$(grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' $f)
+			t=$(head -n 1 $f | sed 's/# //')
+			echo "* $d [$t]($i)" >> $bf
+
+			echo "<item>" >> $ff
+			echo "<title>$t</title>" >> $ff
+			echo "<link>https://sebastiano.tronto.net/blog/$i</link>" >> $ff
+			echo "<description>$t</description>" >> $ff
+			echo "<pubDate>$d</pubDate>" >> $ff
+			echo "</item>" >> $ff
+			echo "" >> $ff
+		fi
+	done
+
+	echo "" >> $ff
+	echo "</channel>" >> $ff
+	echo "</rss>" >> $ff
+}
+
+makeblog
 recursivebuild src
