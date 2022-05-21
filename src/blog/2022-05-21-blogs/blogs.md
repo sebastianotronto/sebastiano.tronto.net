@@ -28,7 +28,7 @@ as "the Internet sound". My parents spent a lot of time troubleshooting that
 day.
 I only have a couple of memories of that dial-up connection - I was of course
 not allowed to use it alone! I remember downloading a couple of pictures from
-the official Pok&eacute;mon website, which we later printed and hung somewhere.
+the official Pokémon website, which we later printed and hung somewhere.
 I also remember trying to send an email to my dad, and my mom being
 clearly stressed about me typing slowly and wasting minutes of dial-up time.
 
