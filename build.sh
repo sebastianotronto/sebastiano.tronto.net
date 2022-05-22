@@ -70,5 +70,21 @@ makeblog() {
 	echo "</rss>" >> $ff
 }
 
+gemblog() {
+	bg=gemini/blog/index.gmi
+
+	printf "# Blog\n\n=> feed.xml RSS Feed\n\n" > $bg
+	for i in $(ls src/blog); do
+		if [ -d src/blog/$i ]; then
+			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
+			t=$(head -n 1 $f | sed 's/# //')
+			echo "=> $i $d $t" >> $bg
+		fi
+	done
+	echo "" >> $bg
+	cat bottom.gmi >> $bg
+}
+
 makeblog
 recursivebuild src
+gemblog
