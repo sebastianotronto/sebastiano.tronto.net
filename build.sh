@@ -51,7 +51,7 @@ makeblog() {
 	for i in $(ls src/blog | sort -r); do
 		if [ -d src/blog/$i ]; then
 			f="src/blog/$i/*.md"
-			d=$(grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' $f)
+			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
 			t=$(head -n 1 $f | sed 's/# //')
 			echo "* $d [$t]($i)" >> $bf
 

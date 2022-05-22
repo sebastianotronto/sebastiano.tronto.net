@@ -1,7 +1,5 @@
 # Blogs
 
-2022-05-21
-
 Why would I start a blog in 2022? The short answer is
 that I have recently enjoyed reading blog posts, and I thought it could be fun
 to write some too. I don't have a good long answer, so I am just going to write
