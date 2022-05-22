@@ -5,8 +5,8 @@ all: clean
 	./build.sh
 
 clean:
-	mkdir -p http
-	rm -r http
+	rm -r http gemini
+	mkdir -p http gemini
 
 deploy: syncgemini synchttp
 
