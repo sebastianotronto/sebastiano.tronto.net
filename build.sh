@@ -2,10 +2,13 @@
 
 recursivebuild() {
 	local destdir=$(echo $1 | sed 's|^src|http|')
+	local destdir_gmi=$(echo $1 | sed 's|^src|gemini|')
 	mkdir -p "$destdir"
+	mkdir -p "$destdir_gmi"
 	for file in $(ls $1); do
 		if [ -d "$1/$file" ]; then
 			mkdir -p "$destdir/$file"
+			mkdir -p "$destdir_gmi/$file"
 			recursivebuild "$1/$file"
 		else
 			extension=$(echo "$file" | sed 's/.*\.//')
@@ -15,6 +18,11 @@ recursivebuild() {
 					> "$destdir/index.html"
 				lowdown "$1/$file" >> "$destdir/index.html"
 				cat bottom.html >> "$destdir/index.html"
+
+				lowdown -Tgemini --gemini-link-roman \
+					--gemini-link-end \
+					"$1/$file" > "$destdir_gmi/index.gmi"
+				cat bottom.gmi >> "$destdir_gmi/index.gmi"
 			elif [ "$extension" = "html" ]; then
 				cat top.html "$1/$file" bottom.html \
 					| sed "s/TITLE/$(grep '<!--TITLE: ' <\
@@ -22,8 +30,12 @@ recursivebuild() {
 						| sed 's/^<!--TITLE: //' \
 						| sed 's/-->$//')/" \
 					> "$destdir/index.html"
+			elif [ "$extension" = "gmi" ]; then
+				cat "$1/$file" bottom.gmi > \
+					"$destdir_gmi/index.gmi"
 			else
 				cp "$1/$file" "$destdir/$file"
+				cp "$1/$file" "$destdir_gmi/$file"
 			fi
 		fi
 	done

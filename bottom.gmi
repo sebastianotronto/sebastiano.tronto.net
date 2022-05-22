@@ -1,0 +1,5 @@
+---
+=> mailto:sebastiano@tronto.net Email me at sebastiano@tronto.net
+=> gemini://sebastiano.tronto.net Blog
+=> gemini://sebastiano.tronto.net Home
+=> https://sebastiano.tronto.net website
