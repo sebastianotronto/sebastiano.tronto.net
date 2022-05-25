@@ -3,10 +3,11 @@
 ![A picture of me](me.png "Me")
 
 I am a PhD student in Mathematics at the Universities of Luxembourg and Leiden.
-During my free time I enjoy tinkering with my computer, programming and
-playing with the Rubik's cube.
+Check out my [list of papers and talks](research).
 
-Download my [cv (pdf, 220Kb)](tronto-cv.pdf).
+During my free time I enjoy tinkering with my computer, [programming](git)
+and playing with the [Rubik's cube](speedcubing).
+
 
 ### Email
 
