@@ -20,7 +20,6 @@ recursivebuild() {
 				cat bottom.html >> "$destdir/index.html"
 
 				lowdown -Tgemini --gemini-link-roman \
-					--gemini-link-end \
 					"$1/$file" > "$destdir_gmi/index.gmi"
 				cat bottom.gmi >> "$destdir_gmi/index.gmi"
 			elif [ "$extension" = "html" ]; then
