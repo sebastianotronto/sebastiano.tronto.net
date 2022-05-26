@@ -50,7 +50,7 @@ on documents on the cloud, have video calls and share social media posts
 via apps - or browsers - that need at least modern, but preferably
 modern *and powerful*, hardware to run on, but are at the same time
 totally dependent on some huge server or data center somewhere else in the
-world. Of course, this services are run by the few huge companies that
+world. Of course, these services are run by the few huge companies that
 can afford to develop and mantain such a system.
 
 ## So what now?
