@@ -19,8 +19,14 @@ recursivebuild() {
 				lowdown "$1/$file" >> "$destdir/index.html"
 				cat bottom.html >> "$destdir/index.html"
 
+				# TODO: the following lines contain a dirty fix
+				# to deal with a bug in lowdown. Remove all the
+				# sed lines when fixed.
 				lowdown -Tgemini --gemini-link-roman \
-					"$1/$file" > "$destdir_gmi/index.gmi"
+					"$1/$file" \
+					| sed '/```./i```' \
+					| sed '/```./ s/```//' \
+					> "$destdir_gmi/index.gmi"
 				cat bottom.gmi >> "$destdir_gmi/index.gmi"
 			elif [ "$extension" = "html" ]; then
 				cat top.html "$1/$file" bottom.html \
