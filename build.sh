@@ -73,10 +73,10 @@ gemblog() {
 	bg=gemini/blog/index.gmi
 
 	printf "# Blog\n\n=> feed.xml RSS Feed\n\n" > $bg
-	for i in $(ls src/blog); do
+	for i in $(ls src/blog | sort -r); do
 		if [ -d src/blog/$i ]; then
 			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
-			t=$(head -n 1 $f | sed 's/# //')
+			t=$(head -n 1 src/blog/$i/*.md | sed 's/# //')
 			echo "=> $i $d $t" >> $bg
 		fi
 	done
