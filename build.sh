@@ -14,6 +14,7 @@ recursivebuild() {
 			extension=$(echo "$file" | sed 's/.*\.//')
 			if [ "$extension" = "md" ]; then
 				sed "s/TITLE/$(grep '^\# ' < "$1/$file" \
+					| head -n 1 \
 					| sed 's/^\# //')/" < top.html \
 					> "$destdir/index.html"
 				lowdown "$1/$file" >> "$destdir/index.html"
