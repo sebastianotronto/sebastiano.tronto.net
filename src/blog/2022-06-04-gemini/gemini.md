@@ -54,7 +54,7 @@ Server: OpenBSD httpd
 
 So there is some garbage that you don't care about (your browser does),
 plus the actual content that you want to view. What exact garbage your 
-browser and the server should exchange before one ships actual content
+browser and the server should exchange before one ships the actual content
 to the other is exactly what the protocol defines. Calling it "garbage"
 is a bit unfair, because there can be some useful information: for example,
 when the page was last modified, so if your browser has already seen and
@@ -82,13 +82,13 @@ exactly your browser is sending and receiving this information. Well, http
 other protocols in turn are on top of other protocols and... basically,
 [it's protocols all the way down](https://en.wikipedia.org/wiki/Internet_protocol_suite).
 
-(If you are curious where I got the server responses from: the UNIX command
+(*If you are curious where I got the server responses from: the UNIX command
 `curl` and the gemini browser [`gmni`](https://git.sr.ht/~sircmpwn/gmni)
-have a `-i` option that allows to see the messages received from the server.)
+have a `-i` option that allows to see the messages received from the server.*)
 
 ## The gemtext markup language
 
-Web pages are usually sent to your browser in
+Web pages are usually written in the
 [HTML](https://en.wikipedia.org/wiki/HTML) format. There are plenty of
 resources to learn how HTML works, so I will not explain it here.
 Very briefly,
@@ -114,11 +114,11 @@ Lists:
 
 There is however a fundamental difference in how lines are parsed: in gemtext,
 newlines in the code are preserved. This sounds completely normal for anyone
-used to modern word processors, but it is different from how html, markdown
-and Latex work, just to name a few. In practice, this means that in gemtext
-you nhave to write your paragraphs as long lines, without inserting line breaks
+used to modern word processors, but it is different from how HTML, Markdown
+and LaTeX work, just to name a few. In practice, this means that in gemtext
+you have to write your paragraphs as long lines, without inserting line breaks
 unless you want the line to be broken at that specific point.
-This may be annoying for people used to old-style line-based editors, such as
+This may be annoying for people who use old-style line-based editors, such as
 vi, but it makes parsing a gemtext file much simpler.
 
 There are only three other things you can do in gemtext: links, block quotes
@@ -160,7 +160,7 @@ an external app.
 ## Gemini in practice
 
 Gemini is basically a very stripped down version of the Internet. To me it
-feels like some kind of very nice, underground web. Some *capsules* I like
+feels like some kind of very niche, underground web. Some *capsules* I like
 browsing are [smol.pub](gemini://smol.pub) and
 [midnight.pub](gemini://midnight.pub). I don't have an account there
 yet, but I think I will make one at some point. I also check the
@@ -169,7 +169,7 @@ stuff.
 
 Basically, if you like the idea of a small and text-only version
 of the internet, you should check out the gemini space.
-The page [geminiquickst.art](https://geminiquickst.art) suggests some
+The page [geminiquickst.art](http://geminiquickst.art) suggests some
 browsers - I personally use gmnln, but it is more or less an interactive
 curl, you probably won't like it.
 
@@ -178,13 +178,12 @@ curl, you probably won't like it.
 I think gemini is an interesting exercise of minimalism, which I like.
 I am not a networking expert, so I don't know what the pros and cons of using
 gemini:// rather than http(s):// are, but I quite like gemtext as a markup
-language. I am not too fond of using long lines, because as a terminal editor
-user I am used to breaking up lines at 70-80 characters, but this is not
+language. I am not too fond of using long lines, but this is not
 a deal-breaker. However, I still prefer making use of a few of the extra
 features that html offers, such as inline formatting.
 
 I will keep offering this website in gemtext via gemini://, but it will
 stay html-first. This means that inline links will look a bit ugly in gemini
-and, more annoyingly for the few gemini users, I am always going to use
+and, more annoyingly for the few gemini users, I am going to use
 http(s) links even when a gemini counterpart is available.
 
