@@ -152,6 +152,10 @@ It can be useful to display ASCII art, like this
 ```
 ````
 
+(*If you are reading this via gemini, the lines above are not properly
+displayed.  I'll edit this page if I find a way to escape the triple backtick,
+or fix the markdown-to-gemtext conversion*)
+
 And that's it, you now know gemtext. There is no inline formatting, no
 embedded media, no CSS - your browser will take care of the styling and
 if you want to view a picture you can just download it and open it with
