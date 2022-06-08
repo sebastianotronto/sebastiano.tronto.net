@@ -34,7 +34,11 @@ img {
 
 code {
 	background-color:	#eeeeee;
-	padding:                2px;
+	padding:		2px;
+}
+
+pre code {
+	padding:                0px;
 }
 
 pre {
