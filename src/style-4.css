@@ -45,6 +45,7 @@ pre {
 	background-color:	#eeeeee;
 	border:			2px solid;
 	padding:		6px;
+	overflow-x:             auto;
 }
 
 #blob {
