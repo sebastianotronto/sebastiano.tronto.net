@@ -2,6 +2,7 @@
 
 [RSS Feed](feed.xml)
 
+* 2022-06-12 [The UNIX shell as an IDE: lookup stuff sed](2022-06-12-shell-ide-sed)
 * 2022-06-08 [The man page reading club: more(1)](2022-06-08-more)
 * 2022-06-04 [The gemini protocol](2022-06-04-gemini)
 * 2022-05-29 [The man page reading club: man(1)](2022-05-29-man)
