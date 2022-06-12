@@ -1,4 +1,4 @@
-# The UNIX shell as an IDE: lookup stuff sed
+# The UNIX shell as an IDE: look stuff up sed
 
 Recently I have been working on [nissy](https://nissy.tronto.net), my
 Rubik's cube solver written in C. It is a faily large project for me,
