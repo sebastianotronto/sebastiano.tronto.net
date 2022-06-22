@@ -136,7 +136,7 @@ Now back to `man man`!
 	Only select manuals from the specified section. The currently
 	available sections are:
 
-		1	General commands (toold and utilities).
+		1	General commands (tools and utilities).
 		2	System calls and error numbers.
 		3	Library functions.
 		3p	perl(1) programmer's reference guide.
