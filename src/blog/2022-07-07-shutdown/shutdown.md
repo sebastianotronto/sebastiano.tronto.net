@@ -120,6 +120,6 @@ was rude. At least this is my guess, I was not there at the time.
 
 It would certainly be interesting to dig into the history of computer systems,
 mainframes and how administrators used to shut them down when multiple users
-where logged in. But I am not going to do it now.
+were logged in. But I am not going to do it now.
 
 Good night.
