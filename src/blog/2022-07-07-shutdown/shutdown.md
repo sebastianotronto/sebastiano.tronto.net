@@ -107,11 +107,12 @@ sh(1), but I could not find the time. However, shutting down my pc earlier
 today inspired me to write this short blog entry.
 
 `shutdown` is an interesting command. It seems like it should be
-straightforward: "computer, please shut down". But the syntax for this
-simple instruction is quite complicated, and it offers us many more option
-than we would ever want to use, at least in the 21st century. Moreover, as
-indicated by the `#` instead of the `$` in the last command, one needs
-superuser privileges to shut down a classic UNIX system.
+straightforward: "computer, please shut down". But the syntax for
+this simple instruction is quite complicated, and it offers us many
+more options than we would ever want to use, at least in the 21st
+century.  Moreover, as indicated by the `#` instead of the `$` in
+the last command, one needs superuser privileges to shut down a
+classic UNIX system.
 
 This is because, in the time of mainframes, *shutting down* was not such a
 simple operation: multiple users might have been connected to the main
