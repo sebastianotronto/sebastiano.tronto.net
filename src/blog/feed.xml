@@ -9,6 +9,13 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>The man page reading club: shutdown(8)</title>
+<link>https://sebastiano.tronto.net/blog/2022-07-07-shutdown</link>
+<description>The man page reading club: shutdown(8)</description>
+<pubDate>2022-07-07</pubDate>
+</item>
+
+<item>
 <title>The UNIX shell as an IDE: look stuff up with sed</title>
 <link>https://sebastiano.tronto.net/blog/2022-06-12-shell-ide-sed</link>
 <description>The UNIX shell as an IDE: look stuff up with sed</description>
