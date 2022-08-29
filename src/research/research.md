@@ -50,6 +50,10 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *My journey in Kummer theory*.
+  Leiden-Luxembourg Number Theory PhD Days 2022, July 5-6.
+  [Slides: [pdf, 521Kb](slides-journey-kummer.pdf)] 
+
 * *A tour of group theory with our companion cube*.
   University of Luxembourg PhD seminar, May 2022.
   [Slides: [pdf, 1.1Mb](group-cube.pdf)]
