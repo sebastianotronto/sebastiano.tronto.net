@@ -25,7 +25,9 @@ recursivebuild() {
 				# sed lines when fixed.
 				lowdown -Tgemini --gemini-link-roman \
 					"$1/$file" \
-					| sed '/```./i```' \
+					| sed '/```./i\
+```
+					' \
 					| sed '/```./ s/```//' \
 					> "$destdir_gmi/index.gmi"
 				cat bottom.gmi >> "$destdir_gmi/index.gmi"
