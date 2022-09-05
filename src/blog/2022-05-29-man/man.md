@@ -246,3 +246,18 @@ here, such as `less(1)`, or dive into more exciting stuff with something
 like `sh(1)`.
 
 Stay tuned!
+
+## Update 2022-09-05
+
+In [a more recent blog post](../2022-09-05-man-col) I comment on a part
+of the manual that I skipped, although it is actually useful for writing
+these blog entries:
+
+```
+When using -c, most terminal devices are unable to show the
+markup.  To print the output of man to the terminal with markup
+but without using a pager, pipe it to ul(1).  To remove the
+markup, pipe the output to col(1) -b instead.
+```
+
+If you are curious, check the [new post](../2022-09-05-man-col)!

@@ -9,6 +9,13 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>Pipe man into col -b to get rid of ^H</title>
+<link>https://sebastiano.tronto.net/blog/2022-09-05-man-col</link>
+<description>Pipe man into col -b to get rid of ^H</description>
+<pubDate>2022-09-05</pubDate>
+</item>
+
+<item>
 <title>How I update my website</title>
 <link>https://sebastiano.tronto.net/blog/2022-08-14-website</link>
 <description>How I update my website</description>
