@@ -1,4 +1,4 @@
-# Pipe man into col -b to get rid of ^H
+# Pipe man into col -b to get rid of \^H
 
 The man page reading club is returning soon. In the meantime,
 here is a short post on a trick related to `man` itself that I skipped in the
