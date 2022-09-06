@@ -50,6 +50,10 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 
 ## Talks
 
+* *Kummer theory for commutative algebraic groups*.
+  Seminar at the university of Leiden, September 2022.
+  [Slides: [pdf, 1.2Mb](slides-kummer-final.pdf)]
+
 * *My journey in Kummer theory*.
   Leiden-Luxembourg Number Theory PhD Days 2022, July 5-6.
   [Slides: [pdf, 521Kb](slides-journey-kummer.pdf)] 
