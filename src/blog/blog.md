@@ -2,6 +2,7 @@
 
 [RSS Feed](feed.xml)
 
+* 2022-09-10 [Long live netbooks!](2022-09-10-netbooks)
 * 2022-09-05 [Pipe man into col -b to get rid of \^H](2022-09-05-man-col)
 * 2022-08-14 [How I update my website](2022-08-14-website)
 * 2022-07-07 [The man page reading club: shutdown(8)](2022-07-07-shutdown)
