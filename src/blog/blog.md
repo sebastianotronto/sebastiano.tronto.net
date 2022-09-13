@@ -2,6 +2,7 @@
 
 [RSS Feed](feed.xml)
 
+* 2022-09-13 [The man page reading club: sh(1) - part 1: shell grammar](2022-09-13-sh-1)
 * 2022-09-10 [Long live netbooks!](2022-09-10-netbooks)
 * 2022-09-05 [Pipe man into col -b to get rid of \^H](2022-09-05-man-col)
 * 2022-08-14 [How I update my website](2022-08-14-website)
