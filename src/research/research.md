@@ -6,6 +6,23 @@ focus on number theory and algebraic geometry. I am now working on my PhD
 under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 [Peter Bruin](https://www.math.leidenuniv.nl/~pbruin).
 
+## Theses
+
+* Phd thesis: *Kummer theory for commutative algebraic groups*.
+  University of Luxembourg and University of Leiden, 2022.
+  Supervisors: Antonella Perucca, Peter J. Bruin.
+  [[pdf, 1.2Mb](phd-thesis.pdf)]
+
+* Master thesis: *The Brauer-Manin obstruction to strong approximation*.
+  University of Milan and University of Leiden, 2018.
+  Supervisor: Martin J. Bright.
+  [[pdf, 800Kb](master-thesis.pdf)]
+
+* Bachelor thesis: *Gruppi di Galois e gruppi fondamentali*.
+  University of Trento, 2016.
+  Supervisor: Edoardo Ballico.
+  [[pdf, 444Kb](bachelor-thesis.pdf)]
+
 ## Publications and preprints
 
 * Tronto, Sebastiano.
