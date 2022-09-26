@@ -1,10 +1,14 @@
 # Research
 
 After obtaining a bachelor degree in Trento in 2016 I have completed the
-[ALGANT](https://algant.eu) Master Program (Milano and Leiden), with special
-focus on number theory and algebraic geometry. I am now working on my PhD
-under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
-[Peter Bruin](https://www.math.leidenuniv.nl/~pbruin).
+[ALGANT](https://algant.eu) Master Program (Milano and Leiden), with
+special focus on number theory and algebraic geometry. I then moved on to
+obtain a joint PhD at the universities of Luxembourg and Leiden, under
+the supervision of [Antonella Perucca](http://antonellaperucca.net) and
+[Peter Bruin](https://www.math.leidenuniv.nl/~pbruin). I have collected
+in this page the list of papers I puplished during my PhD, as well as
+slides or notes for all the talks I have given and my theses (Bachelor,
+Master, PhD).
 
 ## Theses
 
