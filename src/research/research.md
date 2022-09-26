@@ -11,7 +11,8 @@ under the supervision of [Antonella Perucca](http://antonellaperucca.net) and
 * Phd thesis: *Kummer theory for commutative algebraic groups*.
   University of Luxembourg and University of Leiden, 2022.
   Supervisors: Antonella Perucca, Peter J. Bruin.
-  [[pdf, 1.2Mb](phd-thesis.pdf)]
+  [Thesis: [pdf, 1.2Mb](phd-thesis.pdf);
+  Stellingen: [pdf, 123Kb](stellingen.pdf)]
 
 * Master thesis: *The Brauer-Manin obstruction to strong approximation*.
   University of Milan and University of Leiden, 2018.
