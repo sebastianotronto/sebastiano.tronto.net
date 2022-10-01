@@ -2,6 +2,7 @@
 
 [RSS Feed](feed.xml)
 
+* 2022-10-01 [The man page reading club: tetris(6)](2022-10-01-tetris)
 * 2022-09-20 [The man page reading club: sh(1) - part 2: commands and builtins](2022-09-20-sh-2)
 * 2022-09-13 [The man page reading club: sh(1) - part 1: shell grammar](2022-09-13-sh-1)
 * 2022-09-10 [Long live netbooks!](2022-09-10-netbooks)
