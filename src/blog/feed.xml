@@ -9,6 +9,20 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>Self-hosted git pages with stagit (featuring ed, the standard editor)</title>
+<link>https://sebastiano.tronto.net/blog/2022-11-23-git-host</link>
+<description>Self-hosted git pages with stagit (featuring ed, the standard editor)</description>
+<pubDate>2022-11-23</pubDate>
+</item>
+
+<item>
+<title>Keeping my email sorted (the hard way)</title>
+<link>https://sebastiano.tronto.net/blog/2022-10-19-email-setup</link>
+<description>Keeping my email sorted (the hard way)</description>
+<pubDate>2022-10-19</pubDate>
+</item>
+
+<item>
 <title>The man page reading club: tetris(6)</title>
 <link>https://sebastiano.tronto.net/blog/2022-10-01-tetris</link>
 <description>The man page reading club: tetris(6)</description>
