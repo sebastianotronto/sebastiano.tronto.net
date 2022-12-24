@@ -25,12 +25,12 @@ re-installing OpenBSD on it.
 
 ### In the 2010's
 
-Back in 2010, when I was in high school, I started going on 4-5 days long
-trips about once every two months or so. I did not have a laptop, only a
-desktop PC, so my mother thought it was a good idea to get me a netbook.
-She chose an Asus 1001px, a very standard 10" netbook.  It was in many
-ways un unremarkable machine, with 1Gb of ram a weak dual core CPU. But
-it got its job done.
+Back in 2010, when I was in high school, I started going on 4-5 days
+long trips about once every two months or so. I did not have a laptop,
+only a desktop PC, so my mother thought it was a good idea to get me
+a netbook.  She chose an Asus 1001px, a very standard 10" netbook.
+It was in many ways an unremarkable machine, with 1Gb of ram and a weak
+dual core CPU. But it got its job done.
 
 ![My netbook](darkstar.jpg)
 
@@ -44,7 +44,7 @@ I installed on it ever since.
 
 Arch Linux was a bad choice: since I would use this netbook only once
 every two months, every time I updated it something broke. Or, as an Arch
-fanboy would say nowadays, "something required manual intervention". At
+fanboy would say nowadays, something "required manual intervention". At
 some point I got rid of Arch and installed Slackware.
 
 I also used it without problems at the beginning of university, in 2013,
@@ -53,14 +53,14 @@ All in all I have not used my darkstar much, but it was a useful tool.
 
 ### Distro hopping in 2020
 
-When the first lockdowns came in March 2020 I had decided to use my
-netbook for some little experiments. Nothing crazy, just trying out some
-distros and play around with them - had *distro-hopped* since 2011 or so.
+When the first lockdowns came in March 2020 I decided to use my netbook
+for some little experiments. Nothing crazy, just trying out some distros
+and play around with them - I had not *distro-hopped* since 2011 or so.
 
 I installed [Alpine](https://www.alpinelinux.org/) first. It was fine,
 but the lack of man pages by default did not amuse me. Then I tried
 [Void](https://voidlinux.org/), that I ended up installing on my main
-laptop later that year and I am still using as my main OS to this day.
+laptop later that year, and I am still using it as my main OS to this day.
 Finally I decided to try something different and went with OpenBSD.
 
 ### Backpacking in 2022
@@ -73,13 +73,12 @@ and my main laptop is quite large and heavy. I did not want to rely on
 my smartphone alone, so I thought that carrying around my old netbook
 could be a good compromise.
 
-I kept OpenBSD, because I figured I would mostly use it in tty only, no X,
-and the command line utilities seem more polished and cohesive on
+I kept OpenBSD, because I figured I would mostly be using it in tty only,
+no X, and the command line utilities seem more polished and cohesive on
 OpenBSD than on Linux. Using something like Firefox was doable in case
-of emergency, but definitely not a pleasant experience. Some things
-like streaming videos from YouTube were completely impossible -
-but there were workarounds like using
-[yt-dlp](https://github.com/yt-dlp/yt-dlp).
+of emergency, but definitely not a pleasant experience. Some things like
+streaming videos from YouTube were completely impossible - but there
+were workarounds, like using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
 I decided to buy a larger battery, that also made it stand a bit taller,
 kinda like a typewrite, and some extra RAM - I maxed it out at 2Gb, it
@@ -118,9 +117,9 @@ I was finally ready to install OpenBSD 7.1 on the new SSD.
 ## Part 2: Installing and configuring OpenBSD
 
 This section is probably more useful for me as a personal note than for
-anyone else who might be reading it. Nonetheless I figured people might
+anyone else who might be reading it. Nonetheless, I figured people might
 be curious, and it does not hurt to publish it here. If you don't care
-about it, just skip to the "Conclusion" section at the end.
+about it, just skip to the "Conclusions" section at the end.
 
 The whole install process was super simple and took about 6 minutes.
 The new SSD drive probably helped a lot here. After the installation of the
@@ -281,14 +280,14 @@ Now all that is left to do is pretty straightforward: install some more programs
 
 Nothing that is worth describing in detail here.
 
-## Conclusion
+## Conclusions
 
 I like my netbook, and I am glad that I found some practical use for
 it even after 12 years.  It's size make it a nice sofa companion, and
 its clicky keyboard is just a pleasure to type on - much better than the
 mushy one of my main laptop!  It is always a pleasure for me to make good
 use of a piece of hardware that most people would consider obsolete and
-throw away without thinking twice.
+throw away without thinking about it twice.
 
 Netbooks were not successful in their time, but I think similar devices
 could find their niche today. After all, 13" laptops are quite popular
