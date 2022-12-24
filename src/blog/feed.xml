@@ -9,6 +9,13 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>The man page reading club: ed(1)</title>
+<link>https://sebastiano.tronto.net/blog/2022-12-24-ed</link>
+<description>The man page reading club: ed(1)</description>
+<pubDate>2022-12-24</pubDate>
+</item>
+
+<item>
 <title>Self-hosted git pages with stagit (featuring ed, the standard editor)</title>
 <link>https://sebastiano.tronto.net/blog/2022-11-23-git-host</link>
 <description>Self-hosted git pages with stagit (featuring ed, the standard editor)</description>

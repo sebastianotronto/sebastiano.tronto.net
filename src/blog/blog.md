@@ -2,6 +2,7 @@
 
 [RSS Feed](feed.xml)
 
+* 2022-12-24 [The man page reading club: ed(1)](2022-12-24-ed)
 * 2022-11-23 [Self-hosted git pages with stagit (featuring ed, the standard editor)](2022-11-23-git-host)
 * 2022-10-19 [Keeping my email sorted (the hard way)](2022-10-19-email-setup)
 * 2022-10-01 [The man page reading club: tetris(6)](2022-10-01-tetris)
