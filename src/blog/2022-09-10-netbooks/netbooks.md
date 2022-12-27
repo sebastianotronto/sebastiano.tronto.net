@@ -36,11 +36,11 @@ dual core CPU. But it got its job done.
 
 It ran some Windows monstrosity that I did not dare touching (was it
 Vista or 7?). I immediately installed Linux on it. My favorite distro
-at the time was [Slackware](http://www.slackware.com/), but I decided
-to try out Arch on this one. I used the hostname *darkstar*, because
-it was the default on my favourite distro and it fit nicely with it's
-black plastic. I have used that name for this laptop on every other OS
-I installed on it ever since.
+at the time was [Slackware](http://www.slackware.com/), but I decided to
+try out Arch on this one. I used the hostname *darkstar*, because it was
+the default on Slackware and it fit nicely with its black plastic. I
+have used that name for this laptop on every other OS I installed on it
+ever since.
 
 Arch Linux was a bad choice: since I would use this netbook only once
 every two months, every time I updated it something broke. Or, as an Arch
@@ -283,7 +283,7 @@ Nothing that is worth describing in detail here.
 ## Conclusions
 
 I like my netbook, and I am glad that I found some practical use for
-it even after 12 years.  It's size make it a nice sofa companion, and
+it even after 12 years.  Its size make it a nice sofa companion, and
 its clicky keyboard is just a pleasure to type on - much better than the
 mushy one of my main laptop!  It is always a pleasure for me to make good
 use of a piece of hardware that most people would consider obsolete and
