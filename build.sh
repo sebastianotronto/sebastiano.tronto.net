@@ -61,6 +61,13 @@ makeblog() {
 			f="src/blog/$i/*.md"
 			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
 			t=$(head -n 1 $f | sed 's/# //')
+
+			thisyear=$(echo $d | sed 's/-.*//')
+			if [ "$thisyear" != "$lastyear" ]; then
+				printf "\n## $thisyear\n\n" >> $bf
+				lastyear=$thisyear
+			fi
+
 			echo "* $d [$t]($i)" >> $bf
 
 			echo "<item>" >> $ff
@@ -86,6 +93,12 @@ gemblog() {
 		if [ -d src/blog/$i ]; then
 			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
 			t=$(head -n 1 src/blog/$i/*.md | sed 's/# //')
+
+			thisyear=$(echo $d | sed 's/-.*//')
+			if [ "$thisyear" != "$lastyear" ]; then
+				printf "\n## $thisyear\n\n" >> $bg
+				lastyear=$thisyear
+			fi
 			echo "=> $i $d $t" >> $bg
 		fi
 	done
