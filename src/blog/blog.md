@@ -5,6 +5,7 @@
 
 ## 2022
 
+* 2022-12-30 [Getting my blog ready for 2023](2022-12-30-blog-ready)
 * 2022-12-24 [The man page reading club: ed(1)](2022-12-24-ed)
 * 2022-11-23 [Self-hosted git pages with stagit (featuring ed, the standard editor)](2022-11-23-git-host)
 * 2022-10-19 [Keeping my email sorted (the hard way)](2022-10-19-email-setup)
