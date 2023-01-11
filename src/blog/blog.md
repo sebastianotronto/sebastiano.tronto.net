@@ -3,6 +3,10 @@
 [RSS Feed](feed.xml)
 
 
+## 2023
+
+* 2023-01-11 [Aaron Swartz](2023-01-11-aaron-swartz)
+
 ## 2022
 
 * 2022-12-30 [Getting my blog ready for 2023](2022-12-30-blog-ready)
