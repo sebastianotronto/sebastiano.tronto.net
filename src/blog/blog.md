@@ -5,6 +5,7 @@
 
 ## 2023
 
+* 2023-01-28 [The year of the Windows desktop](2023-01-28-windows-desktop)
 * 2023-01-11 [Aaron Swartz](2023-01-11-aaron-swartz)
 
 ## 2022
