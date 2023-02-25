@@ -1,0 +1,29 @@
+/* Header and footer */
+header nav table { width: 100%; }
+.logo img { max-width: 3em; margin: 0 0 0 0; }
+.links { text-align: right; font-weight: bold; }
+.links a { font-weight: bold; color: black; }
+footer table { font-style: italic; width: 100%; }
+.hosted { text-align: right; }
+.hosted a, .contact a { font-weight: bold; }
+
+/* Content */
+html { margin: 1em auto; max-width: 42em; }
+h1 { text-align: center; }
+body { margin: auto 8px 20px 8px; }
+a { color: #0f2899; text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { display: block; margin-left: auto; margin-right: auto; max-width: 100%; }
+pre { background-color: #eeeeee; border: 2px solid; padding:
+	6px; overflow-x: auto; }
+pre code { padding: 0px; }
+code { background-color: #eeeeee; padding: 2px; }
+#blob { background: #ffffff; border: none; }
+
+/* Tables */
+table { width: 100%; }
+td h1 { text-align: left; font-size: 1.5em; }
+#files td { font-family: monospace; font-size: 1.2em; min-width: 7em; }
+#log tr:hover td, #files tr:hover td { background-color: #eeeeee; }
+.url td { font-family: monospace; }
+table tr td a img { min-width: 33px; }
