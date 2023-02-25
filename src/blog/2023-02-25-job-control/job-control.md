@@ -117,7 +117,7 @@ All of this is summed up in the following diagram:
 ![Diagram showing how to change the status of a job](jobs-diagram.png)
 
 *Picture generated with [tikz](https://github.com/pgf-tikz/pgf)
-([code, 1.2Kb](jobs-diagram.tex), [pdf, 27.3Kb](jobs-diagram.pdf)).
+([code 1.2Kb](jobs-diagram.tex), [pdf 27.3Kb](jobs-diagram.pdf)).
 Do you know a better (simpler) tool or language to generate svg
 graphics and diagrams programmatically? Let me know!*
 
