@@ -5,6 +5,7 @@
 
 ## 2023
 
+* 2023-02-25 [Job control: one shell is all you need](2023-02-25-job-control)
 * 2023-01-28 [The year of the Windows desktop](2023-01-28-windows-desktop)
 * 2023-01-11 [Aaron Swartz](2023-01-11-aaron-swartz)
 
