@@ -8,8 +8,10 @@ footer table { font-style: italic; width: 100%; }
 .hosted a, .contact a { font-weight: bold; }
 
 /* Content */
-html { margin: 1em auto; max-width: 42em; }
-h1 { text-align: center; }
+html { margin: 1em auto; max-width: 42em; font-family: sans-serif }
+h1 { font-size: 1.8em; text-align: center; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.05em; }
 body { margin: auto 8px 20px 8px; }
 a { color: #0f2899; text-decoration: none; }
 a:hover { text-decoration: underline; }
