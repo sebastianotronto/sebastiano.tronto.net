@@ -9,6 +9,13 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>Resizing my website's pictures with ImageMagick and find(1)</title>
+<link>https://sebastiano.tronto.net/blog/2023-03-06-resize-pictures</link>
+<description>Resizing my website's pictures with ImageMagick and find(1)</description>
+<pubDate>2023-03-06</pubDate>
+</item>
+
+<item>
 <title>Job control: one shell is all you need</title>
 <link>https://sebastiano.tronto.net/blog/2023-02-25-job-control</link>
 <description>Job control: one shell is all you need</description>
