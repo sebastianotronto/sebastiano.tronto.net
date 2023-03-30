@@ -72,6 +72,10 @@ Master, PhD).
 
 ## Talks
 
+* *Kummer theory for elliptic curves*.
+  Short talk for Tarrach Prize 2023, March 2023.
+  [Slides: [pdf, 288Kb](kummer-tarrach.pdf)]
+
 * *Kummer theory for commutative algebraic groups*.
   Seminar at the university of Leiden, September 2022.
   [Slides: [pdf, 1.2Mb](slides-kummer-final.pdf)]
