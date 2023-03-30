@@ -5,6 +5,7 @@
 
 ## 2023
 
+* 2023-03-30 [The man page reading club: dc(1)](2023-03-30-dc)
 * 2023-03-06 [Resizing my website's pictures with ImageMagick and find(1)](2023-03-06-resize-pictures)
 * 2023-02-25 [Job control: one shell is all you need](2023-02-25-job-control)
 * 2023-01-28 [The year of the Windows desktop](2023-01-28-windows-desktop)
