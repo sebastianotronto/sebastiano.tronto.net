@@ -9,6 +9,13 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>I had to debug C code on a smartphone</title>
+<link>https://sebastiano.tronto.net/blog/2023-05-05-debug-smartphone</link>
+<description>I had to debug C code on a smartphone</description>
+<pubDate>2023-05-05</pubDate>
+</item>
+
+<item>
 <title>The big rewrite</title>
 <link>https://sebastiano.tronto.net/blog/2023-04-10-the-big-rewrite</link>
 <description>The big rewrite</description>

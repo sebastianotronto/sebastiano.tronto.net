@@ -5,6 +5,7 @@
 
 ## 2023
 
+* 2023-05-05 [I had to debug C code on a smartphone](2023-05-05-debug-smartphone)
 * 2023-04-10 [The big rewrite](2023-04-10-the-big-rewrite)
 * 2023-03-30 [The man page reading club: dc(1)](2023-03-30-dc)
 * 2023-03-06 [Resizing my website's pictures with ImageMagick and find(1)](2023-03-06-resize-pictures)
