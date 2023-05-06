@@ -114,6 +114,28 @@ huge advantage over any of these better-on-paper alternatives: I know it
 decently well. Another good reason is ubiquity - I don't want to force
 my few potential users to install a whole Rust environment just for nissy!
 
+**Update:** After sharing this post, I have been advised to use the
+compiler option `-fsanitize=address`, which adds some runtime
+checks to detect this kind of memory errors. And it works!
+Compiling the pre-bugfix version of the code with this extra option
+and then launching nissy results in the following error:
+
+```
+src/coord.c:554:17: runtime error: index 70 out of bounds for type 'int [70]'
+src/coord.c:554:36: runtime error: store to address 0x56383f5236b8 with insufficient space for an object of type 'int'
+...
+```
+
+[Sanitizers](https://github.com/google/sanitizers) are a
+relatively recent compiler feature, available in `clang`
+by default and in `gcc` via the external `libsanitizer`
+library. The earliest reference I could find is a talk from
+2011 ([YouTube video](https://www.youtube.com/watch?v=CPnRS1nv3_s),
+([slides](https://llvm.org/devmtg/2011-11/Serebryany_FindingRacesMemoryErrors.pdf)).
+Coincidentally, I had just read about them in [a blog
+post](https://nullprogram.com/blog/2023/04/29) a week ago, but I did
+not think about using them. From now on, I definitely will!
+
 ### Real world checks
 
 Running your software on more platforms and making sure everything
