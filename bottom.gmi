@@ -1,5 +1,7 @@
 ---
 => mailto:sebastiano@tronto.net Email me at sebastiano@tronto.net
-=> /blog Blog
 => / Home
+=> /blog Blog
+=> /speedcubing Cubing
 => https://sebastiano.tronto.net website
+=> https://git.tronto.net webgit

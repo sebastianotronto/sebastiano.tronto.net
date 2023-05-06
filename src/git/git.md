@@ -15,7 +15,13 @@ Here are some highlights of what you can find in my git repositories.
 ## Programs and scripts
 
 * [nissy](https://git.tronto.net/nissy): A Rubik's cube solver,
-  intended primarily as a tool for practicing FMC.
+  intended primarily as a tool for practicing FMC. Since april 2023
+  the project has been split into the FMC trainer
+  [nissy-fmc](https://git.tronto.net/nissy-fmc) and the optimal solver
+  [nissy-nx](https://git.tronto.net/nissy-nx). Both are work in
+  progress. The stable version is available at
+  [nissy-classic](https://git.tronto.net/nissy-classic), and is
+  maintained with bugfixes.
   Check out also [the project's homepage](https://nissy.tronto.net).
 * [sdep](https://git.tronto.net/sdep): A minimalistic
   "date+event" line parser. Can be used in combination with some shell scripts
@@ -49,4 +55,7 @@ I taught at the [University of Luxembourg](https://wwwen.uni.lu)
 
 * [My personal website](https://git.tronto.net/sebastiano.tronto.net):
   source files (mostly markdown) and build scripts for this website.
+* [My git hooks](https://git.tronto.net/git-hooks), used to keep my
+  web git instance up do date automatically when I push new changes. See
+  [this blog post](https://sebastiano.tronto.net/blog/2022-11-23-git-host).
 * [Platonic solids](https://git.tronto.net/platonicsolids) in TikZ (LaTeX).

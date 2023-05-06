@@ -4,8 +4,10 @@
 
 I have been practicing
 [speedcubing](https://en.wikipedia.org/wiki/Speedcubing) since 2008,
-and since 2011 I have competed in more than 50 officially recognized
+and since 2011 I have competed in more than 60 officially recognized
 [WCA](https://www.worldcubeassociation.org) competitions.
+I am currently the leader of the WCA Disciplinary Committee and
+a WCA Junior Delegate.
 
 I use the Roux method to solve the Rubik's cube in about 8 seconds
 on average.  I currently hold the world record for the single best
@@ -16,7 +18,8 @@ records in blindfolded events.  You can see all my official results
 If you are interested in Fewest Moves solving, check out my [FMC
 Tutorial](https://fmcsolves.cubing.net/). I also upload irregularly on
 [my YouTube channel](https://www.youtube.com/c/SebastianoTronto), but
-most videos are just me solving the cube.
+most videos consist just of me solving the cube without any comment
+or explanation.
 
 ## Links
 
@@ -25,3 +28,4 @@ most videos are just me solving the cube.
 * [My FMC Tutorial](https://fmcsolves.cubing.net/)
 * [My 3BLD algs for UBL/UR](https://docs.google.com/spreadsheets/d/17sL1RuiYijTMiQkBn_d5xthdgAoxGE8oaH-Po-PZ58s/edit?usp=sharing) (outdated, not very good)
 * [Solving a cube... without a cube](https://www.speedsolving.com/forum/threads/the-3x3x3-example-solve-thread.14345/page-273#post-1173067)
+* [Nissy, a Rubik's cube solver and FMC assistant](https://nissy.tronto.net)
