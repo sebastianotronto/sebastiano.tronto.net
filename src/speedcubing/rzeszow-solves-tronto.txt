@@ -1,0 +1,394 @@
+1-1-1
+Scramble: R' U' F D F2 L D2 R' B2 F2 R' U2 B2 R D U' L' D2 R' B' D' R2 F' R' U' F
+Solution: R2 D2 L2 D B' L' F2 U2 B' D2 R2 U2 F2 R2 U2 F2 U2 F D2 B2 L B' L' D2 F2 (25)
+
+R2 D2 L2 D              4/4
+B' L' (F2 D2 L B L')    7/11 2qt
+F2 U2 B' (B2 D2 F')     6/17
+D2 R2 U2 F2 R2 U2 F2 U2 8/25
+
+Optimal from the DR was 22, using a 1 move longer HTR:
+F2 U2 B (U2 F2 U2 F')
+(U2 F2 U2 L2)
+
+Lesson: try wasting moves before / during HTR, especially if the make blocks.
+
+Wasted moves: 3
+
+-------------------------------------------------------------------------------
+
+1-1-2
+Scramble: R' U' F D' B L2 F U2 L2 U2 B2 U2 B L2 B2 U2 D' L D2 B' L' D' R F R' U' F
+Solution: B R B' L F' D F2 D L' D' L U2 B2 D' R2 D' B2 U2 L2 U2 U2 B2 L2 D R2 D' L2 D R2 (29)
+
+B R B' L F'             5/5
+D F2 D L' D' L          6/11 3qt
+U2 B2 D' R2             4/15 blocks
+D' B2 U2 L2 U2 U2 B2 D  8/23 3c
+D' L2 D R2 D' L2 D R2   8-2/29
+
+Desperate backup from the only acceptable DR I had (others were 12+4, 11+5 or worse).
+Optimal from the DR was 25, for example:
+
+U (L2 F2 R2 D' B2 U)  7/18
+(R2 F2 * D2 R2 B2)    5/23 2e2e
+* = F2 R2 F2 L2 B2 L2 6-4/25
+
+Not amazing, but definitely better than a 25.
+
+Lesson: familiarize with setups to R U2 L trigger for HTR.
+
+Wasted moves: 4
+
+-------------------------------------------------------------------------------
+
+1-1-3
+Scramble: R' U' F U' R B' U' R' L2 F' R' D' R2 U' F2 R2 L2 U' D' F R' B' R' U' F
+Solution: F L2 D' B' R D2 R2 D' L2 B2 D U2 F2 R' L U2 R' D' R2 D B2 D (22)
+
+F L2 D' B'           4/4
+R (D' B2 D' R2 D L') 7/11 2qt
+D2 R2 D' L2 B2 D     6/17
+U2 F2 * B2 R2        4/21 3e
+* = R' L U2 R L' B2  6-5/22
+
+Good solve.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+1-2-1
+Scramble: R' U' F D' L2 B' R2 L U F D' R' U B2 L2 B U2 F U2 R2 D2 F D2 R' U' F
+Solution: L' U B R2 U2 D' B2 D B' R L' U2 R' L F2 D B2 F2 R2 F2 R2 U' R2 U F2 D (27)
+
+(R) L'                          2/2
+U B R2 U2 D' B2 D B'            8/10 2qt
+* D B2 F2 R2 F2 R2 U' R2 U F2 D 11/21 3e
+* = R L' U2 R' L F2             6/27
+
+There are findable 22s, for example:
+(D' B2 L2 F2 L2 D F2 * D2) 8/18 3e
+* = F2 L' R U2 L R'        6-2/22
+
+Lesson: don't be dumb?
+
+Wasted moves: 5
+
+-------------------------------------------------------------------------------
+
+1-2-2
+Scramble: R' U' F R D' B2 D2 R B' R B U2 L2 U' R2 F2 D2 F B' R2 D2 F R' U' F
+Solution: D' U B U F R D2 B2 L' U2 L B F' U2 B' L2 R2 F2 L2 U2 B' U2 (22)
+
+D' U B U              4/4
+F R D2 B2 L' U2 L     7/11 2qt
+(U2 B U2 R2 * F)      5/16
+(F' B' U2 F B')       5-2/19 2e2e
+* = R2 L2 F2 R2 L2 B2 6-3/22
+
+Good solve, best solve of the comp on this scramble I believe.
+
+I missed this 10 move finish for the DR: R2 B U2 L2 F B R2 L2 B U2.
+It looks findable, but I don't blame myself for not finding it.
+
+Wasted moves: 0 
+
+-------------------------------------------------------------------------------
+
+1-2-3
+Scramble: R' U' F L B2 F2 L2 D2 L' D2 L' D2 R B' D L2 F U' B2 D' L2 F2 R' U' F
+Solution:
+
+(D U' R' L B)           5/5
+(L2 U' R' B2 D2 L)      6/11 3qt
+(D) R2 F2 U' B2 U'      6/17
+B2 L2 D2 R2 U2 F2 D2 B2 8/25
+
+I had this 23 to slice written down after the same HTR:
+B2 L2 B2 U2 L2 B2
+
+I could have finished like this:
+
+(D) R2 F2 U' [1] B2 U' 6/17
+B2 L2 B2 U2 [2] L2 B2  8/23 slice
+
+[1] = E  0/23
+[2] = E' 1/24
+
+Solution (24):
+(D) R2 F2 D' R2 U' R2 B2 R2 U D L2 B2
+
+This would have been optimal after DR.
+IIRC this was a bad scramble, I would have been happy with a 24.
+
+Lesson: learn how to slice.
+
+Wasted moves: 1
+
+-------------------------------------------------------------------------------
+
+1-3-1
+Scramble: R' U' F R F' D L2 B2 L2 U' B2 D' L2 B2 L2 B' D' R' F2 D R2 U' F2 R' U' F
+Solution: U R B2 R B2 D R2 L2 B2 D B R2 U' L2 U F2 D2 L2 B2 D2 R2 B2 D2 B2 (24)
+
+U R B2 R                4/4
+B2 D R2 L2 B2 D B       7/11 2qt
+R2 U' L2 U              4/15
+F2 D2 L2 D2 R2          5/20 2e2e
+R2 D2 B2 D2 R2 B2 D2 B2 8-4/24
+
+Looks like 24 is optimal after the DR.
+Tied best solve for the attempt with Cyprian and Wojtek, apparently it was hard.
+
+I had another similar 11 move 2qt DR with +11 optimal, but it was only findable with 4qt HTR:
+U L U2 L
+F2 U R2 L2 F2 U F
+(U R2 U' B2 L2 U F2 U)
+(L2 D2 L2)
+
+The HTR can be justified / explained like this:
+Case: good bar / slash + bars (2qt), but edges are hard to setup.
+By going to bar / slash + one bar and immediately back we can improve edges.
+
+I can't blame myself for not finding this, but it is good to know.
+
+Lesson: improve sub-optimal HTR paths and learn when to use them.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+1-3-2
+Scramble: R' U' F L' F U2 B D2 B U' D' F' R' U2 D2 R2 F2 B L2 F L2 U2 R' U' F
+Solution: R' F L2 B2 R2 U2 B' D2 L' R' F2 R' L' F' U B D2 R2 F' U' R' D' R2 (23)
+
+R' (R2 D R)          4/4
+(U F R2 D2 B' U')    6/10 3qt
+(F) F L2 B2 R2 U2 B' 7/17
+D2 L' R' F2 R' L'    6/23
+
+Optimal from this DR was 22 with 5qt, overall happy with this solve:
+
+L2 F D2 F U2 F D2 B2 L2 B D2 F [U2]
+L2 F D2 F U2 B' D2 F2 L2 F' D2 F [U2]
+
+It was pretty much the only DR I had.
+
+Lesson: writing down all HTR variants (like I do) does pay off, sometimes.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+1-3-3
+Scramble: R' U' F D2 R2 D2 U2 L' U2 L2 B2 L2 F2 B D B2 L' F L' R' D L2 F R' U' F
+Solution: D' B R' U2 F' D' R2 B2 R D F2 D' F2 R2 F2 U2 L2 B2 D2 L2 B2 R F2 U2 B2 D2 (26)
+
+D' B R' U2 F'             5/5
+D' R2 B2 R D F2 D'        7/12 1qt
+(D2 B2 U2 F2 R')          5/17
+(B2 L2 D2 L2 U2)          5/22 2e2e
+(U2 L2 B2 L2 U2 F2 R2 F2) 8-4/26
+
+Optimal from DR was 25 with 3qt and a non-HTR looking solution. Not mad about the 26.
+The problem is I had many DR, all horrible except this one.
+
+Radek had a 22 from an EO I actually forgot to write down.
+But I don't know if I would have switched after a 6 move RZP.
+
+L' U F' U D          5/5
+F' (B2 R L' F')      5/10 4qt
+L (R B2 R' B2 D2 R') 7/17
+(U2 R2 B2 D2 B2)     5/22
+
+Lesson: be Radek. Or try to recognize when long HTR path can be good because of edges, that may work too.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-2-1
+scramble: R' U' F D' B2 F2 U R2 B2 F2 U R B2 L D F' D F' D2 B L R2 D R' U' F
+Solution: B R F U B U2 F2 R U2 R' U2 R2 D2 U2 F2 L2 B R2 F2 D2 F R2 U2 B R2 (25)
+
+B R F U                      4/4
+B U2 F2 R U2 R'              6/10 3qt
+(R2 B' U2 R2 F' D2 F2 R2 B') 9/19
+(L2 F2 U2 D2 R2 U2)          6/25
+
+There were some 24s but they were 5qt.
+Second best solve on this scramble after Radek's 21:
+
+(L' B') U2 F'                           4/4
+U F2 U2 R' U                            5/9 2qt
+[(L B2 R' B2 D2 R U2 R)                 8/17
+(F2 D2 F2 L2)]                          4/21 slice
+[] = (R D2 L' F2 U2 R D2 R B2 U2 B2 R2) 0/21
+
+Lesson: look and learn how to recognize 4-move NISS EOs with 2+2 like this.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-1-2
+Scramble: R' U' F D2 B2 U2 B U2 F' L2 B F R' D' U' F2 L2 B D2 F R' U' F
+Solution: D' L2 D' R2 D2 R2 F2 U' F' U2 D2 B2 U2 D2 F R2 L2 U L' U L2 D' U L' F L B' R' (28)
+
+(R' B L' F')                 4/4
+(L U' D L2 U' L)             6/10 4qt
+(U') D' L2 D' R2 D2 R2 F2 U' 9/19
+F2 * R2 L2                   3/22 2e2e
+* = F U2 D2 B2 U2 D2 F       7-1/28
+
+There was this findable 23 from the same DR, similar HTR:
+
+(D') D' L2 D' F2 D2 B2 L2 U' 9/19
+F2 L2 F2 R2                  4/23
+
+Unfortunately I did not try (D) to start the HTR, not sure why.
+The scramble was bad, most of the EOs I tried had "almost something". This made me waste a lot of time to check them.
+In the end I even tried the right DR, but missed the good HTR.
+
+Lesson: become more confident with long HTR, make sure to try all variants.
+
+Wasted moves: 5
+
+-------------------------------------------------------------------------------
+
+2-1-3
+Scramble: R' U' F L2 B2 U' B U' D L' F' R F B2 D2 L2 B' L2 U2 B D' F R' U' F
+Solution: B2 U2 B2 L2 F' U2 B2 D2 B' D F2 L2 F2 D2 F' D2 F' L2 U2 R' U B L2 (23)
+
+(L2 B' U' R)            4/4
+B2 U2 B2 L2 F U2 * B D  8/12 2qt
+(U2 L2 F D2 F)          5/17
+(D2 F2 L2 F2)           4/21 2e2e
+* = U2 F2 U2 B2 D2 B2   6-2/23
+
+Pretty happy with the result, but the insertion was lucky. Optimal from the DR was actually 24.
+
+Missed Radek's 10+2 DR from the same EO:
+(L2 B' U' R)
+(U2 L2 B R2 B U') 
+
+Lesson: everyone found a 22 but eh, I was probably just tired
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-2-1
+Scramble: R' U' F U2 B' L2 F2 D2 B2 D2 R2 F' L B L U L' B2 D2 F' D F2 D R' U' F
+Solution: F L' R' U' F D2 R2 D2 B' F' R2 B2 D' L2 D' R2 B2 U L' U F2 U2 L U2 R' (25)
+
+F L' R' U' B              5/5
+(R U2 L' U2 F2 U' L)      7/12 3qt
+(U' B2 R2 D L2 D)         6/18
+(B2 R2 F B D2 R2 D2 F' B) 9-2/25
+
+It was possible to get 25 with a more standard HTR + finish:
+(B2 D L2 B2 U' B2 D)
+(U2 R2 F2 U2 L2 F2)
+
+This scramble was fucking awful and I am ok with my 25. I had very few DRs, few EOs.
+
+Lesson: get better scrambles
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-2-2
+Scramble: R' U' F R F' L' U R2 U2 D2 F R' D2 F2 B2 U' R2 B2 U2 F2 B2 L' U' R' U' F
+Solution: L B2 D F' L U' R2 B2 D R2 U2 R L B2 R' L F' U F2 D2 R2 U R2 B2 (24)
+
+L B2 D F' L              5/5
+(B2 R2 U' R2 D2 F2 U' F) 8/13 2qt
+U' R2 B2 D               4/17
+R2 U2 R L B2 R' L        7/24
+
+Not bad but there was an easy 23 from this DR:
+D (F2 L2 D)                 4-1/16
+(R2 * U2 R2)                3/19 2e2e
+* = R2 F2 R2 U2 B2 L2 B2 U2 8-4/23
+
+Lesson: try harder on easy HTRs, I guess
+
+Wasted moves: 1
+
+-------------------------------------------------------------------------------
+
+2-2-3
+Scramble: R' U' F D L U B2 F R2 B' R2 U2 B' F' U2 L D' L D2 U' L' F' R' U' F
+Solution:
+
+R F' D B2 L'        5/5
+R2 U' F U' F        5/10 3qt
+(D B2 U' R2 U')     5/15
+(B2 R2 U2 F2 L2 D2) 6/21
+
+Optimal from DR, nice!
+
+Lesson: Trying lots of EOs paid off in this case.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-3-1
+Scramble: R' U' F U' F2 D' L2 D' F' R2 B F2 D2 R2 B2 L B2 L U2 F2 U2 B' R' U' F
+Solution: U' D F L2 D R' F' D2 R U2 R F2 D2 F L2 D2 L2 D2 B2 L2 B D2 (22)
+
+U' D F L2 D        5/5
+R' F' D2 R U2 R    6/11 2qt
+(D2 B') F2 D2 F    5/16
+L2 D2 L2 D2 B2 L2  6/22
+
+Optimal from DR, nice (again)! Best solve on this scramble.
+
+Lesson: good HTR skills saved me here.
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-3-2
+Scramble: R' U' F R2 F2 U2 L2 F2 R2 B' U2 R2 D' F2 L' R F' L F' U' L R2 F R' U' F
+Solution: R' U2 R D2 L D' B2 F2 U2 R U2 L' U2 L2 B2 L U2 R' U2 R2 B' D U2 F' R' (25)
+
+(R F U2 D' B)        5/5
+R' U2 R D2 L D'      6/11 4qt
+B2 F2 U2 R U2 L' U2  7/18 blocks
+L2 B2 L U2 R' U2 R2  7/25
+
+Very hard scramble, 25 is not bad here.
+I had few other DRs, all bad.
+
+Lesson: the only 4-move EO was the dreaded 2+2 NISS U2 B (L2 F). Learn these!
+
+Wasted moves: 0
+
+-------------------------------------------------------------------------------
+
+2-3-3
+Scramble: R' U' F L2 U' B2 D' U2 L2 F2 R2 B U2 L' R D2 F L U' B' D' U' R' U' F
+Solution: L' F2 D F D L2 R D2 L' D L' B2 F2 D' B2 D2 U' F2 R2 D' R2 U D2 L2 U R2 (26)
+
+L' F2 D F                                   4/4
+D R L2 D2 L' D L'                           7/11 1qt corners, but not edges
+B2 F2 D' B2 D2 U' F2 R2 D' R2 U D2 L2 U R2  15/26 solved
+
+Very sad. This was the easiest scramble of the comp.
+I should have gotten a 21, or at very least a 23.
+
+From this NISS EO in 4, there was an easy 9+3 DR:
+
+(U) F R D
+(F2 L2 F2 L' B)
+
+Lesson 1: the "1qt" cases are not good if you cant HTR the edges.
+Lesson 2: FIND. ALL. NISS. EOs.
+
+Wasted moves: 3 at least
