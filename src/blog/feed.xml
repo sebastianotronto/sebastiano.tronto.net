@@ -9,6 +9,20 @@ Thoughts about software, computers and whatever I feel like sharing
 </description>
 
 <item>
+<title>My minimalistic RSS feed setup</title>
+<link>https://sebastiano.tronto.net/blog/2023-07-11-feed</link>
+<description>My minimalistic RSS feed setup</description>
+<pubDate>2023-07-11</pubDate>
+</item>
+
+<item>
+<title>UNIX text filters, part 0 of 3: regular expressions</title>
+<link>https://sebastiano.tronto.net/blog/2023-06-16-regex</link>
+<description>UNIX text filters, part 0 of 3: regular expressions</description>
+<pubDate>2023-06-16</pubDate>
+</item>
+
+<item>
 <title>I had to debug C code on a smartphone</title>
 <link>https://sebastiano.tronto.net/blog/2023-05-05-debug-smartphone</link>
 <description>I had to debug C code on a smartphone</description>

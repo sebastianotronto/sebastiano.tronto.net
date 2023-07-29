@@ -5,6 +5,8 @@
 
 ## 2023
 
+* 2023-07-11 [My minimalistic RSS feed setup](2023-07-11-feed)
+* 2023-06-16 [UNIX text filters, part 0 of 3: regular expressions](2023-06-16-regex)
 * 2023-05-05 [I had to debug C code on a smartphone](2023-05-05-debug-smartphone)
 * 2023-04-10 [The big rewrite](2023-04-10-the-big-rewrite)
 * 2023-03-30 [The man page reading club: dc(1)](2023-03-30-dc)
