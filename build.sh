@@ -1,14 +1,14 @@
 #!/bin/sh
 
 recursivebuild() {
-	local destdir=$(echo $1 | sed 's|^src|http|')
+	local destdir=$(echo "$1" | sed 's|^src|http|')
 	mkdir -p "$destdir"
-	for file in $(ls $1); do
-		if [ -d "$1/$file" ]; then
-			mkdir -p "$destdir/$file"
-			recursivebuild "$1/$file"
+	for file in "$1"/*; do
+		if [ -d "$file" ]; then
+			mkdir -p "$destdir/$(basename "$file")"
+			recursivebuild "$file"
 		else
-			copyfile "$1/$file" "$destdir"
+			copyfile "$file" "$destdir"
 		fi
 	done
 }
@@ -20,63 +20,70 @@ copyfile() {
 	extension=$(echo "$file" | sed 's/.*\.//')
 	case "$extension" in
 	md)
-		t="$(markdowntitle $file)"
+		t="$(markdowntitle "$file")"
 		sed "s/TITLE/$t/" < top.html > "$ind"
 		lowdown "$file" >> "$ind"
 		cat bottom.html >> "$ind"
 		;;
 	html)
-		t="$(htmltitle $file)"
+		t="$(htmltitle "$file")"
 		cat top.html "$file" bottom.html | sed "s/TITLE/$t/" > "$ind"
 		;;
 	*)
-		cp "$file" "$dest/$(basename $file)"
+		cp "$file" "$dest/$(basename "$file")"
 	esac
 }
 
 markdowntitle() {
-	grep '^# ' $1 | head -n 1 | sed 's/^# //'
+	grep '^# ' "$1" | head -n 1 | sed 's/^# //'
 }
 
 htmltitle() {
 	grep '<!--TITLE: ' "$1" | sed 's/^<!--TITLE: //' | sed 's/-->$//'
 }
 
-makeblog() {
-	bf=src/blog/blog.md
-	ff=src/blog/feed.xml
+makeblogindexandfeed() {
+	mkdir -p http/blog
+	bf=http/blog/index.html
+	ff=http/blog/feed.xml
 
-	printf "# Blog\n\n[RSS Feed](feed.xml)\n\n" > $bf
-	cp feed-top.xml $ff
+	sed "s/TITLE/Blog/" < top.html > "$bf"
+	{ echo '<h1 id="blog">Blog</h1>';
+	  echo '<table id="blog">';
+	  echo '<a href="feed.xml">RSS feed</a>'; } >> "$bf"
+
+	cp feed-top.xml "$ff"
 
 	for i in $(ls src/blog | sort -r); do
-		if [ -d src/blog/$i ]; then
-			f="src/blog/$i/*.md"
-			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
-			t=$(head -n 1 $f | sed 's/# //')
+		[ -d "src/blog/$i" ] || continue
 
-			thisyear=$(echo $d | sed 's/-.*//')
-			if [ "$thisyear" != "$lastyear" ]; then
-				printf "\n## $thisyear\n\n" >> $bf
-				lastyear=$thisyear
-			fi
+		f="src/blog/$i/*.md"
+		d="$(echo "$i" | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')"
+		t="$(head -n 1 $f | sed 's/# //')"
 
-			echo "* $d [$t]($i)" >> $bf
-
-			echo "<item>" >> $ff
-			echo "<title>$t</title>" >> $ff
-			echo "<link>https://sebastiano.tronto.net/blog/$i</link>" >> $ff
-			echo "<description>$t</description>" >> $ff
-			echo "<pubDate>$d</pubDate>" >> $ff
-			echo "</item>" >> $ff
-			echo "" >> $ff
+		thisyear="$(echo "$d" | sed 's/-.*//')"
+		if [ "$thisyear" != "$lastyear" ]; then
+			echo "<tr><td><h2>$thisyear</h2></td></tr>" >> "$bf"
+			lastyear=$thisyear
 		fi
+
+		{ echo "<tr><td>$d</td>";
+		  echo "<td><a href=\"$i\">$t</a></td></tr>"; } >> "$bf"
+
+		{ echo "<item>";
+		  echo "<title>$t</title>";
+		  echo "<link>https://sebastiano.tronto.net/blog/$i</link>";
+		  echo "<description>$t</description>";
+		  echo "<pubDate>$d</pubDate>";
+		  echo "</item>";
+		  echo ""; } >> $ff
 	done
 
-	echo "" >> $ff
-	echo "</channel>" >> $ff
-	echo "</rss>" >> $ff
+	echo '</table>' >> "$bf"
+	cat bottom.html >> "$bf"
+
+	{ echo ""; echo "</channel>"; echo "</rss>"; } >> "$ff"
 }
 
-makeblog
+makeblogindexandfeed
 recursivebuild src
