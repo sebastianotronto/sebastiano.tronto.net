@@ -2,51 +2,44 @@
 
 recursivebuild() {
 	local destdir=$(echo $1 | sed 's|^src|http|')
-	local destdir_gmi=$(echo $1 | sed 's|^src|gemini|')
 	mkdir -p "$destdir"
-	mkdir -p "$destdir_gmi"
 	for file in $(ls $1); do
 		if [ -d "$1/$file" ]; then
 			mkdir -p "$destdir/$file"
-			mkdir -p "$destdir_gmi/$file"
 			recursivebuild "$1/$file"
 		else
-			extension=$(echo "$file" | sed 's/.*\.//')
-			if [ "$extension" = "md" ]; then
-				sed "s/TITLE/$(grep '^\# ' < "$1/$file" \
-					| head -n 1 \
-					| sed 's/^\# //')/" < top.html \
-					> "$destdir/index.html"
-				lowdown "$1/$file" >> "$destdir/index.html"
-				cat bottom.html >> "$destdir/index.html"
-
-				# TODO: the following lines contain a dirty fix
-				# to deal with a bug in lowdown. Remove all the
-				# sed lines when fixed.
-				lowdown -Tgemini --gemini-link-roman \
-					"$1/$file" \
-					| sed '/```./i\
-```
-					' \
-					| sed '/```./ s/```//' \
-					> "$destdir_gmi/index.gmi"
-				cat bottom.gmi >> "$destdir_gmi/index.gmi"
-			elif [ "$extension" = "html" ]; then
-				cat top.html "$1/$file" bottom.html \
-					| sed "s/TITLE/$(grep '<!--TITLE: ' <\
-							"$1/$file" \
-						| sed 's/^<!--TITLE: //' \
-						| sed 's/-->$//')/" \
-					> "$destdir/index.html"
-			elif [ "$extension" = "gmi" ]; then
-				cat "$1/$file" bottom.gmi > \
-					"$destdir_gmi/index.gmi"
-			else
-				cp "$1/$file" "$destdir/$file"
-				cp "$1/$file" "$destdir_gmi/$file"
-			fi
+			copyfile "$1/$file" "$destdir"
 		fi
 	done
+}
+
+copyfile() {
+	file=$1
+	dest=$2
+	ind=$dest/index.html
+	extension=$(echo "$file" | sed 's/.*\.//')
+	case "$extension" in
+	md)
+		t="$(markdowntitle $file)"
+		sed "s/TITLE/$t/" < top.html > "$ind"
+		lowdown "$file" >> "$ind"
+		cat bottom.html >> "$ind"
+		;;
+	html)
+		t="$(htmltitle $file)"
+		cat top.html "$file" bottom.html | sed "s/TITLE/$t/" > "$ind"
+		;;
+	*)
+		cp "$file" "$dest/$(basename $file)"
+	esac
+}
+
+markdowntitle() {
+	grep '^# ' $1 | head -n 1 | sed 's/^# //'
+}
+
+htmltitle() {
+	grep '<!--TITLE: ' "$1" | sed 's/^<!--TITLE: //' | sed 's/-->$//'
 }
 
 makeblog() {
@@ -85,27 +78,5 @@ makeblog() {
 	echo "</rss>" >> $ff
 }
 
-gemblog() {
-	bg=gemini/blog/index.gmi
-
-	printf "# Blog\n\n=> feed.xml RSS Feed\n\n" > $bg
-	for i in $(ls src/blog | sort -r); do
-		if [ -d src/blog/$i ]; then
-			d=$(echo $i | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
-			t=$(head -n 1 src/blog/$i/*.md | sed 's/# //')
-
-			thisyear=$(echo $d | sed 's/-.*//')
-			if [ "$thisyear" != "$lastyear" ]; then
-				printf "\n## $thisyear\n\n" >> $bg
-				lastyear=$thisyear
-			fi
-			echo "=> $i $d $t" >> $bg
-		fi
-	done
-	echo "" >> $bg
-	cat bottom.gmi >> $bg
-}
-
 makeblog
 recursivebuild src
-gemblog

@@ -191,3 +191,5 @@ stay html-first. This means that inline links will look a bit ugly in gemini
 and, more annoyingly for the few gemini users, I am going to use
 http(s) links even when a gemini counterpart is available.
 
+*Update: as of August 2023, my website is still available on gemini,
+but new blog posts are no longer mirrore there*
