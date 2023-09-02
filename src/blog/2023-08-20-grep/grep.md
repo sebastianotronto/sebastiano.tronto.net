@@ -113,6 +113,11 @@ $ cat file1 file2 ... | grep
 But if anyone asks, you did not learn this from me - UUOC (Useless
 Use Of Cat) is a considered a crime in some circles.
 
+*Update 2023-09-02: I have just discovered that the the `-h` option can
+be used to hide the file names, so no need for piping cats. However,
+though present both in OpenBSD's and GNU's versions of `grep`, this
+option is not POSIX standard.*
+
 ### Matching only part of a line: `-o`
 
 You may not always want the *full line* containing a piece of text.
