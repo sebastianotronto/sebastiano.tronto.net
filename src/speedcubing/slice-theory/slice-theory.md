@@ -304,12 +304,12 @@ subsequence with sum 0, then k <= n.
 *Clarification: non-trivial means that it contains at least one element
 and it is not the whole sequence.*
 
-**Proof** (thanks to Chiara for the nice proof). the Theorem can be
-re-stated as follows: any sequence of n elements of Z/nZ has a
-subsequence whose sum is 0. To prove this equivalent statement,
-let, for l=1 to k, s_l = a_1 + ... + a_l.  If s_i=0 for any i, we
-are done. Otherwise by the pigeonhole principle there must be s_i
-and s_j with s_i = s_j and, say, i < j. But then the subsequence
-a_(i+1), ..., a_j has sum s_j - s_i = 0. This proves the claim.
+**Proof** (thanks to Chiara for the nice proof). It is enough to
+prove that any sequence of n+1 elements of Z/nZ has a subsequence whose
+sum is 0. To prove this, let, for l=1 to n+1, s\_l = a\_1 + ... + a\_l.
+If s\_i=0 for any i, we are done. Otherwise by the pigeonhole principle
+there must be s\_i and s\_j with s\_i = s\_j and, say, i < j. But then
+the subsequence a\_(i+1), ..., a\_j has sum s\_j - s\_i = 0. This proves
+the claim.
 
 More work needs to be done here.
