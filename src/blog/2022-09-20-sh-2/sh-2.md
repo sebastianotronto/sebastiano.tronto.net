@@ -370,6 +370,8 @@ page for sh a bit lacking. I had to rely on other resources, such
 as the manual page of [ksh(1)](https://man.openbsd.org/OpenBSD-7.1/ksh).
 I think I'll postpone *job control* to another entry. Stay tuned!
 
+*Update: [here](../2023-02-25-job-control) is the post on job control.*
+
 ### And finally...
 
 ```
