@@ -161,6 +161,16 @@ R2 F2 [1] R2 U2 F2 R2 [2] F2 U2
 This trick is useful for maximizing cancellations with edge insertions,
 without memorizing many variations of the same alg.
 
+## Bonus: 2 slice to solve a 4x case
+
+This bit is out of scope for this page, but it is still interesting
+to note. If, instead of shortening a "solved slice", you are trying to
+solve a 4x case (that is, edges are solved but the 4 E-layer centers are
+swapped), you can still use 2-slice insertions fairly easily.  In fact,
+inserting `E E` or `E' E'` so that they are separated by a D-sequence is
+going solves this case. Keep in mind that this will *not* work if the two
+`E` moves in the same direction are separated by an I-sequence!
+
 ## 3-slice insertions
 
 Up to inverses and mirrors, there are only two possible types of 3-slice
