@@ -161,7 +161,7 @@ R2 F2 [1] R2 U2 F2 R2 [2] F2 U2
 This trick is useful for maximizing cancellations with edge insertions,
 without memorizing many variations of the same alg.
 
-## Bonus: 2 slice to solve a 4x case
+## Bonus: 2 slices to solve a 4x case
 
 This bit is out of scope for this page, but it is still interesting
 to note. If, instead of shortening a "solved slice", you are trying to
