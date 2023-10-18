@@ -50,6 +50,7 @@ makeblogindexandfeed() {
 	sed "s/TITLE/Blog/" < top.html > "$bf"
 	{ echo '<h1 id="blog">Blog</h1>';
 	  echo '<table id="blog">';
+	  echo '<a href="../series">Blog series</a> - ';
 	  echo '<a href="feed.xml">RSS feed</a>'; } >> "$bf"
 
 	cp feed-top.xml "$ff"
