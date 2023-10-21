@@ -1,5 +1,7 @@
 # The man page reading club: sh(1) - part 2: commands and builtins
 
+*This post is part of a [series](../../series)*
+
 This is the second and last part of our exciting sh(1) manual page
 read.  This time we are going to learn about *commands* and *builtins*.
 In case you have missed it, check out the [first part](../2022-09-13-sh-1)
@@ -394,3 +396,5 @@ other hand long pages are often more interesting.
 
 Anyway, I hope you enjoyed this long double-post and that you may have
 learnt something new. See you next time!
+
+*Next in the series: [tetris(6)](../2022-10-01-tetris)*

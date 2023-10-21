@@ -1,5 +1,7 @@
 # The man page reading club: man(1)
 
+*This post is part of [series](../../series)*
+
 I have been using Linux as my main operating system for the
 last 14 years, and as my only one for the last 10. Needless
 to say, I really like it. However, at the end of last year I
@@ -261,3 +263,5 @@ markup, pipe the output to col(1) -b instead.
 ```
 
 If you are curious, check the [new post](../2022-09-05-man-col)!
+
+*Next in the series: [more(1)](../2022-06-08-more)*

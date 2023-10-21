@@ -1,5 +1,7 @@
 # The man page reading club: tetris(6)
 
+*This post is part of a [series](../../series)*
+
 Sometimes you just need to relax and have some fun :-)
 
 ## Boredom
@@ -145,3 +147,5 @@ $ /usr/games/tetris
 ```
 
 or just update your `$PATH`.
+
+*Next in the series: [ed(1)](../2022-12-24-ed)*

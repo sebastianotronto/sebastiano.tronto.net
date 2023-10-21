@@ -1,5 +1,7 @@
 # The man page reading club: dc(1)
 
+*This post is part of a [series](../../series)*
+
 For this episode I have decided to go back to the basics, in multiple
 ways. Indeed `dc`, the *desk calculator*, is:
 
