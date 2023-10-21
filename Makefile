@@ -1,4 +1,4 @@
-DEST="tronto.net:/var/www/htdocs/sebastiano.tronto.net"
+DEST="sebastiano@tronto.net:/var/www/htdocs/sebastiano.tronto.net"
 RSYNC=$$( (command -V rsync 2>&1 > /dev/null && echo rsync) || echo openrsync)
 
 all: clean
