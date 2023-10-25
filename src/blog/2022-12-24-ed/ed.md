@@ -134,7 +134,7 @@ Usually you want to address a single line, often the current line,
 when using one of these commands.
 
 The commands `d` and `c` can be used to **d**elete or **c**hange
-the addressed lines. The latteris equivalent to `d` followed by an
+the addressed lines. The latter is equivalent to `d` followed by an
 `a` command.
 
 **Copying, moving and joining lines.**
