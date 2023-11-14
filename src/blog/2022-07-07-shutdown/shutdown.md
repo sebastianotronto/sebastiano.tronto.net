@@ -1,5 +1,7 @@
 # The man page reading club: shutdown(8)
 
+*This post is part of a [series](../../series)*
+
 I would like to write about more interesting things, but I do not have
 time or energy to do so. I need to shut down for a little while.
 
@@ -124,3 +126,5 @@ mainframes and how administrators used to shut them down when multiple users
 were logged in. But I am not going to do it now.
 
 Good night.
+
+*Next in the series: [sh(1) - part 1: shell grammar](../2022-09-13-sh-1)*

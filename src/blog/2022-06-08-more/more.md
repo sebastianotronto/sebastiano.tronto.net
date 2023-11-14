@@ -1,5 +1,7 @@
 # The man page reading club: more(1)
 
+*This post is part of a [series](../../series)*
+
 In the second episode of this blog series we are going to cover a UNIX
 pager.  Instead of the popular less(1), we are going to check out the
 classic more(1).
@@ -190,3 +192,5 @@ can be used to pipe arbitrary portions of the current file to an external
 command. But apart from this I could easily live in the pre-1985 era.
 
 See you next time!
+
+*Next in the series: [shutdown(8)](../2022-07-07-shutdown)*

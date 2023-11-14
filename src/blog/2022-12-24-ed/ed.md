@@ -1,5 +1,7 @@
 # The man page reading club: ed(1)
 
+*This post is part of a [series](../../series)*
+
 I enjoyed writing a little introduction at the beginning of every
 post of this series, but I am running out of ideas. I am not much
 of fiction writer. I'll skip this time, maybe I'll get back to doing
@@ -419,3 +421,5 @@ more than one line at the time. If you are interest in this topic
 I highly suggest reading the article
 [The command line philosophy](http://www.eklhad.net/philosophy.html)
 by Karl Dahlke, the author of [edbrowse](https://edbrowse.org).
+
+*Next in the series: [dc(1)](../2023-03-30-dc)*

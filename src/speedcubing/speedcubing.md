@@ -1,6 +1,6 @@
 # Speedcubing
 
-![Me solving a Rubik's cube during an official competition](cubing.png "Me solving a cube")
+![Me solving a Rubik's cube during an official competition](cubing.jpg "Me solving a cube")
 
 I have been practicing
 [speedcubing](https://en.wikipedia.org/wiki/Speedcubing) since 2008,

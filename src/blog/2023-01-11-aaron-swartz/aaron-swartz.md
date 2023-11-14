@@ -65,23 +65,15 @@ there is still long.
 
 *Aaron is dead.*
 
-
-*Wanderers in this crazy world,*
-
+*Wanderers in this crazy world,*  
 *we have lost a mentor, a wise elder.*
 
-
-*Hackers for right, we are one down,*
-
+*Hackers for right, we are one down,*  
 *we have lost one of our own.*
 
-
-*Nurtures, careers, listeners, feeders,*
-
-*parents all,*
-
+*Nurtures, careers, listeners, feeders,*  
+*parents all,*  
 *we have lost a child.*
-
 
 *Let us all weep.*
 

@@ -1,5 +1,7 @@
 # The man page reading club: sh(1) - part 1: shell grammar
 
+*This post is part of a [series](../../series)*
+
 After [last time's short entry](../2022-07-07-shutdown) and a
 relatively long hiatus, we are back in business with a big one!
 
@@ -383,3 +385,5 @@ rules together. To finish this manual page we are going to need
 another long post, or two shorter ones.
 
 See you next time!
+
+*Next in the series: [sh(1) - part 2: commands and builtins](../2022-09-20-sh-2)*
