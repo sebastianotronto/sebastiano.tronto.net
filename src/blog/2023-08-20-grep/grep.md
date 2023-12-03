@@ -250,3 +250,5 @@ advanced tools, such as `sed` and `awk`: the "read one line, process
 it, print something" idea is common to all three of them.
 
 Stay tuned for the part 2: `sed`!
+
+*Next in the series: [sed](../2023-12-03-sed)*

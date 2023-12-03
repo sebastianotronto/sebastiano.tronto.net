@@ -1,5 +1,7 @@
 # UNIX text filters, part 0 of 3: regular expressions
 
+*This post is part of a [series](../../series)*
+
 One of the most important features of UNIX and its descendants, if
 not *the* most important feature, is input / output redirection:
 the output of a command can be displayed to the user, written to a
@@ -199,3 +201,5 @@ But, quoting from the manual page:
 I hope you enjoyed this post, despite the lack of practical examples.
 If you want to see more applications of regular expressions, stay
 tuned for the next entries on grep, sed and awk!
+
+*Next in the series: [grep](../2023-08-20-grep)*

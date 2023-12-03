@@ -1,7 +1,7 @@
 # List of blog series
 
-I my [blog](../blog) I sometimes write multiple posts on the same
-topic, or posts in multiple parts. This page contains the list of these
+In my [blog](../blog) I sometimes write multiple posts on the same topic,
+or I write posts in multiple parts. This page contains the list of these
 "blog series".
 
 **Note:** This is *not* a full list of my blog posts divided by topic.
@@ -26,9 +26,10 @@ Each post is introduced by a fictional context.
 In this series I explore three classic UNIX commands, in increasing order
 of complexity: `grep`, `sed` and `awk`. Work in progress.
 
-* [grep](../blog/2023-08-20-grep)
-* sed [coming soon]
-* awk [coming less soon]
+* Part 0: [Regular expressions](../blog/2023-06-16-regex)
+* Part 1: [grep](../blog/2023-08-20-grep)
+* Part 2: [sed](../blog/2023-12-03-sed)
+* Part 3: awk (coming "soon")
 
 ## The UNIX shell as an IDE
 
