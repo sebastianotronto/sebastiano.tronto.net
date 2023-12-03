@@ -37,7 +37,7 @@ for a list of slides and notes of my talks.
 
 * Lombardo, Davide; Tronto, Sebastiano.
   *Some uniform bounds for elliptic curves over Q.*
-  [arXiv preprint](https://arxiv.org/abs/2106.09950v1).
+  [Pacific Journal of Mathematics, (2022)](https://msp.org/pjm/2022/320-1/p06.xhtml).
 
 * Lombardo, Davide; Tronto, Sebastiano.
   *Effective Kummer theory for elliptic curves.*
