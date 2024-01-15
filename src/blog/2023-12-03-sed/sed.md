@@ -399,4 +399,6 @@ to take a small detour and talk about some other simple, special-purpose
 text filtering commands, such as `tr`, `head`, `fmt` and so on. Expect
 some short posts in this series before part 3 - after all, there are
 [uncountably many](https://en.wikipedia.org/wiki/Uncountable_set)
-numbers between two and 3!
+numbers between 2 and 3!
+
+*Next in the series: [tr](../2024-01-13-tr)*
