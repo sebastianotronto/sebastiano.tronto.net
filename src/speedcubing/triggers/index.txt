@@ -1,0 +1,93 @@
+<h1>DR Triggers</h1>
+
+<p>
+On this page you can find all DR triggers up to 4 move that start
+with a DR-breaking move. Every trigger is paired with its "R2 variation",
+for example R U R' is paired with R' U R'.
+</p>
+
+<p>
+DRs are always on U/D with EO on F/B. The picture show the U face, the D face
+and a 3D view of the cube. Click on pics to enlarge.
+</p>
+
+<p>
+Work in progress.
+</p>
+
+<h2>1 move</h2>
+
+<p>Not much to say here</p>
+
+! R;
+
+<h2>2 moves</h2>
+
+<p>Setups to this are hard to see.</p>
+
+! R L;
+
+<h2>3 moves</h2>
+
+<h3>Classic</h3>
+
+<p>Classic triggers.<p>
+
+! R U R; R' U R
+! R U2 R;
+
+<h3>Advanced</h3>
+
+<p>More advanced, but very short.</p>
+
+! L U2 R;
+! L U R; L' U R
+
+<h2>4 moves</h2>
+
+<h3>HTR-like</h3>
+
+<p>These have many variations, try all of them to influence edges
+or reduce to double slice.</p>
+
+! R U2 B2 R; R' U2 B2 R
+
+<h3>Edges only</h3>
+
+! L U2 D2 R;
+
+<h3>Inserted E2 variations of 3 movers</h3>
+
+! R U D2 R; R' U D2 R
+! L U D2 R; L' U D2 R
+
+<p>For this last one, make sure corners are 4+4 and not 8+8.</p>
+
+! R U2 D2 R;
+
+<h3>5 corners, group 1</h3>
+
+! R U F2 R; R' U F2 R
+! R U' F2 R; R' U' F2 R
+
+<h3>5 corners, group 2</h3>
+
+! L U F2 R; L' U F2 R
+! L U' F2 R; L' U' F2 R
+
+<h3>6 corners, group 1</h3>
+
+! R U D R;
+! R U D' R;
+! L U D R;
+! L U D' R;
+
+<h3>6 corners, group 2</h3>
+
+! L R U R; L' R U R
+! L R' U R; L' R' U R
+
+<h3>6 corners, group 3</h3>
+
+! R U R L;
+
