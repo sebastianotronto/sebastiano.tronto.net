@@ -1,0 +1,50 @@
+<!--TITLE: Setups to 4c4e-->
+
+<h1>Setups to 4c4e</h1>
+
+! R;
+! F2 R;
+! R2 U R;
+! R2 U L;
+! R2 U2 R;
+! R2 F2 R;
+! F2 U R;
+! F2 U L;
+! F2 U2 R;
+! F2 B2 R;
+! R L' F2 R;
+! R U2 F2 R;
+! R U2 B2 R;
+! R2 L2 U R;
+! R2 U D R;
+! R2 U D2 R;
+! R2 U D2 L;
+! R2 U D' R;
+! R2 U D' L;
+! R2 U F2 R;
+! R2 U F2 L;
+! R2 U B2 R;
+! R2 U B2 L;
+! R2 U2 D2 R;
+! R2 U2 F2 R;
+! R2 F2 U R;
+! R2 F2 U L;
+! R2 F2 U2 R;
+! R2 F2 U' R;
+! R2 F2 U' L;
+! F2 R2 U R;
+! F2 R2 U L;
+! F2 R2 U2 R;
+! F2 R2 U' R;
+! F2 R2 U' L;
+! F2 U D R;
+! F2 U D2 R;
+! F2 U D2 L;
+! F2 U D' R;
+! F2 U F2 R;
+! F2 U F2 L;
+! F2 U B2 R;
+! F2 U B2 L;
+! F2 U2 D2 R;
+! F2 U2 F2 R;
+! F2 B2 U R;

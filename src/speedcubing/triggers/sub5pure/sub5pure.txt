@@ -1,4 +1,6 @@
-<h1>DR Triggers</h1>
+<!--TITLE: Pure triggers sub5 -->
+
+<h1>Pure triggers sub5</h1>
 
 <p>
 On this page you can find all DR triggers up to 4 move that start
@@ -35,12 +37,14 @@ Work in progress.
 
 ! R U R; R' U R
 ! R U2 R;
+! L U2 R;
 
 <h3>Advanced</h3>
 
-<p>More advanced, but very short.</p>
+<p>These triggers are very short, but not easy to recognize. One trick
+to set them up is to try build the oriented square + line, hoping that the
+misoriented corners align well ("Radek's trick").</p>
 
-! L U2 R;
 ! L U R; L' U R
 
 <h2>4 moves</h2>
@@ -53,6 +57,9 @@ or reduce to double slice.</p>
 ! R U2 B2 R; R' U2 B2 R
 
 <h3>Edges only</h3>
+
+<p>Try also L' U2 D2 R to solve the same case and influence edges.
+The trigger R F2 B2 L is HTR-equivalent.</p>
 
 ! L U2 D2 R;
 
