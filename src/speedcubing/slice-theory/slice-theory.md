@@ -266,8 +266,34 @@ with an `E2` it makes more sense to insert and `E` and an `E2` and then fix
 with another `E`, for maximum cancellation. This is reflected in the order
 I wrote the insertions.
 
-I would like to add more examples here, but I have yet to use 3-slice
-insertions in an actual FMC attempt.
+Here is an example of 3-slice insertion in a real (at-home) solve of mine:
+
+```
+Scramble: R' U' F D2 F' D2 F2 R2 F U2 F2 D2 F2 R2 L U2 B2 U' L R' F2 D' B U2 R' U' F
+Solution: F' L' R D' B U L' F2 L' R2 D' L2 D2 B2 D2 R' D2 B2 R2 B2 L F2 R (23)
+
+F' L' R D' B //EO (5/5)
+U L' F2 L' R2 D' //DR (6/11)
+(R' F2 R' *) R2 U2 F2 U2 L' //HTR (8/19)
+B2 U2 R2 U2 //Slice (4/23)
+```
+
+The slice is not solve here, so the first thing I do is solving it
+(very inefficiently).
+
+```
+* = R' D2 L R' B2 L' //Placeholder solve slice (6-2/27)
+```
+
+Then I rewrite DR part and work on insertions:
+
+```
+R2 [1] U2 F2 U2 L' [2] B2 U2 R2 U2 L B2 R L' [3] D2 F2 R
+[1] = M2 (0)
+[2] = [3] = M' (-4)
+```
+
+In this case, each pair of insertions is separated by an I-sequence.
 
 ## General n-slice insertions
 
