@@ -30,6 +30,7 @@ of complexity: `grep`, `sed` and `awk`. Work in progress.
 * Part 1: [grep](../blog/2023-08-20-grep)
 * Part 2: [sed](../blog/2023-12-03-sed)
 * Part 2.1: [tr](../blog/2024-01-13-tr)
+* Part 2.2: [head and tail](../blog/2024-02-20-head-and-tail)
 * Part 3: awk (coming "soon")
 
 ## The UNIX shell as an IDE

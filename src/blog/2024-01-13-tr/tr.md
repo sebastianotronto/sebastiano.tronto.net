@@ -107,3 +107,5 @@ This is pretty much all there is tu say about `tr`. All of this can
 probably be done with a sufficiently complicated `sed` or `awk`
 script, but it is definitely nice to have a simpler utility to perform
 easy changes.
+
+*Next in the series: [head and tail](../2024-02-20-head-and-tail)*
