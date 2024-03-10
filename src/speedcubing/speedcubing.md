@@ -27,6 +27,9 @@ Below you can find some links
 
 * [Rubik's cube notation](notation), good to know before reading any
 text-based tutorial.
+* [Figure it out](figure-it-out): a "tutorial" on how to figure out
+the Rubik's cube by yourself, without spoilers. It will not teach you
+how to solve it step by step, but it will point you in the right direction.
 
 ## Software
 
