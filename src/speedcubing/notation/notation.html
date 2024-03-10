@@ -1,0 +1,141 @@
+<!--TITLE: Rubik's cube notation-->
+<h1>Rubik's cube notation</h1>
+
+<p>
+This page describes the classic
+<a href="https://www.speedsolving.com/wiki/index.php/Singmaster_notation">
+Singmaster notation</a> for the Rubik's cube, with some commonly used additions.
+</p>
+
+<h2>Basic moves</h2>
+
+<p>
+Each of the six faces of the cube is assigned a letter:
+</p>
+
+<table>
+<tr><td><strong>U</strong></td><td>Upper face</td></tr>
+<tr><td><strong>D</strong></td><td>Down face</td></tr>
+<tr><td><strong>R</strong></td><td>Right face</td></tr>
+<tr><td><strong>L</strong></td><td>Left face</td></tr>
+<tr><td><strong>F</strong></td><td>Front face</td></tr>
+<tr><td><strong>B</strong></td><td>Back face</td></tr>
+</table>
+
+<p>
+A single letter (like U) denotes a 90° turn <em>clockwise</em>, a
+letter followed by a single quote (like U') denotes a 90° turn
+<em>counter-clockwise</em>, and a letter followed by a 2 (like U2) denotes a
+180° turn.
+</p>
+
+<p>
+Basic moves are summarized in the following table (<strong>white face on
+top</strong> and <strong>green face on front</strong>):
+</p>
+
+<table>
+<tr>
+<td><div style="text-align: center"><img src="u.png"><strong>U</strong></div></td>
+<td><div style="text-align: center"><img src="u3.png"><strong>U'</strong></div></td>
+<td><div style="text-align: center"><img src="u2.png"><strong>U2</strong></div></td>
+</tr>
+<tr>
+<td><div style="text-align: center"><img src="d.png"><strong>D</strong></div></td>
+<td><div style="text-align: center"><img src="d3.png"><strong>D'</strong></div></td>
+<td><div style="text-align: center"><img src="d2.png"><strong>D2</strong></div></td>
+</tr>
+<tr>
+<td><div style="text-align: center"><img src="r.png"><strong>R</strong></div></td>
+<td><div style="text-align: center"><img src="r3.png"><strong>R'</strong></div></td>
+<td><div style="text-align: center"><img src="r2.png"><strong>R2</strong></div></td>
+</tr>
+<tr>
+<td><div style="text-align: center"><img src="l.png"><strong>L</strong></div></td>
+<td><div style="text-align: center"><img src="l3.png"><strong>L'</strong></div></td>
+<td><div style="text-align: center"><img src="l2.png"><strong>L2</strong></div></td>
+</tr>
+<tr>
+<td><div style="text-align: center"><img src="f.png"><strong>F</strong></div></td>
+<td><div style="text-align: center"><img src="f3.png"><strong>F'</strong></div></td>
+<td><div style="text-align: center"><img src="f2.png"><strong>F2</strong></div></td>
+</tr>
+<tr>
+<td><div style="text-align: center"><img src="b.png"><strong>B</strong></div></td>
+<td><div style="text-align: center"><img src="b3.png"><strong>B'</strong></div></td>
+<td><div style="text-align: center"><img src="b2.png"><strong>B2</strong></div></td>
+</tr>
+</table>
+
+<p>
+<strong>Note:</strong> "clockwise" or "counter-clockwise" is always
+intended when <em>looking at the face you are turning</em>. This is
+why from the pictures above it looks like, for example, U and D go in
+opposite directions.
+</p>
+<p>
+If this sounds confusing, think about it: if you put a clock face down
+on the table, does it turn clockwise or counter-clockwise?
+</p>
+
+<h2>Full-cube rotations</h2>
+
+<p>
+Sometimes it is convenient to start a move sequence with the cube in a
+different orientation. To denote this, it is common to use the "moves"
+x, y and z that denote a full-cube rotation:
+</p>
+
+<table>
+<tr><td><strong>x</strong></td><td>Follows R</td></tr>
+<tr><td><strong>y</strong></td><td>Follows U</td></tr>
+<tr><td><strong>z</strong></td><td>Follows F</td></tr>
+</table>
+
+<p>
+The same modifiers can be applied, so for example x2 is a full-cube
+rotation that follows R2 (or, equivalently, L2) and z' is a a
+full-cube rotation that follows F' (or, equivalently, B).
+</p>
+
+<h2>Inner-layer moves</h2>
+
+<p>
+Moving two parallel layers of the cube, one clockwise and one
+counter-clockwise, has the same effect as moving the inner layer
+between them. We usually denote these inner-layer moves by
+M, E and S.
+</p>
+
+<table>
+<tr><td><strong>M</strong></td><td>Follows L</td></tr>
+<tr><td><strong>E</strong></td><td>Follows D</td></tr>
+<tr><td><strong>S</strong></td><td>Follows F</td></tr>
+</table>
+
+Or in pictures:
+
+<table>
+<tr>
+<td><div style="text-align: center"><img src="m.png"><strong>M</strong></div></td>
+<td><div style="text-align: center"><img src="e.png"><strong>E</strong></div></td>
+<td><div style="text-align: center"><img src="s.png"><strong>S</strong></div></td>
+</tr>
+</table>
+
+<p>
+The same modifiers can be applied, so for example M2 means moving the inner
+layer between R and L by 180°.
+</p>
+
+<p>
+<strong>Note 1:</strong> unfortunately, the notation for inner-layer moves
+is not consistent with that for full-cube rotations. For example x follows R
+but M follows L.
+</p>
+
+<p>
+<strong>Note 2:</strong> Inner-layer moves can always be rewritten as a
+combination of basic moves and full-cube rotations. For example, M'
+is equivalent to x R' L.
+</p>
