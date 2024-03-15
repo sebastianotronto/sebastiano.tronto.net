@@ -1,0 +1,39 @@
+<!--TITLE: Tricky 5-move 4c4e-->
+<h1>Tricky 5-move 4c4e</h1>
+
+! L U' R' U L';
+! L U L' U R';
+! L' U' R' U L';
+! L' U L' U R';
+! R U L' U' R';
+! U L' U' R U' R';
+! R' U L' U' R;
+! U2 L' U L U2 L';
+! U2 L2 U' L2 U L;
+! U D R' D L D2 R;
+! U D' L D F2 U L;
+! U D F2 D' L2 U L;
+! R' F2 R U L';
+! U2 M2 U' L;
+! R F2 R U L';
+! L D2 L D L';
+! R' U L' U2 R;
+! R' U2 R U R;
+! U F2 U2 F2 R;
+! L U' R U' R';
+! L' D' R U2 R';
+! F2 U' R2 U L;
+! L U' R D2 R';
+! R' L' U R L;
+! R' L' U' R L;
+! R L' U R L;
+! R L' U' R L;
+! R U R2 F2 R;
+! R U L2 B2 R;
+! L D R2 U' L;
+! L U B2 U' L;
+! L U' R2 B2 L;
+! L U' L2 F2 L;
+! L U' R2 D L;
+! U' D' L' U F2 U R;
+! R D' F2 D R;
