@@ -1,4 +1,4 @@
-# UNIX text filters part 2.2 of 3: head and tail
+# UNIX text filters, part 2.2 of 3: head and tail
 
 *This post is part of a [series](../../series)*
 
