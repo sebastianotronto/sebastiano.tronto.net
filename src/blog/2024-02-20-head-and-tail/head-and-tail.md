@@ -95,3 +95,5 @@ anymore, but it was mentioning.
 
 These two utilities don't do much, but can accomplish a lot when combined
 with I/O redirection and other text filters.
+
+*Next in the series: [rev](../2024-03-27-rev)*
