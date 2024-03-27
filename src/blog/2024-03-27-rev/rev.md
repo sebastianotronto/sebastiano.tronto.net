@@ -18,3 +18,5 @@ Since [text is complicated](https://www.youtube.com/watch?v=gd5uJ7Nlvvo),
 constitutes a character.
 
 And that's it. See you soon for another (longer) post in this series.
+
+*Next in the series: [cut](../2024-03-28-cut)*
