@@ -1,4 +1,4 @@
-# UNIX text filters part 2.4 of 3: cut
+# UNIX text filters, part 2.4 of 3: cut
 
 *This post is part of a [series](../../series)*
 
