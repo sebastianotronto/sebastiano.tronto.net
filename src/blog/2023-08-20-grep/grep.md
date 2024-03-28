@@ -1,4 +1,4 @@
-# Unix text filters, part 1 of 3: grep
+# UNIX text filters, part 1 of 3: grep
 
 After [the preliminary post on regular expressions](../2023-06-16-regex),
 we are ready to begin this series on *text filters*.
