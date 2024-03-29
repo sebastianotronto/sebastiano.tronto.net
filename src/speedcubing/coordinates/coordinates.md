@@ -36,7 +36,7 @@ To work with cube coordinates, we need to implement the following:
   valid cube object.
 * A function `move()` that takes as input a coordinate, a move m and an
   integer x in [0..n-1] and returns an integer y in [0..n-1] such
-  that `y == index(m(to_cube(x)))` (here m(c) is the cube c moved by m).
+  that `y == index(m(to_cube(x)))` (here `m(c)` is the cube c moved by m).
 * If applicable, a `transform()` function that applies a transformation
   in a similar way as `move()` applies a move. For coordinates this is
   not possible, because they do not capture enough of the cube state.
@@ -65,15 +65,15 @@ by the integer `n` and the functions `index()` and `to_cube()` defined
 above. This is the type of coordinate that "does not exist" in the code,
 because they are just a special case of *composite coordinates*.
 
-### Composite coordinates (COMP_COORD)
+### Composite coordinates (COMP\_COORD)
 
 Composite coordinates are, like the name says, a composition of many basic
-coordinates. They are given by a list of basic coordinates (n_1, index_1(),
-to_cube_1()), ..., (n_k, index_k(), to_cube_k()). The value of such a
+coordinates. They are given by a list of basic coordinates (n\_1, index\_1(),
+to\_cube\_1()), ..., (n\_k, index\_k(), to\_cube\_k()). The value of such a
 composite coordinate on cube c is computed as
-index_1(c) + n_1 * (index_2(c) + n_2 * (...)).
+`index_1(c) + n_1 * (index_2(c) + n_2 * (...))`.
 
-### Symmetric coordinates (SYM_COORD)
+### Symmetric coordinates (SYM\_COORD)
 
 A symmetric coordinate consists of a basic coordinate reduced by symmetry.
 Symmetric coordinates must be initialized from a given set of *cube
@@ -93,7 +93,7 @@ the following data:
   a list of *self-symmetries*. This will be useful when computing the
   pruning table associated to this coordinate.
 
-### Symmetric-composite coordinates (SYMCOMP_COORD)
+### Symmetric-composite coordinates (SYMCOMP\_COORD)
 
 A symmetric-composite coordinate is based on two other coordinates, a
 symmetric coordinate and a composite coordinate. To compute the value
@@ -106,13 +106,13 @@ composite coordinate, and finally combine the two.
 More precisely and with less tong-twisting, for a given cube c one must
 take the following steps:
 
-* Compute the value x_s of the symmetric coordinate at c, the value
-  x_b of the *basic* coordinate associated with the symmetric coordinate
-  and the value x_c of the composite coordinate.
-* Read from the table the transformation t that brings x_b to its
+* Compute the value x\_s of the symmetric coordinate at c, the value
+  x\_b of the *basic* coordinate associated with the symmetric coordinate
+  and the value x\_c of the composite coordinate.
+* Read from the table the transformation t that brings x\_b to its
   representative.
-* Apply t to the composite coordinate value x_c to obtain x_t.
-* Compute the value x_s * n_c + x_t, where n_c is the maximum value +1
+* Apply t to the composite coordinate value x\_c to obtain x\_t.
+* Compute the value x\_s * n\_c + x\_t, where n\_c is the maximum value +1
   of the composite coordinate.
 
 ## Moving coordinates
