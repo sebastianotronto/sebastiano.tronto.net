@@ -23,7 +23,7 @@ or explanation.
 
 Below you can find some links
 
-## Beginner's stuff
+## Fundamentals
 
 * [Rubik's cube notation](notation), good to know before reading any
 text-based tutorial.
@@ -37,6 +37,9 @@ how to solve it step by step, but it will point you in the right direction.
 Jaap Scherphuis. If you are interested in implementing a puzzle solver,
 do check out this page.
 * [Nissy](https://nissy.tronto.net), a Rubik's cube solver and FMC assistant.
+* [Cube coordinates](coordinates), an explanation of how "coordinates" in
+  the sense of [Kociemba](https://kociemba.org/cube.htm) can be implemented
+  for efficient Rubik's cube computations and solving.
 
 ## Fewest moves
 
