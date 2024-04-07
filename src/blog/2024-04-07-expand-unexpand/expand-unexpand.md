@@ -24,7 +24,7 @@ $ echo '	hello	world?' | expand -t 3
    hello	world?
 ```
 
-As you can see, the TAB in the middle of the line si preserved.
+As you can see, the TAB in the middle of the line is preserved.
 Well I guess you can't really see it. Also, I am pretty sure the
 markdown-to-html converter I use turns tabs into spaces anyway.
 This example is a trainwreck, let's move on.
