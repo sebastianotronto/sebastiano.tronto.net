@@ -1,4 +1,4 @@
-# UNIX text filters, part 2.5 of of 3: expand and unexpand
+# UNIX text filters, part 2.5 of 3: expand and unexpand
 
 *This post is part of a [series](../../series)*
 
