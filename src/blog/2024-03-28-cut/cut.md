@@ -136,3 +136,5 @@ something more complicated with the data than just printing it out.
 For this reason I have always relied on more complete languages,
 like C or Python, rather than shell scripting. But `cut` is definitely
 a convenient tool to be familiar with, given how simple it is!
+
+*Next in the series: [expand and unexpand](../2024-04-07-expand-unexpand)*
