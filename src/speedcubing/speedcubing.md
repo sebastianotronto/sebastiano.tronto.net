@@ -53,6 +53,7 @@ including my 16 moves single (YouTube video).
 
 ## Blindfolded
 
+* [An old 3BLD tutorial](guidabld.pdf) for beginners, in Italian.
 * [My 3BLD algs for UBL/UR](https://docs.google.com/spreadsheets/d/17sL1RuiYijTMiQkBn_d5xthdgAoxGE8oaH-Po-PZ58s/edit?usp=sharing).
 They are outdated and not very good, I may upload a better version at some point.
 
