@@ -2,11 +2,7 @@ Round 1 Attempt 1 - 20
 
 R' U' F D2 L' D2 B' U2 B' L2 F' L2 B' D2 R D U B' D R2 B2 D F' R' U' F
 
-# Solution
-
-D B' U' F L D F2 R2 F2 B' R2 F' U B2 U B2 R2 U2 D2 F2 (20)
-
-Explanation:
+Solution: D B' U' F L D F2 R2 F2 B' R2 F' U B2 U B2 R2 U2 D2 F2 (20)
 
 D B' U' F L //EO (5/5)
 D //JZP (1/6)
@@ -40,7 +36,6 @@ B2 R2 U2 D2 F2 //Finish (5/20)
 Adding a slice to turn the 11 move DR into a 12 mover is something I
 would never consider, but in this case it make the HTR much easier.
 
-# Other comments
 
 The scramble had 14 EOs in 4, only 1 of which requiring NISS. I missed
 some of the linear ones and I don't know why, maybe I felt some comp
@@ -59,10 +54,103 @@ have not worked on anything else after that.
 
 -------------------------------------------------------------------------------
 Round 1 Attempt 2 - DNF (but I could have written down a 26, I'm stupid)
+
 R' U' F D U2 B R2 F2 D2 F D2 B' U2 F L2 R' B2 R B2 U L2 R2 F' R' U' F
+
+The most promising thing I had was this:
+
+R2 U' R2 D' //EO (4/4)
+L R2 D2 B L2 B L' //DR (7/11)
+F' L2 F' R2 U2 B [1] //HTR (6/17)
+U2 R2 F2 R2 U2 R2 //Leave slice (6/23)
+
+I found it at 48 minute, plenty of time to complete the solve, right?
+RIGHT?
+Apparently not. The best I could find was a 26 and I did not bother
+writing it down because FOR SURE I one can find at least a 24 on this,
+right? Checking it now I see that [1] = B' F R2 B F' U2 gives 25, so why
+did I not see it? I guess I'll never know.
+
+Optimal from this DR is 22 with just one extra move for HTR:
+
+D2 F U2 B [s1] U2 L2 F' //HTR with extra D2 at the start (7/18)
+U2 L2 B2 [s2] //Leave slice (3/21)
+[s1] = [s2] = S2
+
+Had I found a good slicing on my leave slice in 23 I would probably looked
+for more HTRs, and this is quite an obvious one. But I needed more time,
+I am not that fast at checking HTRs (yet).
+
+With a 22 on this scramble it would have been 21.33 ER mean. I am not quite
+there yet, but this shows that I am not as far as I thought either :)
+
+I should have written down the 26 and I would have been happy
+with a sub23 mean. But It was not an easy call to make, a couple of minutes
+at the end can make the different when finding difficult slices (and they did
+in attempt 3!).
+
+I also had this decent DR:
+
+(D R' D2 B) //EO (4/4)
+R U F2 B2 D R //DR (6/10)
+U L2 D' B2 R2 D' B2 D' //Possible HTR
+
+Optimal is 23 but it requires HTR in 20.
+
+Again missed a couple of linear EOs in 4, not of a kind that I usually forget
+to check. I just need to focus more in the EO phase. I also misse U R (U R)
+but that can happen.
 -------------------------------------------------------------------------------
 Round 1 Attempt 3 - 22
+
 R' U' F R F L B' U D' F2 R F D2 R2 F R2 D2 B2 R2 U2 F2 L2 R' B' R' U' F
+
+Solution: L2 B U2 R2 F' B R2 F L2 F' L2 U2 F' U B2 U' F2 B D' L U L' (22)
+
+(L U' L') //EO (3/3)
+(D B' F2 U B2 U') //DR 2qt (6/9)
+L2 F (F U2 L2 B D2 B') //HTR +2qt (8/17)
+(R2 U2 L2) //Leave slice, the dreaded 4x (3/20)
+
+DR part all on inverse:
+(F U2 L2 B D2 B' R2 U2 L2 F' R2)
+
+The 4x slice can be solved by inserting two single slice moves in the same
+direction separated by a (D)-sequence (see my slice theory page at
+https://sebastiano.tronto.net/speedcubing/slice-theory). If you look at
+this scramble, every three consecutive floppy moves are an I-sequence!
+This is normally very good for simplifying a solution, but not for solving
+a 4x. Indeed it took me around 20 minutes to finish my solve.
+
+At first I found a 24 by inserting a 4x somewhere.
+Then I found this, I don't remember how (my notes are very chaotic):
+
+(B L2 D2 F D2 F' U2 B' F U2 L2 F B2 L2) (+3/23)
+
+And with less than two minutes left I found this:
+
+(F U2 L2 F L2 F' R2 B' F R2 U2 B' L2) (+2/22)
+
+I wrote it down and finished checking at 59:30. If I had a good solve
+(or just a non-DNF) on the second attempt, I would have freaked out. What
+is going on with these hard slices?!
+
+It turns out 22 is optimal from this DR, and there is no way to get it
+in 2qt.  Cool!
+
+About the scramble: it was very good, there were many short DRs and I
+did not even have time to check all the 4 move EOs - the one time where
+I found all of them. Stupid 20 minutes slice from Hell.
+
+Other interesting DRs:
+B' R2 D F
+U2 L2 U2 L' U' L' //3qt in 10, 24 optimal with 5qt bleh
+
+B' R2 D F
+(U2 R2 L U L) //3qt in 9 but it's fake HTR corners, 24 optimal
+
+Pretty satisfied with this attempt :)
+
 -------------------------------------------------------------------------------
 Round 2 Attempt 1 - 22
 R' U' F L D' R2 D2 U2 B F2 D2 L2 U2 L2 B' L2 D' F R2 D' U B D2 R' U' F
