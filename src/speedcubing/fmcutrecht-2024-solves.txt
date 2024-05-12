@@ -1,0 +1,74 @@
+Round 1 Attempt 1 - 20
+
+R' U' F D2 L' D2 B' U2 B' L2 F' L2 B' D2 R D U B' D R2 B2 D F' R' U' F
+
+# Solution
+
+D B' U' F L D F2 R2 F2 B' R2 F' U B2 U B2 R2 U2 D2 F2 (20)
+
+Explanation:
+
+D B' U' F L //EO (5/5)
+D //JZP (1/6)
+(F2 L2 F2 U' F2 U) //DR (6/12)
+B2 L2 F D2 B //HTR (5/17)
+F2 D2 //Leave double slice (2/19 but actually 18)
+
+Rewrite
+D B' U' F L D
+(F2 L2 F2 U' F2 U D2)
+{B2 L2 F D2 B F2}
+
+{} = F2 R2 F2 B' R2 F' (0/18)
+
+For the part on inverse at first I rewrote it as
+(F2 L2 D U' R2 D2 U L2 D') (3/21)
+
+But then I found this non-obvious equivalent
+(F2 D2 U2 R2 B2 U' B2 U') (-1/20)
+
+Optimal from EO :)
+
+Now if you look at the solution linearly on normal, it looks like a DR solve:
+
+D B' U' F L //EO (5/5)
+D //RZP (1/6)
+F2 R2 F2 B' R2 F' //Sub-optimal DR, I would never look at this (6/12)
+U B2 U //HTR (3/15)
+B2 R2 U2 D2 F2 //Finish (5/20)
+
+Adding a slice to turn the 11 move DR into a 12 mover is something I
+would never consider, but in this case it make the HTR much easier.
+
+# Other comments
+
+The scramble had 14 EOs in 4, only 1 of which requiring NISS. I missed
+some of the linear ones and I don't know why, maybe I felt some comp
+pressure.
+
+That turned out not to be a problem because the 4 move EOs all sucked.
+I had a few short DRs from the, but they were all 5qt.  From 4 move EOs,
+mallard finds a 23 with RZP in 6 and DR in 12. With EO in 4 and RZP in
+5 the best it finds is a 25.
+
+Good time management on my part, I started rushing through 5 move EOs
+at the right moment and found a bunch of direct RZPs, but did not try
+to switch after each of them immediately. The EO I used was the 20th,
+and it immediately stood out. Found the double slice quite early and I
+have not worked on anything else after that.
+
+-------------------------------------------------------------------------------
+Round 1 Attempt 2 - DNF (but I could have written down a 26, I'm stupid)
+R' U' F D U2 B R2 F2 D2 F D2 B' U2 F L2 R' B2 R B2 U L2 R2 F' R' U' F
+-------------------------------------------------------------------------------
+Round 1 Attempt 3 - 22
+R' U' F R F L B' U D' F2 R F D2 R2 F R2 D2 B2 R2 U2 F2 L2 R' B' R' U' F
+-------------------------------------------------------------------------------
+Round 2 Attempt 1 - 22
+R' U' F L D' R2 D2 U2 B F2 D2 L2 U2 L2 B' L2 D' F R2 D' U B D2 R' U' F
+-------------------------------------------------------------------------------
+Round 2 Attempt 2 - 27
+R' U' F R F' L' B2 L' F B L' D B' D' B2 U D2 L2 B2 D F2 R' U' F
+-------------------------------------------------------------------------------
+Round 2 Attempt 3 - 25
+R' U' F R' L' D' L U' R2 D2 F' D R2 B R2 U2 F L2 F' L2 U2 R' B R' U' F
