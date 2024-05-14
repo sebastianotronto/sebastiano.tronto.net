@@ -154,6 +154,80 @@ Pretty satisfied with this attempt :)
 -------------------------------------------------------------------------------
 Round 2 Attempt 1 - 22
 R' U' F L D' R2 D2 U2 B F2 D2 L2 U2 L2 B' L2 D' F R2 D' U B D2 R' U' F
+
+(R) L' D' L //EO (4/4)
+(D' F D' B' D') //DR (5/9)
+(B' R2 U2 F2 L2 B') //HTR (6/15)
+(U2 F2 D2 R2 D2 R2 F2) //Finish (7/22)
+
+This was the easiest scramble of the comp. I found this solution early on and
+I could not improve on it.
+
+There were multiple 21s from this DR, all requiring 4qts. I checked some
+of them, but I should have checked more. On the other hand, I traded one
+move for the chance of finding an even better DR, which makes sense on
+a scramble like this.
+
+Most findable optimal finish, from the DR ending in (... B' D):
+
+(F' L2 F' U2 R2 F U2 F) //HTR in 17
+(D2 F2 R2 U2) //Leave slice in 21
++0 solve slice
+
+But also a leave slice in 20, from the EO ending in ...D' L':
+
+(F) U2 F' (U2 L2 F D2 F) //HTR in 17
+D2 L2 U2 //Leave slice in 20
++1 slice
+
+I was closer to this second solution than to the one from the linear HTR,
+having tried (B) B (...) for HTR. I forgot to try and add a half turn
+before making a qt of progress, a common mistake for me.
+
+
+Other DRs:
+
+D R' U2 L (F' R2 F' R2 B' L2 U) -> 11 4qt +13
+R U' R' B / D U2 R' U2 L U' R2 U' -> 12 some crap +14
+(D R D B') L' R B2 L R D2 L' D -> 12 less crap +12
+(D B2 U' B) (U' B2 L' R' U) -> 9 4qt +14
+(D B2 U' B) (U' F2 L' R' D') -> 9 4qt variation +13
+(R D B') (U D' B2 D L' U2 L') -> 10 5qt +14
+(R D B') U D B2 U2 D2 R D2 R -> 11 4qt +13
+
+Even if I switched after (R D B'), I missed three DRs in 10 like a noob:
+
+(R D B') D2 L2 U D' R F2 R -> 10 4qt +12
+(R D B') F2 L2 U' D' R' F2 R' -> 10 4qt +12
+(R D B) B2 R2 U' D' R' D2 R' -> 10 4qt +10
+
+Optimal for the last DR is trivial:
+
+U R2 D L2 U' B2 U //HTR in 17
+L2 D2 R2 //Solved in 20
+
+So I guess the choice of looking for more DRs after finding the 22
+was correct.  Or even better, I should have worked more on the 3 move
+EO with direct RZP before moving to the 4 move EOs. In any case, even
+if I did I would have needed to find and try all 3 variations of the DR
+to find the best one.
+
+Even though I could have done better, I am decently happy with my
+performance on this attempt.
+
+This scramble was 16 optimal. It felt like it, although the only optimal
+solution is not findable with DR:
+
+B2 D2 R' F' R F D2 L R D' L' D2 B' D2 R' D' (16)
+
+But it looks findable with blocks:
+
+(D R) //Square + pair (2/2)
+(D2 B D2 L D L') B2 //F2L-1 (7/9)
+(L'  D2 F' R' F R D2) //Last pair (7/16)
+
+LL skip
+
 -------------------------------------------------------------------------------
 Round 2 Attempt 2 - 27
 R' U' F R F' L' B2 L' F B L' D B' D' B2 U D2 L2 B2 D F2 R' U' F
