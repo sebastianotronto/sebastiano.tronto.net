@@ -231,6 +231,76 @@ LL skip
 -------------------------------------------------------------------------------
 Round 2 Attempt 2 - 27
 R' U' F R F' L' B2 L' F B L' D B' D' B2 U D2 L2 B2 D F2 R' U' F
+
+Solution: Can't be bother writing it down
+
+L B' F D' L //EO (5/5)
+U F2 L2 U2 F' B2 U //DR 2qt (7/12)
+(B' L2 B R2 U2 F' U2 F) //HTR (8/20)
+(U2 B2 U2 R2 B2 D2 L2) //Leave slice (7/27)
++0 (but hard to find)
+
+It was the only DR I had, +13 optimal with 4qt.
+
+Wow, this scramble sucked.
+
+There was no sub5 EO, only 65 EOs in 5, of which 33 linear. But I did
+not write down that many, maybe a couple of dozen in total. The 8 bad
+EOs that start with F to a different 8 bad case always elude me, and
+this time I also missed some setup to F B. Plus other random EOs.
+In the past I was better at 5 move EOs, but as I got better at the 4
+move NISS ones, I got rusty with the long EO spam.
+
+From one of the easy, linear EOs I missed:
+
+F' U B' L' F //EO (5/5)
+D F2 U2 R' //DR (4/9)
+D L2 U2 B2 L2 U L2 D //HTR (8/17)
+F2 R2 F2 R2 //Leave slice (4/21)
++1
+
+The HTR above is very strange, I would have never tried that. After the
+first qt you are in a case that requires a U2 fix, and when this happens
+I always just do the first qt in the opposite direction to avoid the
+extra fix.
+
+There is also this 21 from a tricky DR:
+
+L (B2 U' D2 L') //EO, I had this one (5/5)
+(B U') //RZP, would not see this in a million years (2/7)
+(D2 F' D) //DR (3/10)
+(U2 F' L2 U2 D2 F L2 F') //HTR (8/18)
+(D2 B2 R2) //Finish (3/21)
+
+Conclusion: even though the scramble looked garbage, there was good stuff.
+
 -------------------------------------------------------------------------------
+
 Round 2 Attempt 3 - 25
 R' U' F R' L' D' L U' R2 D2 F' D R2 B R2 U2 F L2 F' L2 U2 R' B R' U' F
+
+Solution: L B' D' F' U' B D2 F' B' R2 B R' D2 L2 F D2 F' L2 B2 L2 R2 U2 L2 B2 L2
+
+L B' D' F' U' //EO (5/5)
+B D2 F' B' R2 B R' //DR (7/12)
+D2 L2 F D2 F' //HTR (5/17)
+L2 B2 L2 R2 U2 L2 B2 L2 //Finish (8/25)
+
+Unfortunately I missed the optimal finish by a light year.
+From the DR ending in ...B R:
+
+F (U2 B) //HTR (3/15)
+(R2 B2 L2 U2 L2 D2) //Leave slice (6/21)
++1
+
+Before I learned that 2qt DRs often require 4qt for optimal finish, this
+kind of HTR was the second thing I would try. But now I learnt more stuff,
+so I am worse (:
+
+The scramble also looked shit at first. When I saw it I almost wanted
+to give up. There are two sub-5 EOs, but they are garbage. Luckily,
+multiple linear EOs turned out to be direct RZP, so it was workable. But
+in the end I had nothing better than that 12+2 DR.
+
+I am sad about the big blunder on the optimal finish. Apart from this,
+I should have once again spammed more EOs in 5.
