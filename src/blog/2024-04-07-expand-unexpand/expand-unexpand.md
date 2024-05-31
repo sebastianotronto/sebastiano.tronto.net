@@ -56,3 +56,5 @@ $ for f in *.rs; do unexpand $f > $f.2 && mv $f.2 $f; done
 For some reason, the OpenBSD version of `unexpand` does not allow
 using the `-t` option. So if I had brought my OpenBSD laptop at the
 rust lecture I would have been stuck with spaces :(
+
+*Next in the series: [fold](../2024-05-31-fold)*
