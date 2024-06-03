@@ -65,4 +65,4 @@ They are outdated and not very good, I may upload a better version at some point
 
 * [My WCA profile](https://www.worldcubeassociation.org/persons/2011TRON02)
 * [My YouTube channel](https://www.youtube.com/c/SebastianoTronto)
-* [Solving a cube... without a cube](https://www.speedsolving.com/forum/threads/the-3x3x3-example-solve-thread.14345/page-273#post-1173067)
+* [Solving a cube... without a cube](no-cube)
