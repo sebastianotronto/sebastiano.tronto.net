@@ -190,7 +190,7 @@ them more.
 
 This time in particular I learnt how to implement variadic functions,
 and a bit of their
-[history](https://stackoverflow.com/questions/14082476/what-is-the-best-way-for-giving-callback-for-logging).
+[history](https://retrocomputing.stackexchange.com/questions/20512/how-did-varargs-in-c-develop).
 I am still not sure if this will work well when I end up using
 this library in a non-C project.  Is it even possible to call C
 variadic functions from other languages?  Will I have to provide a
