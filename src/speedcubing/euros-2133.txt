@@ -1,0 +1,189 @@
+1.
+Scramble: R' U' F L' B2 U D2 L' F2 L F L' B2 D L2 B2 D B2 U' R2 F2 R' U' F
+Solution: U2 L D2 L2 U2 D' R2 D2 F B' L2 F' U2 D F U' D F' L D2 (20)
+
+U2 L (D2 L') //EO (4/4)
+(F) //RZP 3-3 aka 3c6e (1/5)
+(D' U F' D' U2 B [3e]) //DR 4a1 (6/11)
+(R2 D U2 L2 D2) //All but 3 edges (5/16)
+[3e] = B' F L2 B F' D2 (6-2/20)
+
+This scramble was a nightmare unless you found the right DR, in that
+case it was really easy.  This EO was the only 4-mover I had, I missed
+(F) F D' B and its variation with F'.  There were a total of 14 linear
+5-movers, 58 if you include NISS which is extremely few.  The DR trigger
+is also non-standard, but I am familiar with it.
+
+I found this solution at around 20 minutes, and then spent most of
+the attempt trying to improve on it. There were many slice moves - the
+"corner skeleton" of this solution is ony 12 moves.  So I am quite bummed
+that I missed Jan's 18. It could have been found like this:
+
+[3e] = S' R2 U2 S U2 R2 (8-6/18)
+
+Or by slicing away the L2 B F' D2 in my final solution:
+
+L2 B F' D2 R2 D U2 = D2 R2 F' B D (-2)
+
+Skill issue I guess. I am not too mad about this because in the fantasy
+world where I found this replacement then Radek surely does too, and he
+still gets ER + 1st place while my 20.67 would just be NR + podium.
+
+Good job Jan for finding an amazing solution, well deserved :)
+
+I had a few other DRs in 12 on this scramble, nothing worth
+noting. Literally tunnel visioned on the one good thing, easily the
+right call.
+
+-------------------------------------------------------------------------------
+
+2.
+Scramble: R' U' F L F' U2 B' R' U2 F2 U2 F2 R2 D2 B' D' U2 B2 F2 R' D R' U' F
+
+My working sheet is a bit of a mess but I think this is what I submitted:
+
+Solution: D L' F' R B F2 L2 B2 L2 U' F2 U2 L2 U2 R2 B2 R2 U' L2 F U' F' U D (24)
+
+D L' F' R //EO (4/4)
+B (D' U' F U F') //DR 4a2 (6/10)
+(L2 U) F2 L2 B2 L2 U' //HTR (7/17)
+F2 U2 L2 U2 R2 B2 R2 //Finish (7/24)
+
+A boring solve. I was not feeling good during this attempt, both mentally
+and physically: I was stressed about wasting my first chance in ages to
+get a good mean at a big comp, it was too hot in the room and I needed
+to pee throughout the attempt. From this point of view, I am actually
+happy that I could pull out a somewhat average result.
+
+I could have easily found this 23 from My DR:
+
+(L2 D) F2 R2 B2 R2 D //Basically my HTR, I tried this one too (7/17)
+F2 U2 R2 F2 L2 F2 //Finish, not that hard to see but I missed it (6/23)
+
+And there was also a 22 with 4qt, not easy at all IMO:
+
+F2 U B2 R2 U2 L2 D' R2 D' F2 B2 U {F2} (13-1)
+
+I had this other DR that I worked on quite a lot:
+
+(U F' R D') //EO (4/4)
+(B' R' B' L B') //DR 4a3 (5/9)
+
+And in the last minute I found this:
+
+L (R2 U2 L) F2 B2 D2 B2 R //HTR (9/18)
+F2 U2 R2 B2 U2 R2 //Finish with suboptimal leave slice (6/24)
+
+Which I thought could be sliced to 23, but It does not look like. Anyway,
+I was close to this 23 that I think Tommaso found:
+
+L (L2 D2 L') U2 B2 L //HTR (7/16)
+F2 U2 L2 U2 F2 D2 F2 //Finish (7/23)
+
+I had multiple ways to find a 23, if not for skill issues and a subpar
+mental / physical state. But after finding out about other people's
+result, I knew I still had a shot for podium.
+
+-------------------------------------------------------------------------------
+
+3. 
+Scramble: R' U' F U2 F2 U2 B2 F' U2 F2 L2 R D' B R' L2 D U2 B D F' R' U' F
+Solution: D R F B' U R U2 B2 D' R2 D U' F2 R' F2 R2 L' U2 L2 D2 (20)
+
+D R F B' //EO (4/4)
+U R //JZP (2/6)
+U2 B2 U' * //DR 4b2, one of the many variations (3/9)
+(D2 L2 U2 {L' B2 R}) //HTR (6/15)
+(F2 B2) //Leave double slice (2/17)
+{} = L R2 F2 R //Solve M slice (+1/18)
+* = U D' R2 D U' B2 //Solve E slice (6-4/20)
+
+Although not quite as bad as the first scramble, this scramble is not
+good either *unless* one finds the good DR. And once again I was blessed
+that I found it early on, and I wrote down my 20 before the 20 minutes
+mark. Regardless of what everyone else did, at this point I had already
+reached my goal of showing that all the work I put in the last months
+has been useful, and that I can still get an NR.
+
+Once again the solution is very slicey (15 move corner skeleton), so I
+tried to look for a simplification not to repeat the show of the first
+attempt. If I submitted the 20, Kai "just" needed a 19 to beat me and
+sneak on third place, while Jay and I think Louis-Marie needed an 18.
+In the end there was a 19, but I honestly would have not seen it, even
+if I decided to try the righ 4qt HTR - why trying to insert a 2e2e in
+18 when I already have a 20? For reference, here is the 19:
+
+D R F B' //EO (4/4)
+U R //JZP (2/6)
+* U2 B2 U //DR 4b2 (3/9)
+(R U2 R' F2 L' B2 U2 R) //HTR with fixed slice (8/17)
+(F2) //2e2e (1/18)
+* = B2 U2 B2 U2 B2 U2 (6-5/19)
+
+Congrats to Jaye for finding this sub20, very cool solution!
+
+As people pointed out, the first U after EO changes a 4-2 aka 4c4e RZP
+into another 4-2. I did not even think about it, not sure if I was dumb
+or smart :P
+
+I had a bunch of other promising RZP from the 3- and 4-move EOs,
+but nothing worth noting. This is the only other DR I had, again with
+3c6e RZP:
+
+R F D' B' //EO (4/4)
+U //RZP 3c6e (1/5)
+R U' L R2 D //DR 2c4 (5/10)
+
+I started working on HTRs from (L' U2 L') but then moved back to finding
+DRs and found the good stuff.
+
+-------------------------------------------------------------------------------
+
+Comments.
+
+Very weird scramble set: 1 and 3 and *one good think* and I was lucky to
+find it, while scramble 2 is your average scramble where there is a bunch
+of decent stuff but nothing stands out. I am somewhat surprise few people
+got sub23 on it, and not at all surprised that I panicked and got a 24.
+
+I practiced a lot this year - almost 200 solves since January, more
+than 100 of which after FMC 2024. But I was very frustated because I
+could not get convincing results at home.  For reference, I recently
+got new PBs for Avg25 (23.00), Avg50 (23.39) and Avg100 (23.70), but my
+last 25 solves were back to the 23.9 range. Almost every attempt felt
+like I was randomly smapping things and that I always missed something
+stupid. Definitely not what I wanted after practicing DR for 5 years. So
+going into Euros I was not expecting to do well at all, although I was
+hoping to get something good, like a sub23 mean, and then perhaps close
+my FMC adventure with a positive note instead of ragequitting.
+
+Obviously I am very happy with this result. I was able to get an NR and
+major championship podium 5 years after reaching my peak. I am also
+incredibly happy to hear many people saying that they are happy for
+me. Not just congratulating, multiple people said they were cheering
+for me and that they are *happy* for me to get a good result. This fills
+me with joy :)
+
+FMC changed a lot with the DR revolution, and I am not sure I have the
+right mindset for it. It feels like a completely different event. My
+solves rarely feel more skill-based that luck-based, and when I can use
+JZP / AR + double slice shenanigans (like in the 3rd attempt at Euros)
+is one of the rare times when the opposite it true.
+
+So, am I going to quit now? I definitely do not want to keep practicing
+like I have done recently, with 1-2 solves per day where I constantly feel
+frustrated for missing solutions that seemingly everyone else finds. I also
+want to get back into blindsolving, which is likely going to kill off most
+of the free time I have been dedicating to FMC.
+
+But I am still going to compete of course. I still enjoy discussing
+FMC with other people and sharing what I know. In the future I may work
+on making nissy more usable and maybe try to develop some new theory -
+AR + double slice solving might be the DR killer, and who knows if I'll
+ever understand how to make Corner First consistent. (Although on this
+last part I suspect DR *is* the way to make "Corner First" consistent,
+becuase the trick is "aligning edges and corners" so that solving corners
+with HTR drags edges along.)
+
+Up to you whether you call this quitting or not.
+At least it is not a ragequit :)
