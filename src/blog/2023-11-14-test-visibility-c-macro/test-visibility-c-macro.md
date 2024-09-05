@@ -1,5 +1,12 @@
 # Making functions public for tests only... with C macros!
 
+*Note from the future (2024-09-05): in the first version of this post,
+I used the identifier `_static` instead of `STATIC` for a macro.
+I have recently found out that one should almost never use identifiers
+starting with underscore, so I have edited this post accordingly. See
+[this StackOverflow question](https://stackoverflow.com/questions/69084726/what-are-the-rules-about-using-an-underscore-in-a-c-identifier)
+for an explanation.*
+
 As a programmer, I often face this dilemma: should I make this
 function private to improve encapsulation, or should I make it
 public so that I can write tests for it? I believe this problem is
@@ -108,17 +115,17 @@ The trick I came up with is the following:
 
 ```
 #ifdef TEST
-#define _static
+#define STATIC
 #else
-#define _static static
+#define STATIC static
 #endif
 ```
 
 Now put the snippet above at the top of the C file where the functions
 you want to test are implemented and declare your functions as
-`_static` with an underscore. When you compile your code normally,
+`STATIC`. When you compile your code normally,
 these functions will be compiled as `static`, but if you use the
-`-DTEST` option, `_static` will expand to nothing and the functions
+`-DTEST` option, `STATIC` will expand to nothing and the functions
 will be visible outside the file.
 
 Here is a complete example.
@@ -129,12 +136,12 @@ Here is a complete example.
 #include <stdio.h>
 
 #ifdef TEST
-#define _static
+#define STATIC
 #else
-#define _static static
+#define STATIC static
 #endif
 
-_static int foo(int x, int y)
+STATIC int foo(int x, int y)
 {
 	return 42*x - 69*y;
 }

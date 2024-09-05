@@ -4,12 +4,12 @@
 /* cc main4.c        # foo is static  */
 
 #ifdef TEST
-#define _static
+#define STATIC
 #else
-#define _static static
+#define STATIC static
 #endif
 
-_static int foo(int x, int y)
+STATIC int foo(int x, int y)
 {
 	return 42*x - 69*y;
 }
