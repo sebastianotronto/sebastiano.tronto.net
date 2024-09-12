@@ -179,7 +179,7 @@ completely silent, you can merge standard output and standard error
 and redirect them both to `/dev/null` with
 
 ```
-$ command >&2 >/dev/null
+$ command >/dev/null 2>&1
 ```
 
 ### Expansion
