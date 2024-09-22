@@ -55,9 +55,10 @@ including my 16 moves single (YouTube video).
 
 * [An old 3BLD tutorial](guidabld.pdf) for beginners, in Italian.
 * [My new alg sheet](https://docs.google.com/spreadsheets/d/1iIuCNs_GXQAQFEssZam5lQ4cm3R_MRw9uQkb0GIThvo/edit?usp=sharing).
-At the moment it has only corners (UFR), 4BLD wings (UFr) and 4BLD x-centers
-(Ubl). Also available in csv format: [corners](bldsheets/corners.csv),
-[wings](bldsheets/wings.csv), [xcenters](bldsheets/xcenters.csv). Work in progress.
+At the moment it has only corners (UFR), 4BLD wings (UFr), 4BLD x-centers
+(Ubl) and 5BLD t-centers. Also available in csv format:
+[corners](bldsheets/corners.csv), [wings](bldsheets/wings.csv),
+[xcenters](bldsheets/xcenters.csv). Work in progress.
 * [My 3BLD algs for UBL/UR](https://docs.google.com/spreadsheets/d/17sL1RuiYijTMiQkBn_d5xthdgAoxGE8oaH-Po-PZ58s/edit?usp=sharing).
 They are outdated and not very good, I may upload a better version at some point.
 
