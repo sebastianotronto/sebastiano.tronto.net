@@ -1,4 +1,4 @@
-# Write your first Python module in C
+# How to write a Python module in C
 
 Something I may want to do in the near future is making a tool /
 library I am developing in C available in Python. I know it is
