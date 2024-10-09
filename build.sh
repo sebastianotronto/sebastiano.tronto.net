@@ -61,6 +61,7 @@ makeblogindexandfeed() {
 		f="src/blog/$i/*.md"
 		d="$(echo "$i" | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')"
 		t="$(head -n 1 $f | sed 's/# //')"
+		link="https://sebastiano.tronto.net/blog/$i"
 
 		thisyear="$(echo "$d" | sed 's/-.*//')"
 		if [ "$thisyear" != "$lastyear" ]; then
@@ -71,11 +72,15 @@ makeblogindexandfeed() {
 		{ echo "<tr><td>$d</td>";
 		  echo "<td><a href=\"$i\">$t</a></td></tr>"; } >> "$bf"
 
+		dd="$(echo "$d" | sed 's/.*-//')"
+		mm="$(echo "$d" | sed 's/....-//' | sed 's/-.*//')"
+		mon="$(month "$mm")"
 		{ echo "<item>";
 		  echo "<title>$t</title>";
-		  echo "<link>https://sebastiano.tronto.net/blog/$i</link>";
+		  echo "<link>$link</link>";
+		  echo "<guid isPermaLink=\"true\">$link</guid>";
 		  echo "<description>$t</description>";
-		  echo "<pubDate>$d</pubDate>";
+		  echo "<pubDate>$dd $mon $thisyear 00:00:00 GMT</pubDate>";
 		  echo "</item>";
 		  echo ""; } >> $ff
 	done
@@ -84,6 +89,47 @@ makeblogindexandfeed() {
 	cat bottom.html >> "$bf"
 
 	{ echo ""; echo "</channel>"; echo "</rss>"; } >> "$ff"
+}
+
+month() {
+	case "$1" in
+	01)
+		echo "Jan"
+		;;
+	02)
+		echo "Feb"
+		;;
+	03)
+		echo "Mar"
+		;;
+	04)
+		echo "Apr"
+		;;
+	05)
+		echo "May"
+		;;
+	06)
+		echo "Jun"
+		;;
+	07)
+		echo "Jul"
+		;;
+	08)
+		echo "Aug"
+		;;
+	09)
+		echo "Sep"
+		;;
+	10)
+		echo "Oct"
+		;;
+	11)
+		echo "Nov"
+		;;
+	12)
+		echo "Dec"
+		;;
+	esac
 }
 
 makeblogindexandfeed

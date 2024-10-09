@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
 <title>Sebastiano Tronto's blog</title>
 <link>https://sebastiano.tronto.net/blog</link>
+<atom:link href="https://sebastiano.tronto.net/blog/feed.xml"
+	rel="self" type="application/rss+xml" />
 <description>
 Thoughts about software, computers and whatever I feel like sharing
 </description>
