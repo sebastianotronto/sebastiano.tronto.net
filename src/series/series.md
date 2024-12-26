@@ -42,3 +42,10 @@ of complexity: `grep`, `sed` and `awk`. Work in progress.
 This series contains only one post for now, but I may add more in the future.
 
 * [Look stuff up with sed](../blog/2022-06-12-shell-ide-sed)
+
+## Taming C++
+
+My adventures in learning C++ as a C programmer.
+
+* Episode 1: [motivation](../blog/2024-04-30-taming-cpp-motivation)
+* Episode 2: [RAII](../blog/2024-12-26-taming-cpp-raii)

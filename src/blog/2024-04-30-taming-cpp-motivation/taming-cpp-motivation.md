@@ -1,5 +1,7 @@
 # Taming C++, episode 1: motivation
 
+*This post is part of a [series](../../series)*
+
 C++ is pretty much the standard language in the software industry for
 any project where performance matters. I have used it a fair bit in
 the past - during my [IOI](https://ioinformatics.org) time and for
@@ -173,3 +175,5 @@ to continue studying it. I may or may not keep writing about this here:
 turning this into another blog series may be a good way to force myself
 to do this regularly, but on the other hand it may not be interesting
 for my readers. We'll see!
+
+*Next in the series: [RAII](../2024-12-26-taming-cpp-raii)*
