@@ -23,11 +23,13 @@ Here are some highlights of what you can find in my git repositories.
   [nissy-classic](https://git.tronto.net/nissy-classic), and is
   maintained with bugfixes.
   Check out also [the project's homepage](https://nissy.tronto.net).
-* [sdep](https://git.tronto.net/sdep): A minimalistic
-  "date+event" line parser. Can be used in combination with some shell scripts
-  as a reminder / calendar application.
+* [h48](https://git.tronto.net/h48): Another Rubik's cube optimal solver,
+  intended to replace the engine of nissy in the future. Written in
+  collaboration with [Enrico](https://github.com/enricotenuti).
 * [scripts](https://git.tronto.net/scripts): Various scripts
   for Unix-like systems.
+* [zmodn](https://git.tronto.net/zmodn): A simple C++ library for working
+  with modular arithmetic.
 
 ## Tutorials
 
@@ -59,3 +61,8 @@ I taught at the [University of Luxembourg](https://wwwen.uni.lu)
   web git instance up do date automatically when I push new changes. See
   [this blog post](https://sebastiano.tronto.net/blog/2022-11-23-git-host).
 * [Platonic solids](https://git.tronto.net/platonicsolids) in TikZ (LaTeX).
+* [bclibrary](https://git.tronto.net/bclibrary): A collectiono of functions
+  for [bc(1)](https://man.openbsd.org/bc).
+* [A simple Python module written in C](https://git.tronto.net/python-c):
+  A minimal example of Python bindings for C code, for educational
+  purposes.
