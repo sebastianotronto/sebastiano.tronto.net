@@ -49,3 +49,4 @@ My adventures in learning C++ as a C programmer.
 
 * Episode 1: [motivation](../blog/2024-04-30-taming-cpp-motivation)
 * Episode 2: [RAII](../blog/2024-12-26-taming-cpp-raii)
+* Episode 3: [templates, constraints and concepts](../blog/2025-01-21-taming-cpp-templates)
