@@ -12,6 +12,10 @@
 
 ## Math
 
+* *Elliptic Curves and the ECM algorithm*.
+  ALTEN Scientific Software Evening, February 2025.
+  [Slides: [html, 2.4Mb](./ecm)]
+
 * *Kummer theory for elliptic curves*.
   Short talk for Tarrach Prize 2023, March 2023.
   [Slides: [pdf, 288Kb](kummer-tarrach.pdf)]

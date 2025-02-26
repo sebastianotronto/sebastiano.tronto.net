@@ -29,6 +29,10 @@ copyfile() {
 		t="$(htmltitle "$file")"
 		cat top.html "$file" bottom.html | sed "s/TITLE/$t/" > "$ind"
 		;;
+	raw)
+		namenoraw="$(basename "$file" | sed 's/\.raw$//')"
+		cp "$file" "$dest/$namenoraw"
+		;;
 	*)
 		cp "$file" "$dest/$(basename "$file")"
 	esac

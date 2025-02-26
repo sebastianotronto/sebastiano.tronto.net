@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Elliptic Curves and the ECM algorithm</title>
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Import MathJax script -->
+	<script id="MathJax-script" async src=
+		"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+	></script>
+
+	<!-- Import highlight.js script and style sheet -->
+	<script id="highlight.js" src="
+		https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"
+	></script>
+	<link rel="stylesheet" href="
+		https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs.css"
+	>
+
+	<!-- Custom style -->
+	<style>
+		html { height: 100vh; width: 98vw; margin: auto; font-family: sans-serif; }
+		h1 { font-size: 3.5vw; background-color: #eeeeee; margin: 0; }
+		body { font-size: 2.2vw; height: 100%; width: 100%; }
+		a, a:visited { color: #0f2899; text-decoration: none; }
+		a:hover { text-decoration: underline; }
+		figcaption { text-align: center; font-size: 1.5vw; }
+		em { font-style: normal; color: blue; }
+
+		.slide { outline: none; height: 100vh; width: 100%; }
+		.slide {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.slide ul { margin-left: 1.5vw; }
+		.slide ol { margin-left: 1.5vw; }
+		.slide p { margin-left: 1.5vw; }
+
+		.slide.titlepage p, a { text-align: center; }
+		.slide.titlepage span.title { font-size: 3.6vw; font-weight: bold; }
+		.slide.titlepage span.author { }
+
+		.slide.ecsum img { width: 50%; display: block; margin: auto; }
+
+		.slide div.centertext { text-align: center; margin: auto; width: 60%; }
+
+		.columns {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.footer { font-size: 1.8vw; background-color: #eeeeee; }
+		.footer table { width: 100%; }
+		.footer-title { font-weight: bold; }
+		.footer-link { text-align: right; }
+	</style>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/sum-2c.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 70%;
+background-color: rgba(255, 255, 255, 0.85);
+background-blend-mode: overlay;">
+
+<p></p>
+
+<p><span class="title">Elliptic curves and the ECM algorithm<span></p>
+<p><span class="author">Sebastiano Tronto<span></p>
+<p><span class="event">ALTEN Scientific Software Evening<span></p>
+
+</div>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/numbers.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: rgba(255, 255, 255, 0.75);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">Part I: Numbers<span></p>
+<p></p>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>The integers</h1>
+
+<img alt="The number line" src="images/number-line.png"
+	style="width: 70%; margin-left: 15%; margin-right: 15%;"/>
+
+<ul>
+<li>Operations: sum \(+\), difference \(-\) and multiplication \(\times\)</li>
+<li>Various properties: associativity, commutativity, etc...</li>
+<li>What about division (without remainder)?<br>
+If <tt>\(\frac ab\)</tt> is an integer we say that
+<tt>\(a\)</tt><em> divides </em><tt>\(b\)</tt> (in code:
+<tt>a % b == 0</tt>)</li>
+</ul>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>The integers modulo N</h1>
+
+<div class="columns">
+
+<ul>
+<!-- li>Integers modulo <tt>N</tt>: the possible remainders of
+division by <tt>N</tt><br-->
+<li>Two numbers are the same if they give the <em>same remainder</em>
+when divided by <tt>N</tt></li>
+<li>Think of <tt>int</tt>, but with <tt>% N</tt>
+after every operation</li>
+<li>Examples with \(N=12\):
+\[9+5\equiv 14\equiv 2\pmod{12}\]
+\[7-11\equiv-4\equiv 8\pmod{12}\]
+\[3\times 4\equiv 12\equiv 0\pmod{12}\]
+</li>
+</ul>
+
+<img alt="The number clock" src="images/clock.png"
+	style="width: 35%;"/>
+
+</div>
+
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>The integers modulo N - Division</h1>
+
+<p style="text-align: center;"><strong>What about division?</strong></p>
+
+<ul>
+<li>
+Sometimes it works
+\[
+\frac 37\equiv 9 \pmod{12} \qquad
+\text{because} \qquad 9\times 7 \equiv 63 \equiv 3 \pmod{12}
+\]
+</li>
+
+<li>
+Sometimes it does not
+\[
+\frac 32\equiv \; ? \pmod{4} \qquad {\color{red}\text{Impossible!}}
+\]
+</li>
+</ul>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Integers modulo N - Division</h1>
+
+<ul>
+<li>
+Sometimes it's... weird?
+\[
+\frac 62 \equiv \; ? \pmod{8} \quad
+\begin{array}{l}
+\rightarrow {\color{red}3} \times 2 \equiv 6\pmod{8}\\
+\rightarrow {\color{red}7} \times 2 \equiv 14 \equiv 6 \pmod{8}
+\end{array}
+\]
+</li>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Integers modulo N - Division</h1>
+<div class="columns">
+<ul>
+<li>Can divide by \(a\) when \[\operatorname{GCD}(a, N)=1\]</li>
+<li>With the
+<a href="https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm">
+extended GCD algorithm</a> find \(x\) and \(y\) such that
+\[
+ax+Ny=1
+\]
+<li>
+This means \(\frac{1}{a}\equiv x\pmod{N}\)
+</li>
+</ul>
+<pre><code class="language-python"
+style="border: 0.2vw solid; font-size: 2.2vw;">
+def extended_gcd(a, b):
+    if b == 0:
+        return a, 1, 0
+    g, x, y = extended_gcd(b, a % b)
+    return g, y, x - y*(a // b)
+</code></pre>
+</div>
+<p style="text-align: center;">
+Division always works if \(N\) is a <em>prime</em> number!</p>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Modular arithmetic - recap</h1>
+<div class="columns">
+<ul>
+<li>Integers modulo \(N\) are (almost) like numbers</li>
+<li>Normal operations like \(+\), \(-\) and \(\times\) work</li>
+<li>Division sometimes works, sometimes not</li>
+<li>Division always works if \(N\) is <em>prime</em></li>
+</ul>
+<img alt="The number line" src="images/clock2.png" style="width: 40%;"/>
+</div>
+</div>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/sum-2c.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 70%;
+background-color: rgba(255, 255, 255, 0.85);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">Part II: Elliptic Curves<span></p>
+<p></p>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic curves</h1>
+
+<div class="columns">
+
+<p>
+An <em>elliptic curve</em> is a curve with equation
+\[ y^2 = x^3+Ax+B \]
+Where \(A\) and \(B\) are numbers with \[4A^3+27B^2\neq 0\]
+</p>
+
+<figure style="width: 45%;">
+<figcaption>\(y^2=x^3-x+1\) <br> \((A=-1, B=1\))</figcaption>
+<img alt="An elliptic curve" src="images/ec1.png" style="width: 100%;"/>
+</figure>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic curves</h1>
+
+<div class="columns">
+
+<figure style="width: 45%;">
+<figcaption>\(y^2=x^3+13x-34\) <br> \((A=13, B=-34\))</figcaption>
+<img alt="An elliptic curve" src="images/ec3.png" style="width: 100%;"/>
+</figure>
+
+<figure style="width: 45%;">
+<figcaption>\(y^2=x^3-x\) <br> \((A=-1, B=0\))</figcaption>
+<img alt="An elliptic curve" src="images/ec2.png" style="width: 100%;"/>
+</figure>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic curves</h1>
+
+<div class="columns">
+<ul>
+<li>There is a "sum" operation for points of a curve
+(NOT the sum of coordinates)</li>
+<li>To make things work out nicely, we pretend the curve has
+a <em>point at infinity</em> that acts as \(0\):
+\[P+0=0\qquad 0+P=0\qquad P-P=0\]</li>
+</ul>
+
+<img alt="Elliptic curve sum" src="images/sum-2c.png" style="width: 80%;"/>
+
+</div>
+</div>
+
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 1</h2>
+<img alt="Elliptic curve sum" src="images/sum-2a.png"/>
+</div>
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 1</h2>
+<img alt="Elliptic curve sum" src="images/sum-2b.png"/>
+</div>
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 1</h2>
+<img alt="Elliptic curve sum" src="images/sum-2c.png"/>
+</div>
+
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 2</h2>
+<img alt="Elliptic curve sum" src="images/sum-3a.png"/>
+</div>
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 2</h2>
+<img alt="Elliptic curve sum" src="images/sum-3b.png"/>
+</div>
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 2</h2>
+<img alt="Elliptic curve sum" src="images/sum-3c.png"/>
+</div>
+
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 3</h2>
+<img alt="Elliptic curve sum" src="images/sum-4a.png"/>
+</div>
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 3</h2>
+<img alt="Elliptic curve sum" src="images/sum-4b.png"/>
+</div>
+<div class="slide ecsum" tabindex="-1">
+<h1>Elliptic curves - sum operation - example 3</h2>
+<img alt="Elliptic curve sum" src="images/sum-4c.png"/>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic curves - sum operation - code</h1>
+
+<div class="columns">
+<pre><code class="language-python"
+style="font-size: 2.8vh;">
+# Computes p+q on the elliptic curve y^2 = x^3 + Ax + B
+def ec_sum(p: Point, q: Point, A: double) -> Point:
+    if p.is_zero:
+        return q
+    if q.is_zero:
+        return p
+    if p.x == q.x and p.y == -q.y:
+        return Point(is_zero = True)
+
+    if p.x != q.x:
+        k = (p.y - q.y) / (p.x - q.x)
+    else:
+        k = (3 * p.x**2 + A) / (p.y + q.y)
+
+    new_x = k**2 - p.x - q.x
+    new_y = k * (p.x - new_x) - p.y
+    return Point(x = new_x, y = new_y)
+</code></pre>
+
+<pre><code class="language-python"
+style="border: 0.2vw solid; font-size: 2.8vh;">
+@dataclass
+class Point:
+    x: int = 0
+    y: int = 0
+    is_zero: bool = False
+</code></pre>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic curves - recap</h1>
+<div class="columns">
+<ul>
+<li>Curves of equation \(y^2=x^3+Ax+B\)</li>
+<li>Can "sum" points of the same curve</li>
+<li>Nice properties: associativity, commutativity...</li>
+<li>The sum operation can be easily implemented</li>
+</ul>
+<img alt="The number line" src="images/sum-2c.png" style="width: 40%;"/>
+</div>
+</div>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/factorization.webp');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 50%;
+background-color: rgba(255, 255, 255, 0.90);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">Part III: The Elliptic Curve Factorization Method<span></p>
+<p></p>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Integer factorization</h1>
+<p style="text-align: center;"><strong>
+Every positive integer can be written as the product of prime numbers
+</strong></p>
+<div class="columns">
+<ul>
+<li>Example: \(69420 = 2\times 2\times 3\times 5\times 13\times 89\)</li>
+<li>Computationally hard</li>
+<li>Important for cryptography!</li>
+</ul>
+<img src="images/euclid.png" style="height: 60vh;"/>
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Integer factorization - high-level procedure</h1>
+
+<div class="columns">
+<pre><code class="language-python"
+style="border: 0.2vw solid; font-size: 1.4vw;">
+# Returns the list of prime factors of n
+def factorize(n: int) -> list:
+    if n == 1:
+        return []
+
+    if is_prime(n):
+        return [n]
+
+    f = find_factor(n)
+
+    return factorize(n) + factorize(n//f)
+</code></pre>
+
+<ul>
+<li><tt>is_prime(n)</tt> can be implemented
+efficiently
+(<a href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">Miller-Rabin</a>,
+<a href="https://en.wikipedia.org/wiki/AKS_primality_test">AKS</a>
+or <a href="https://en.wikipedia.org/wiki/Elliptic_curve_primality">ECPP</a>)
+</li>
+<li>Naive implementation of <tt>find_factor(n):</tt>
+<pre><code class="language-python" style="font-size: 2vw;">
+def find_factor(n: int) -> int:
+    for i in range(2,floor(sqrt(n))+1):
+        if n % i == 0:
+            return i
+</code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Find Factor - Elliptic Curve Method</h1>
+<div>
+<p><strong>To find a factor of \(n\):</strong><p>
+<ol>
+<li>Take a random Elliptic Curve \(E\)
+and a random point \(P\) of \(E\)</li>
+<li>Take a <em>suitable number \(m\)</em></li>
+<li>Try to compute \(m\cdot P = P+P+\cdots+P\quad\) (\(m\) times)
+with <em>coordinates modulo \(n\)</em></li>
+<li>If you attempt an <em>impossible division</em> by some number \(d\),
+<em>return \(\operatorname{GCD}(n,d)\)</em></li>
+<li>Go back to 1.</li>
+</ol>
+</div>
+</div>
+
+<div class="slide" tabindex="-1" style="font-size: 2vw;">
+<h1>Find Factor - Elliptic Curve Method - Example</h1>
+<ul>
+<li>Take \(n = 91\)</li>
+<li>Take \(E: y^2 = x^3 + 51x -371\) and \(P = (11, 39)\) and \(M = 2\)</li>
+<li>
+Try to compute \(M\cdot P=P+P\pmod n\):
+\[ k = \frac{3x_p^2+51}{2y_p} \pmod n\]
+Is \(2y_p=78\) invertible modulo \(91\)?
+\[ \operatorname{GCD}(78, 91) = 13 \neq 1 \quad \implies \quad \text{NO!} \]
+</li>
+<li>Found factor: \(13\)</li>
+</div>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/demo.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: rgba(255, 255, 255, 0.60);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">Demo time!<span></p>
+<a href="https://git.tronto.net/ecm">git.tronto.net/ecm</a>
+<p></p>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic Curve Method - Questions</h1>
+<div class="centertext">
+<p><strong>
+Q: Aren't we just computing the \(\operatorname{GCD}\) with random numbers?
+</strong></p>
+<p>
+A: Yes, but Elliptic Curve operations produce "good candidates"
+for these random numbers.
+</p>
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic Curve Method - Questions</h1>
+<div class="centertext">
+<p><strong>Q: Can we do the same without elliptic curves?</strong></p>
+<p>A: Yes, with
+<a href="https://en.wikipedia.org/wiki/Pollard%27s_p_%E2%88%92_1_algorithm">
+Pollard's \(p-1\) Algorithm</a>, but ECM is faster.</p>
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Elliptic Curve Method - Questions</h1>
+<div class="centertext">
+<p><strong>
+Q: Are there objects that are more complicated than Elliptic Curves
+and can make the method even faster?
+</strong></p>
+<p>A: Yes, there are higher-dimensional
+<a href="https://en.wikipedia.org/wiki/Abelian_variety">
+Abelian Varieties</a> and other
+<a href="https://en.wikipedia.org/wiki/Algebraic_group">
+Algebraic Groups</a>, but they are much harder (if not impossible)
+to implement efficiently.</p>
+</div>
+</div>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/questions.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 60%;
+background-color: rgba(255, 255, 255, 0.85);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">More questions?<span></p>
+<p></p>
+</div>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/beer.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 80%;
+background-color: rgba(255, 255, 255, 0.65);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">Drinks!<span></p>
+<p></p>
+</div>
+
+<script>
+	// The list of all slides of the presentation.
+	const slides = document.querySelectorAll(".slide");
+
+	// Navigation keys.
+	const keysNext = ["ArrowRight", "ArrowDown", " "];
+	const keysPrev = ["ArrowLeft", "ArrowUp"];
+
+	// Function to move to a given slide.
+	// This also focuses the slide, so any key press will be
+	// handled by the correct slide's event handler.
+	function goto(slide) {
+		slide.focus();
+		slide.scrollIntoView({
+			behavior: "instant",
+			block: "start"
+		});
+	}
+
+	// Handle key press events.
+	function onkeydown(i, e) {
+		if (keysNext.includes(e.key) && i+1 < slides.length) {
+			goto(slides[i+1]);
+		}
+		if (keysPrev.includes(e.key) && i > 0) {
+			goto(slides[i-1]);
+		}
+	}
+
+	// Handle click or tap events.
+	// Tapping on the right half of the screen scrolls forwards,
+	// tapping on the left half scrolls backwards.
+	function onclick(i, e) {
+		const w = slides[i].offsetWidth;
+		const x = e.clientX;
+
+		if (x > w/2 && i+1 < slides.length) {
+			goto(slides[i+1]);
+		}
+		if (x < w/2 && i > 0) {
+			goto(slides[i-1]);
+		}
+	}
+
+	// Disable default action of the navigation keys (e.g. scrolling).
+	document.addEventListener("keydown", function(e) {
+		if (keysNext.includes(e.key) || keysPrev.includes(e.key)) {
+			e.preventDefault();
+		}
+	});
+
+	// Function to add a footer to every slide.
+	function slideFooter() {
+		const start = "<div class=\"footer\"><table class=\"footer-table\"><tr>";
+		const title = "Elliptic Curves and the ECM algorithm"
+		const link = "<a href=https://tronto.net/talks/ecm>tronto.net/talks/ecm</a>";
+		const end = "</tr></table></div>";
+		const content =
+			"<td class=\"footer-title\">" + title + "</td>" +
+			"<td class=\"footer-link\">" + link + "</td>";
+
+		return start + content + end;
+	}
+
+	// Add slide footers and event handlers.
+	for (let i = 0; i < slides.length; i++) {
+		slides[i].innerHTML += slideFooter();
+		slides[i].addEventListener("keydown", e => onkeydown(i, e));
+		slides[i].addEventListener("click", e => onclick(i, e));
+	}
+
+	// Focus and scroll into view the first slide.
+	goto(slides[0]);
+
+	// Call highlight.js
+	hljs.highlightAll();
+</script>
+
+</body>
+</html>
