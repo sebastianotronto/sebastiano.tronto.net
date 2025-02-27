@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Elliptic Curves and the ECM algorithm</title>
+	<title>Elliptic Curves and the ECM Algorithm</title>
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Import MathJax script -->
@@ -438,7 +438,7 @@ def find_factor(n: int) -> int:
 <div>
 <p><strong>To find a factor of \(n\):</strong><p>
 <ol>
-<li>Take a random Elliptic Curve \(E\)
+<li>Take a random elliptic curve \(E\)
 and a random point \(P\) of \(E\)</li>
 <li>Take a <em>suitable number \(m\)</em></li>
 <li>Try to compute \(m\cdot P = P+P+\cdots+P\quad\) (\(m\) times)
@@ -484,7 +484,7 @@ background-blend-mode: overlay;">
 Q: Aren't we just computing the \(\operatorname{GCD}\) with random numbers?
 </strong></p>
 <p>
-A: Yes, but Elliptic Curve operations produce "good candidates"
+A: Yes, but elliptic curve operations produce "good candidates"
 for these random numbers.
 </p>
 </div>
@@ -504,7 +504,7 @@ Pollard's \(p-1\) Algorithm</a>, but ECM is faster.</p>
 <h1>Elliptic Curve Method - Questions</h1>
 <div class="centertext">
 <p><strong>
-Q: Are there objects that are more complicated than Elliptic Curves
+Q: Are there objects that are more complicated than elliptic curves
 and can make the method even faster?
 </strong></p>
 <p>A: Yes, there are higher-dimensional
@@ -594,7 +594,7 @@ background-blend-mode: overlay;">
 	// Function to add a footer to every slide.
 	function slideFooter() {
 		const start = "<div class=\"footer\"><table class=\"footer-table\"><tr>";
-		const title = "Elliptic Curves and the ECM algorithm"
+		const title = "Elliptic Curves and the ECM Algorithm"
 		const link = "<a href=https://tronto.net/talks/ecm>tronto.net/talks/ecm</a>";
 		const end = "</tr></table></div>";
 		const content =
