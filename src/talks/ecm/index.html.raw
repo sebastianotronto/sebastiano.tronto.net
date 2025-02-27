@@ -410,7 +410,7 @@ def factorize(n: int) -> list:
 
     f = find_factor(n)
 
-    return factorize(n) + factorize(n//f)
+    return factorize(f) + factorize(n//f)
 </code></pre>
 
 <ul>
