@@ -36,6 +36,7 @@
 		.slide ul { margin-left: 1.5vw; }
 		.slide ol { margin-left: 1.5vw; }
 		.slide p { margin-left: 1.5vw; }
+		.slide li { margin: 3.0vh 0; }
 
 		.slide.titlepage p, a { text-align: center; }
 		.slide.titlepage span.title { font-size: 3.6vw; font-weight: bold; }
