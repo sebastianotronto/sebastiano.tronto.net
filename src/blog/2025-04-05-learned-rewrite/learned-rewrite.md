@@ -1,6 +1,6 @@
 # Things I learned rewriting a project from scratch
 
-About two years ago I [wrote](../2023-04-10-the-big-rewrite) about a
+Around two years ago I [wrote](../2023-04-10-the-big-rewrite) about a
 project I have been working on and off for a few years. In that post
 I explain how and why I decided to rewrite it from scracth, splitting
 it in multiple parts. I ended up not following exactly the plan that I
@@ -308,7 +308,6 @@ int main() {
 	/* Print the results (last is first) */
 	printf("Results:\n%lld\n%lld\n%lld\n%lld\n", r[0], r[1], r[2], r[3]);
 }
-
 ```
 
 The `__mm256_add_epi64()` used above is not just syntactic
