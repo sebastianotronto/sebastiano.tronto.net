@@ -89,7 +89,7 @@ say that two or more adjacent pieces form a block when adjacent stickers
 of different pieces have the same color. For example, the simplest kind
 of block is a **pair**, that you can see in the picture below:
 
-![A corner-edge pair](pair.svg)
+![A corner-edge pair](pair.png)
 
 To be precise, the one above is a coner-edge pair. There are also center-edge
 pairs, consisting of a center and an edge, but they are rarely referred to
@@ -99,11 +99,11 @@ A more complex example of a block is a **layer**, which is the result of
 the first two steps of the classic "layer by layer" method. This one is
 a correctly solved layer:
 
-![A layer](layer.svg)
+![A layer](layer.png)
 
 On the other hand, this is **not a layer**:
 
-![A non-solved layer, but with a solve "face"](face.svg)
+![A non-solved layer, but with a solve "face"](face.png)
 
 It is worth pausing here to reflect a bit. The last two pictures both
 clearly show a solved white face, don't they? For a most people, they
@@ -161,7 +161,7 @@ If you have not done it already, you should have a look at my page on
 
 Suppose that you manage, via blockbuilding, to reach the following state:
 
-![A commutator](comm1.svg)
+![A commutator](comm1.png)
 
 First of all, this would be an amazing achievement! The whole cube is
 solved except for three corners. The bottom-left corner (only one red
@@ -227,14 +227,14 @@ To help understanding all of this, you can visualize this commutator
 determine a correct commutator to permute them. Their **orientation**
 is also important. For example, consider the following case:
 
-![Another commutator](comm2.svg)
+![Another commutator](comm2.png)
 
 The three corners are permuted in exactly the same way, so everything
 we said above could be repeated word by word, move by move. However,
 if you apply the commutator we constructed to this case, you'll get
 something like this:
 
-![Two twisted corners](twist.svg)
+![Two twisted corners](twist.png)
 
 What's wrong here? Well, obviously the cube is not solved. All the pieces
 are in their correct position, but two corners are twisted in place!
@@ -246,7 +246,7 @@ but sometimes it is important to keep track of both.
 
 Let's highlight the difference between the two 3-cycles. In the first one:
 
-![A commutator](comm1.svg)
+![A commutator](comm1.png)
 
 1. The red-green-white corner must go to the place of the white-red-blue one,
 *with the white sticker of the first going to the place of the white sticker
@@ -260,7 +260,7 @@ white sticker of the latter*.
 
 While in the second case:
 
-![Another commutator](comm2.svg)
+![Another commutator](comm2.png)
 
 1. The red-green-white corner must go to the place of the white-red-blue one,
 *with the white sticker of the first going to the place of the* **blue** *sticker
@@ -290,7 +290,7 @@ but you can visualize a solution
 So far I have only talked about *corner* commutators, but what if you
 are also left with some unsolved edges? For example, consider this case:
 
-![A edge 3-cycle](edgecomm.svg)
+![A edge 3-cycle](edgecomm.png)
 
 The picture shows a 3-cycle of edges.  You might think that the same
 reasoning can be applied and that you can use commutators to solve
@@ -323,7 +323,7 @@ you need to use **set-up moves**, also known as
 
 Consider the following case:
 
-![A 3-cycle of corners requiring a set-up move](setup.svg)
+![A 3-cycle of corners requiring a set-up move](setup.png)
 
 No matter how much you try, you are not going to find valid interchange
 and insertion moves as above. The fundamental problem is that you would
