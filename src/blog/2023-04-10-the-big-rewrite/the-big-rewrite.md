@@ -93,7 +93,7 @@ projects, or probably it will be never done. And that's OK.
 
 My plan is to split the work into the following parts:
 
-* Starting from the [stable branch](https://nissy.tronto.net/download)
+* Starting from the [stable branch](https://nissy.tronto.net)
   of nissy, remove all the code that is needed only by the optimal
   solver and other unnecessary steps. Work on a GUI and other simple
   features useful for assisting fewest moves solvers.

@@ -16,16 +16,12 @@ Here are some highlights of what you can find in my git repositories.
 
 * [nissy](https://git.tronto.net/nissy): A Rubik's cube solver,
   intended primarily as a tool for practicing FMC. Since april 2023
-  the project has been split into the FMC trainer
-  [nissy-fmc](https://git.tronto.net/nissy-fmc) and the optimal solver
-  [nissy-nx](https://git.tronto.net/nissy-nx). Both are work in
-  progress. The stable version is available at
-  [nissy-classic](https://git.tronto.net/nissy-classic), and is
-  maintained with bugfixes.
+  the stable version of the project has been moved to
+  [nissy-classic](https://git.tronto.net/nissy-classic), while I kept
+  working on the H48 optimal solver. This new solver, which will be
+  integrated in a future version of nissy, can be found
+  [here](https://git.tronto.net/nissy-core).
   Check out also [the project's homepage](https://nissy.tronto.net).
-* [h48](https://git.tronto.net/h48): Another Rubik's cube optimal solver,
-  intended to replace the engine of nissy in the future. Written in
-  collaboration with [Enrico](https://github.com/enricotenuti).
 * [scripts](https://git.tronto.net/scripts): Various scripts
   for Unix-like systems.
 * [zmodn](https://git.tronto.net/zmodn): A simple C++ library for working
