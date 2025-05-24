@@ -1,3 +1,5 @@
+<script src="https://cdn.cubing.net/v0/js/cubing/twisty" type="module"></script>
+
 # Rubik's cube: how to figure it out
 
 So you decided to try and solve a
@@ -124,6 +126,14 @@ If you want some more hints, Ryan Heise's website contains some nice
 examples about building blocks in his
 [fundamental techniques page](https://www.ryanheise.com/cube/fundamental_techniques.html).
 
+*Note: I have updated this page to use [twizzle](https://alpha.twizzle.net)
+applets instead of simple pictures. These applets can be played to show the
+solution. To experiment around with this solution, click on
+the TW at the bottom right to open them in
+[twizzle](https://alpha.twizzle.net/). In this way you can also
+check which moves correspond to the written notation, if you
+are not familiar with it.*
+
 ## Commutators
 
 *In the rest of this page I am going to use the standard
@@ -161,7 +171,13 @@ If you have not done it already, you should have a look at my page on
 
 Suppose that you manage, via blockbuilding, to reach the following state:
 
-![A commutator](comm1.png)
+<center>
+<twisty-player experimental-setup-alg="[U, R' D R]"
+alg="R' D R   // Insertion
+     U   // Interchange
+     R' D' R   // Inverse insertion
+     U'   // Inverse interchange"></twisty-player>
+</center>
 
 First of all, this would be an amazing achievement! The whole cube is
 solved except for three corners. The bottom-left corner (only one red
@@ -220,21 +236,28 @@ the insertion sequence; then we have D', the inverse of the second move;
 and finally R, the inverse of the first move of the insertion sequence.
 * **U'**: the inverse of the interchange move.
 
-To help understanding all of this, you can visualize this commutator
-[alg.cubing.net](https://alg.cubing.net/?setup=%5BU,_R-DR%5D&alg=R-_D_R_%2F%2FInsertion%0AU_%2F%2FInterchange%0AR-_D-_R_%2F%2FInverse_insertion%0AU-_%2F%2FInverse_interchange).
-
 **Note:** looking at the position of the pieces is not enough to
 determine a correct commutator to permute them. Their **orientation**
 is also important. For example, consider the following case:
 
-![Another commutator](comm2.png)
+<center>
+<twisty-player experimental-setup-alg="[R', U L' U']"
+alg="R' D R   // Insertion
+     U   // Interchange
+     R' D' R   // Inverse insertion
+     U'   // Inverse interchange"></twisty-player>
+</twisty-player>
+</center>
 
 The three corners are permuted in exactly the same way, so everything
 we said above could be repeated word by word, move by move. However,
 if you apply the commutator we constructed to this case, you'll get
-something like this:
+something like this (you can also see this by playing the applet above):
 
-![Two twisted corners](twist.png)
+<center>
+<twisty-player experimental-setup-alg="[U, R' D' R D R' D' R]">
+</twisty-player>
+</center>
 
 What's wrong here? Well, obviously the cube is not solved. All the pieces
 are in their correct position, but two corners are twisted in place!
@@ -246,7 +269,13 @@ but sometimes it is important to keep track of both.
 
 Let's highlight the difference between the two 3-cycles. In the first one:
 
-![A commutator](comm1.png)
+<center>
+<twisty-player experimental-setup-alg="[U, R' D R]"
+alg="R' D R   // Insertion
+     U   // Interchange
+     R' D' R   // Inverse insertion
+     U'   // Inverse interchange"></twisty-player>
+</center>
 
 1. The red-green-white corner must go to the place of the white-red-blue one,
 *with the white sticker of the first going to the place of the white sticker
@@ -260,7 +289,14 @@ white sticker of the latter*.
 
 While in the second case:
 
-![Another commutator](comm2.png)
+<center>
+<twisty-player experimental-setup-alg="[R', U L' U']"
+alg="U L' U'   // Insertion
+     R'   // Interchange
+     U L U'   // Inverse insertion
+     R   // Inverse interchange"></twisty-player>
+</twisty-player>
+</center>
 
 1. The red-green-white corner must go to the place of the white-red-blue one,
 *with the white sticker of the first going to the place of the* **blue** *sticker
@@ -281,16 +317,19 @@ white sticker of the red-green-white corner to the position of the
 red sticker of the white-red-blue one, while it should move it
 to the position of the blue sticker!
 
-I won't repeat the whole construction for the second commutator,
-but you can visualize a solution
-[here](https://alg.cubing.net/?setup=%5BR-,_UL-U-%5D&alg=U_L-_U-_%2F%2FInsertion%0AR-_%2F%2FInterchange%0AU_L_U-_%2F%2FInverse_insertion%0AR_%2F%2FInverse_interchange).
-
 ### Edge commutators
 
 So far I have only talked about *corner* commutators, but what if you
 are also left with some unsolved edges? For example, consider this case:
 
-![A edge 3-cycle](edgecomm.png)
+<center>
+<twisty-player experimental-setup-alg="[L' U2 L, E']"
+alg="E'   // Interchange
+     L' U2 L   // Insertion
+     E   // Inverse interchange
+     L' U2 L   // Inverse insertion"></twisty-player>
+</twisty-player>
+</center>
 
 The picture shows a 3-cycle of edges.  You might think that the same
 reasoning can be applied and that you can use commutators to solve
@@ -301,7 +340,7 @@ Let's see how to solve the case above. As interchange move, you can use
 the **inner-layer move** E' (check out the [notation page](../notation)
 if you are unfamiliar with these). The insertion sequence to be used
 with it is L' U2 L. Putting everything together, you get
-[E' L' U2 L E L' U2 L](https://alg.cubing.net/?setup=%5BL-U2L,E-%5D&alg=E-_%2F%2FInterchange%0AL-_U2_L_%2F%2FInsertion%0AE_%2F%2FInverse_interchange%0AL-_U2_L_%2F%2FInverse_insertion).
+E' L' U2 L E L' U2 L.
 
 ### Commutators with set-up moves
 
@@ -323,7 +362,15 @@ you need to use **set-up moves**, also known as
 
 Consider the following case:
 
-![A 3-cycle of corners requiring a set-up move](setup.png)
+<center>
+<twisty-player experimental-setup-alg="[L: [R D2 R', U']]"
+alg="L   // Set-up
+     U'   // Interchange
+     R D2 R'   // Insertion
+     U   // Inverse interchange
+     R D2 R'   // Inverse insertion
+     L'   // Inverse set-up"></twisty-player>
+</center>
 
 No matter how much you try, you are not going to find valid interchange
 and insertion moves as above. The fundamental problem is that you would
@@ -352,9 +399,6 @@ putting it all together you get:
 
 **Note:** in this case the insertion coincides with its inverse. This
 can happen and there is nothing particular about it.
-
-As usual, you can visualize the final result on
-[alg.cubing.net](https://alg.cubing.net/?setup=L2B2R-F-RB2R-FRL2&alg=L_%2F%2FSet%26%2345%3Bup%0AU-_%2F%2FInterchange%0AR_D2_R-_%2F%2FInsertion%0AU_%2F%2FInverse_interchange%0AR_D2_R-_%2F%2FInverse_insertion%0AL-_%2F%2FInverse_set%26%2345%3Bup)
 
 ## Conclusion
 
