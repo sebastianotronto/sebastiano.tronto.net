@@ -22,7 +22,8 @@ copyfile() {
 	md)
 		t="$(markdowntitle "$file")"
 		sed "s/TITLE/$t/" < top.html > "$ind"
-		lowdown "$file" >> "$ind"
+		lowdown --html-no-skiphtml --html-no-escapehtml \
+			"$file" >> "$ind"
 		cat bottom.html >> "$ind"
 		;;
 	html)
