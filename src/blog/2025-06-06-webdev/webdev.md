@@ -567,7 +567,7 @@ in node, becomes:
 ```
 import MyLibrary from "./library.mjs"
 
-var myLibraryInstance = away MyLibrary();
+var myLibraryInstance = await MyLibrary();
 
 const result = myLibraryInstance(6, 7);
 console.log("The answer is " + result);
