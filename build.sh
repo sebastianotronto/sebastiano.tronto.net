@@ -65,7 +65,7 @@ makeblogindexandfeed() {
 
 		f="src/blog/$i/*.md"
 		d="$(echo "$i" | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')"
-		t="$(head -n 1 $f | sed 's/# //')"
+		t="$(markdowntitle $f)"
 		link="https://sebastiano.tronto.net/blog/$i"
 
 		thisyear="$(echo "$d" | sed 's/-.*//')"
