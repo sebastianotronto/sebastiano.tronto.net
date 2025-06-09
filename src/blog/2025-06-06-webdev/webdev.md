@@ -418,15 +418,15 @@ index.html:
 <!doctype html>
 <html lang="en-US">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Multiply two numbers</title>
 	<script src="./script.js" defer></script>
 </head>
 
 <body>
 	<p>
-	<input id="aInput" /> x <input id="bInput" />
+	<input id="aInput"> x <input id="bInput">
 	<button id="goButton">=</button>
 	<span id="resultText"></span>
 	</p>
@@ -467,7 +467,7 @@ button.addEventListener("click", () => {
 The final result will look something like this:
 
 <p style="text-align:center">
-<input id="aInput" /> x <input id="bInput" />
+<input id="aInput"> x <input id="bInput">
 <button id="goButton">=</button>
 <span id="resultText"></span>
 </p>
