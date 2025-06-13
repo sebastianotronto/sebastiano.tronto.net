@@ -325,8 +325,8 @@ Apart from the
 installation process and the dependency management, my first impression
 of Rust is quite positive.  But as I said, I am just getting started
 and my judgement is very superficial.  I do want to write some small
-project in Rust, and I think I'll start from re-writing a simple [math
-library for modular arithmetic](../2025-01-21-taming-cpp-templates)
+project in Rust, and I think I'll start from re-writing a simple
+[math library for modular arithmetic](../2025-01-21-taming-cpp-templates/#constraints-and-concepts)
 that I wrote in C++ some time ago.
 
 Stay tuned for more 🦀

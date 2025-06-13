@@ -269,7 +269,7 @@ A classic example is
 [`std::tuple`](https://en.cppreference.com/w/cpp/utility/tuple), which
 works similarly to `std::pair`, but accepts any number of items.
 
-## Contraints and concepts
+## Constraints and concepts
 
 To explain the last features I want to talk about, I am going to use a
 simlpe, albeit slightly unusual, example: let's implement a class
