@@ -52,7 +52,7 @@ random shit from the internet? (Answer: yes, it is!) Is it going to fuck
 up my environment by puking configuration lines into my .bashrc? (Answer:
 yes, it is!)
 
-But ok, what do I know. Maybe I am just leaving in the past, I should
+But ok, what do I know. Maybe I am just living in the past, I should
 embrace the future, because package managers and `make && make install`
 *are so 1999, man*. So I took a deep breath an run the command.
 Luckily the script kindly asked "do you want me to fuck up your
