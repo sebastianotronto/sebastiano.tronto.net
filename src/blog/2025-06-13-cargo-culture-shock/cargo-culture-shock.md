@@ -218,7 +218,7 @@ to an instance of an object".  I think it is great that Rust endorses
 this more thorough way of error handling from the start.
 
 On the less-nice side of things, apparently
-[integer overflow](https://doc.rust-lang.org/book/ch03-02-data-types.html?highlight=overflow#integer-overflow)
+[integer overflow](https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-overflow)
 is still an issue. Eh. At least when compiling in debug mode overflows
 are caught, which is nice. But in release mode the program is
 going to "panic", which I was not expecting. I mistakenly thought
