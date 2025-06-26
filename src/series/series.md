@@ -50,3 +50,13 @@ My adventures in learning C++ as a C programmer.
 * Episode 1: [motivation](../blog/2024-04-30-taming-cpp-motivation)
 * Episode 2: [RAII](../blog/2024-12-26-taming-cpp-raii)
 * Episode 3: [templates, constraints and concepts](../blog/2025-01-21-taming-cpp-templates)
+
+## Learning Rust
+
+I have recently started learning Rust, documenting the process in a
+small series of blog posts. These posts are all marked by the crab emoji
+'🦀', which is something of a meme in the Rust community, as far as
+I understand.
+
+* [Cargo culture shock](../blog/2025-06-13-cargo-culture-shock)
+* [Stunned by the borrow checker](../blog/2025-06-26-borrow-checker)
