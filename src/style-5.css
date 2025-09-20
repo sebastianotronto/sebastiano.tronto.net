@@ -23,7 +23,7 @@ code { background-color: #eeeeee; padding: 2px; }
 #blob { background: #ffffff; border: none; }
 
 /* Tables */
-table { width: 100%; }
+main table { width: 100%; table-layout: fixed; }
 td h1 { text-align: left; font-size: 1.5em; }
 #files td { font-family: monospace; font-size: 1.2em; min-width: 7em; }
 #log tr:hover td, #files tr:hover td { background-color: #eeeeee; }
