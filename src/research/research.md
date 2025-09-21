@@ -33,11 +33,11 @@ for a list of slides and notes of my talks.
 
 * Tronto, Sebastiano.
   *Division in modules and Kummer theory.*
-  [arXiv preprint](https://arxiv.org/abs/2111.14363).
+  [Journal de Thórie des Nombres de Bordeaux (2025) - open access](https://jtnb.centre-mersenne.org/articles/10.5802/jtnb.1326)
 
 * Lombardo, Davide; Tronto, Sebastiano.
   *Some uniform bounds for elliptic curves over Q.*
-  [Pacific Journal of Mathematics, (2022)](https://msp.org/pjm/2022/320-1/p06.xhtml).
+  [Pacific Journal of Mathematics (2022)](https://msp.org/pjm/2022/320-1/p06.xhtml).
 
 * Lombardo, Davide; Tronto, Sebastiano.
   *Effective Kummer theory for elliptic curves.*
