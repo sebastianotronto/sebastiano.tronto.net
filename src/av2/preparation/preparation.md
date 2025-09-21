@@ -67,24 +67,17 @@ we were able to find good alternatives nearby.
 
 Our final plan was the following:
 
-|:|:Start:|:Finish:|:Up (m):|:Down (m):|:Distance (km):|:Time (est.):|:GPX:|
-|[Day 1](./day1)|Kreutztal|Lungiarü|
-|[Day 2](./day2)|Lungiarü|Rifugio Pisciadù|
-|[Day 3](./day3)|Rifugio Pisciadù|Rifugio Fedaia|
-|[Day 4](./day4)|Rifugio Fedaia|Rifugio Flora Alpina|
-|[Day 5](./day5)|Rifugio Flora Alpina|Rifugio Mulaz|
-|[Day 6](./day6)|Rifugio Mulaz|Rifugio Pradidali|
-|[Day 7](./day7)|Rifugio Pradidali|Rifugio Passo Cereda|
-|[Day 8](./day8)|Rifugio Passo Cereda|Rifugio Boz|
-|[Day 9](./day9)|Rifugio Boz|Croce d'Aune|
-
-TODO download GPX files
-TODO complete table
- 
-TODO if adding time estimate column,
-     comment on the fact that the time estimates were off because
-     going down became much thougher from day 3
-     how much info is worth adding? add / remove columns
+||Start|Finish|Up|Down|Distance|
+|:-|:-:|:-:|:-:|:-:|:-:|:-:|
+|[Day 1](./day1)|Kreutztal|Lungiarü|1050m|-1620m|22.1km|
+|[Day 2](./day2)|Lungiarü|Rifugio Pisciadù|1820m|-690m|19.0km|
+|[Day 3](./day3)|Rifugio Pisciadù|Rifugio Fedaia|760m|-1310m|18.0km|
+|[Day 4](./day4)|Rifugio Fedaia|Rifugio Flora Alpina|1030m|-1290m|17.4km|
+|[Day 5](./day5)|Rifugio Flora Alpina|Rifugio Mulaz|1160m|-410m|17.6km|
+|[Day 6](./day6)|Rifugio Mulaz|Rifugio Pradidali|890m|-1160m|12.4km|
+|[Day 7](./day7)|Rifugio Pradidali|Rifugio Passo Cereda|1110m|-2000m|17.1km|
+|[Day 8](./day8)|Rifugio Passo Cereda|Rifugio Boz|1210m|-860m|12.8km|
+|[Day 9](./day9)|Rifugio Boz|Croce d'Aune|800m|-1500m|20.0km|
 
 For the first and last days, the plan was to have someone bring us there
 or pick us up, so we spent only 8 nights out.  We did not realize at the
@@ -175,4 +168,5 @@ TODO add picture of me with backpack?
 At 12kg water included, the backpack is quite heavy. I could have saved a
 couple of kilos, but in the end we used almost everything that we brought.
 
-|[← Alta Via 2](../)|[Day 1 →](../day1)| |:-|-:|
+|[← Alta Via 2](../)|[Day 1 →](../day1)|
+|:-|-:|
