@@ -100,7 +100,7 @@ Schlüterhütte - Rifugio Genova at 16:00 and we stop for a slice of
 
 At 6 hours and 30 minutes of hiking, this would have been a good
 first day.  But unfortunately we cannot stop here. At 16:30 we begin
-the long descent towards Lungiarü.
+the long descent towards Lungiarü (1398m).
 
 ![Me pointing down towards the fog](../img/20-1703-descent.jpg)
 <p align="center">

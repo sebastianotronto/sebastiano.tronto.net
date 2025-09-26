@@ -25,7 +25,7 @@ pictures.
 
 * [Preparation](./preparation)
 * [Day 1 - The Odles in the Rain](./day1)
-* [Day 2 - Trail 666](./day1)
+* [Day 2 - Trail 666](./day2)
 * [Day 3 - TODO](./day3)
 * [Day 4 - TODO](./day4)
 * [Day 5 - TODO](./day5)
