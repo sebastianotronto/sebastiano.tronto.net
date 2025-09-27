@@ -45,7 +45,7 @@ well kept, which made it easier than we expected.
 ![The trail to forcella Puez](../img/21-1103-forcella-puez.jpg)
 <p align="center">
 *The trail up to forcella Puez is reinforced with some trunks that
-turn it almost into a staircase*
+turn it almost into a staircase.*
 </p>
 
 Unfortunately, as we walked up the weather got much worse, and we were
@@ -104,7 +104,7 @@ rain stops.
 ![A view of the Odles from the Gardena Pass side](../img/21-1559-gardena.jpg)
 <p align="center">
 *Our last view of Gardena Pass and the Odles group, on the way up
-to the Pisciadù hut*
+to the Pisciadù hut.*
 <p>
 
 But then we reach the infamous trail 666. This is not a nickname, it
@@ -136,7 +136,7 @@ more than 8 hours of hiking (plus the 9 hours of the previous day). And
 a safety rope is certainly of no use if kept in the backpack.
 
 ![Trail 666](../img/21-1654-trail666.jpg)
-<p align="center">*Trail 666 is really steep*</p>
+<p align="center">*Trail 666 is really steep.*</p>
 
 Overall, the steel rope and the handles are of great help, and although
 a couple of times I was unsure where to put my feet and risked slipping,
@@ -152,7 +152,10 @@ But at 17:30, exhausted but satisfied, we finally reach the top of
 this climb. The Pisciadù hut (2587m) is just around the corner.
 
 ![My dad at the end of trail 666](../img/21-1734-pisciadu.jpg)
-<p align="center">*My dad at the end of trail 666*</p>
+<p align="center">*My dad at the end of trail 666.*</p>
+
+We, our clothes and our boots are still wet from all the rain we caught
+throught the day. Let's hope everything dries up during the night.
 
 |[← Day 1](../day1)|[Alta Via 2](../)|[Day 3 →](../day3)|
 |:-|:-:|-:|

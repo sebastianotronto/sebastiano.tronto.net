@@ -37,7 +37,7 @@ Just before we reach Kreutztal, our starting point, it starts raining.
 ## The hike begins
 
 ![My dad and I, ready to start hiking](../img/20-0924-kreutztal.jpg)
-<p align="center">*My dad and I, ready to start hiking*</p>
+<p align="center">*My dad and I, ready to start hiking.*</p>
 
 By the time we reach Kreutztal (2000m on sea level), park the car and
 put on our rain clothes, it is already 9:30. And this is going to be
@@ -52,7 +52,7 @@ At least the view from up there is... something.
 ![The Odles, surrounded by clouds](../img/20-1033-odles-clouds.jpg)
 <p align="center">*The
 [Odles](https://www.val-gardena.com/en/dolomites/geisler-mountain-group/),
-surrounded by clouds*</p>
+surrounded by clouds.*</p>
 
 The clouds came and went, but this is pretty much the clearest the
 skies have been the whole morning. Besides the cold and the rain being
@@ -69,7 +69,7 @@ in a [larch](https://en.wikipedia.org/wiki/Larch) forest.
 
 ![Trail in the forest](../img/20-1150-forest.jpg)
 <p align="center">*A trail in a forest between Plosehütte and
-Schlüterhütte - Rifugio Genova*</p>
+Schlüterhütte - Rifugio Genova.*</p>
 
 The descent is pleasant. We even manage to catch some break from the
 heavy rain, and take a few more pictures of the Odles.
