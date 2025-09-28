@@ -1,11 +1,11 @@
-# When I say "alphabetic order", I mean "alphabetic order"
+# When I say "alphabetical order", I mean "alphabetical order"
 
 Last month I have been on a multi-day hike with my dad. Each of us took
 many pictures, and when we came back we put them all in a shared folder.
 We both have Android phones, and the naming scheme used for our pictures
 was the same: `IMG_YYYYMMDD_HHmmss` followed maybe by some other numbers
 and then a `.jpg`. Here `YYYY` stands for the year, `MM` for month and
-so on, so that sorting the pictures in alphabetic order is the same as
+so on, so that sorting the pictures in alphabetical order is the same as
 sorting them by date.
 
 Or so I thought. Strangely, when I looked at the files from my dad's
@@ -32,7 +32,7 @@ Indeed, KDE's Dolphin file manager does the same thing:
 ![Screenshot from Dolphin](dolphin.png)
 
 I'll spare you the screenshots, but Gnome and both the file managers
-that I have on my phone also get the alphabetic order wrong.
+that I have on my phone also get the alphabetical order wrong.
 
 At this point I thought that maybe one of the two phones is using some
 weird alternative unicode character instead of the underscore `_`. Really,
@@ -60,17 +60,17 @@ other hand, this makes it harder to debug what the fuck is going on with
 all the other file managers.
 
 It took me more than a month to figure this one out. Tell me, which
-file do you think comes first in alphabetic order, `file-9.txt` or
+file do you think comes first in alphabetical order, `file-9.txt` or
 `file-10.txt`?
 
 Of course, the user who named those files probably wants `file-9.txt` to
 come before `file-10.txt`. But `1` is smaller than `9`, so `file-10.txt`
-should be first in alphabetic order. Everyone understands that, and
+should be first in alphabetical order. Everyone understands that, and
 soon people learn to put enough leading zeros if they want their files
 to stay sorted the way they like.
 
 Well, apparently all these operating systems have decided that no,
-users are too dumb and they cannot possibly understand what alphabetic
+users are too dumb and they cannot possibly understand what alphabetical
 order means.  So when you ask them to sort your files alphabetically,
 they don't. Instead, they decide that if some piece of the file name is
 a number, the real numerical value must be used.
@@ -78,7 +78,7 @@ a number, the real numerical value must be used.
 I don't know when this became the norm, to be honest I have not used a
 normal graphical file manager in a long time.
 
-*I know you asked for the files to be sorted in alphabetic order,
+*I know you asked for the files to be sorted in alphabetical order,
 but you don't want `file-10.txt` to come before `file-9.txt`, do
 you? No, I know you don't. I am not even going to ask you, your
 mushy human brain is too small to comprehend the intricacies of
@@ -89,7 +89,7 @@ name right after the seconds, while mine added an extra underscore to
 separate them from the seconds.  Which in my mind it should not have
 mattered, because alphabetically they should still have been sorted
 correctly to the second. But with this "modern" interpretation of the
-alphabetic order, the files without the extra separator in the name had
+alphabetical order, the files without the extra separator in the name had
 a much higher number, so they come last.
 
 Now that I know what the issue is, I can solve it by renaming the files
