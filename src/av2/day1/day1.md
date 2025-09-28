@@ -1,13 +1,18 @@
-# Day 1 - The Odles in the Rain
+# Day 1 - The Odles in the rain
 
 |[← Preparation](../preparation)|[Alta Via 2](../)|[Day 2 →](../day2)|
 |:-|:-:|-:|
 
-![Map of the route, day 1](../img/20-0000-map.png)
-<p align="center">
+
+## Route of the day
+
+<details>
+<summary><strong>Click to see map</strong></summary>
+<img src="../img/20-0000-map.png">
+</details>
+
 *Download the [gpx file](../gpx/av2-day1.gpx) or see the route on
-[outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/eisacktal/-2025-alta-via-2-day-1/325540727/?share=%7E3zdmcd3i%244ossqbct)*
-</p>
+[outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/eisacktal/-2025-alta-via-2-day-1/325540727/?share=%7E3zdmcd3i%244ossqbct).*
 
 ## The road to Kreutztal
 

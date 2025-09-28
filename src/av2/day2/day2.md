@@ -3,11 +3,15 @@
 |[← Day 1](../day1)|[Alta Via 2](../)|[Day 3 →](../day3)|
 |:-|:-:|-:|
 
-![Map of the route, day 2](../img/21-0000-map.png)
-<p align="center">
+## Route of the day
+
+<details>
+<summary><strong>Click to see map</strong></summary>
+<img src="../img/21-0000-map.png">
+</details>
+
 *Download the [gpx file](../gpx/av2-day2.gpx) or see the route on
 [outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/alta-badia/-2025-alta-via-2-day-2/325541331/?share=%7E3zdmlslt%244ossqbcn)*
-</p>
 
 ## The beginning of a long day
 

@@ -24,10 +24,10 @@ in these pages are scaled down. Follow the link above for full-quality
 pictures.
 
 * [Preparation](./preparation)
-* [Day 1 - The Odles in the Rain](./day1)
+* [Day 1 - The Odles in the rain](./day1)
 * [Day 2 - Trail 666](./day2)
 * [Day 3 - A knee-breaking descent](./day3)
-* [Day 4 - TODO](./day4)
+* [Day 4 - The quiet forest and the relaxing pastures](./day4)
 * [Day 5 - TODO](./day5)
 * [Day 6 - TODO](./day6)
 * [Day 7 - TODO](./day7)

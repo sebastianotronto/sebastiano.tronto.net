@@ -3,11 +3,15 @@
 |[← Day 2](../day2)|[Alta Via 2](../)|[Day 4 →](../day4)|
 |:-|:-:|-:|
 
-![Map of the route, day 3](../img/22-0000-map.png)
-<p align="center">
+## Route of the day
+
+<details>
+<summary><strong>Click to see map</strong></summary>
+<img src="../img/22-0000-map.png">
+</details>
+
 *Download the [gpx file](../gpx/av2-day3.gpx) or see the route on
 [outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/alta-badia/-2025-alta-via-2-day-3/325541657/?share=%7E3zdmpbrn%244ossqbcq)*
-</p>
 
 Our clothes are still wet by the time we wake up. The summer nights
 in the Alps are just too humid. But at least we can finally see some
