@@ -17,8 +17,8 @@ than as fast as possible. Both the old and the new versions are written
 in C, but not all the things I discuss in this post are language-specific.
 
 You can find the new version of this project, the "Big Rewrite",
-in [this repository](https://git.tronto.net/h48) - or
-[on github](https://github.com/sebastianotronto/h48), if you prefer.
+in [this repository](https://git.tronto.net/nissy-core) - or
+[on github](https://github.com/sebastianotronto/nissy-core), if you prefer.
 I decided to rename it "H48" back when I planned to have separate projects
 for the different features of the old version, but I may change it back
 to Nissy at some point.

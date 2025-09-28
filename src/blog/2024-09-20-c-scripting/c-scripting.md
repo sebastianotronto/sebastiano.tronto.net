@@ -75,6 +75,11 @@ systems! The command is also included in FreeBSD (since 4.3) and
 MacOS (since 13), and there are probably workarounds to make the
 same concept work without it.
 
+*Edit 2025-06-09: as a reader points out, `realpath` is included
+in the most recent POSIX standard,
+[POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/realpath.html),
+so it should be more widely available in the future.*
+
 ## Credits
 
 I did not come up with this trick - I read about it in at least

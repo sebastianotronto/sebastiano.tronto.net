@@ -98,3 +98,38 @@ And finally you can enjoy your new app:
 ```
 ./run
 ```
+
+## Update 2025-04-07 - now with AI!
+
+When I shared this post on LinkedIn, I asked if anyone could prompt an
+LLM to build a QT app without QT Creator or CMake.  A colleague did,
+and the catbot's (pun intended) response can be found
+[here](https://chat.mistral.ai/chat/fa3e3a76-0e8c-4135-94a1-ae7735174e93).
+
+This solution is different from the one I found. The bot opted for using
+[qmake](https://doc.qt.io/qt-6/qmake-manual.html), another tool bundled
+with QT, like moc and uic. This tool reads a `.pro` file that describes
+the project's structure and build configuration, and it generates a
+`Makefile`.  This method is a bit more black-boxy than the one I found,
+but it does not require more external dependencies; I think I might use
+this other approach in the future.
+
+The chat bot's response is great, but it is "only" 99%
+accurate. Unfortunately this means that if one blindly follows these
+instructions, they won't get a working QT application. The problem is
+with the commands:
+
+```
+qmake -project
+qmake
+```
+
+The first one is completely useless, and actually prevents the project
+from being built by generating a second project file. If one simply
+ignores the `qmake -project` line, the instructions become correct.
+
+This story is quite insightful: the chat bot gave me instructions that are
+almost correct (so technically they are *incorrect*). With my experience
+(a whole 5 hours of CV-worthy QT development) I was able to fix these
+instructions easily in a couple of minutes, but someone without the same
+experience would have probably struggled for much longer.

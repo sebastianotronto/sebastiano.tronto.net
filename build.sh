@@ -22,7 +22,8 @@ copyfile() {
 	md)
 		t="$(markdowntitle "$file")"
 		sed "s/TITLE/$t/" < top.html > "$ind"
-		lowdown "$file" >> "$ind"
+		lowdown --html-no-skiphtml --html-no-escapehtml \
+			"$file" >> "$ind"
 		cat bottom.html >> "$ind"
 		;;
 	html)
@@ -64,7 +65,7 @@ makeblogindexandfeed() {
 
 		f="src/blog/$i/*.md"
 		d="$(echo "$i" | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')"
-		t="$(head -n 1 $f | sed 's/# //')"
+		t="$(markdowntitle $f)"
 		link="https://sebastiano.tronto.net/blog/$i"
 
 		thisyear="$(echo "$d" | sed 's/-.*//')"

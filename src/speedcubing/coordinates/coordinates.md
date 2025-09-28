@@ -276,5 +276,5 @@ See [fst.c](https://git.tronto.net/nissy-nx/file/src/fst.c.html#l113)
 for an implementation.
 
 For these reasons, I am not using the coordinate approach described here
-for my new work-in-progress solver (temporarily named
-[h48](https://git.tronto.net/h48)).
+for my new work-in-progress solver (which can be found
+[here](https://git.tronto.net/nissy-core)).
