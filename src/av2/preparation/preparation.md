@@ -79,13 +79,13 @@ Our final plan was the following:
 |[Day 8](./day8)|Rifugio Passo Cereda|Rifugio Boz|1210m|-860m|12.8km|
 |[Day 9](./day9)|Rifugio Boz|Croce d'Aune|800m|-1500m|20.0km|
 
-For the first and last days, the plan was to have someone bring us there
-or pick us up, so we spent only 8 nights out.  We did not realize at the
-time, but this plan gave us a nice balance between high mountain huts
-(for the real mountaineering experience) and proper hotels (for better
-comfort); after all, every one of these hotels was also called *rifugio*
-(or *hütte* in German, or *utja* in [Ladin](TODO link) TODO check
-speling of utja).
+For the first and last days, the plan was to have someone bring
+us there or pick us up, so we spent only 8 nights out.  We did not
+realize at the time, but this plan gave us a nice balance between
+high mountain huts (for the real mountaineering experience) and
+proper hotels (for better comfort); after all, every one of these
+hotels was also called *rifugio* (or *hütte* in German, or *utia* in
+[Ladin](https://en.wikipedia.org/wiki/Ladin_language)).
 
 ## Packing up
 
@@ -99,13 +99,17 @@ needed something to eat throughout the day, too.
 
 In the end, this is what we packed:
 
-TODO check the technical terms
-
 ### Hiking gear
 
-* Hiking boots
-* TODO bastoni da montagna
-* TODO corda e moschettone
+* Hiking boots.
+* [Hiking sticks](https://en.wikipedia.org/wiki/Trekking_pole), similar
+  to [nordic walking](https://en.wikipedia.org/wiki/Nordic_walking) poles,
+  but they are usually kept shorter. They help pushing when going up
+  and keep you stable when you walk down.
+* A simple harness consisting of a strong rope with a
+  [carabiner](https://en.wikipedia.org/wiki/Carabiner), to be used
+  for the occasional *equipped trails* (think of a
+  [via ferrata](https://en.wikipedia.org/wiki/Via_ferrata), but easier).
 * Two water bottles (0.5L + 1L). The smaller one was a thermos-like bottle
   to keep the contents warm, but I ended up never filling it with hot
   water or tea. It would have been better to just bring two lightweight
@@ -114,19 +118,22 @@ TODO check the technical terms
 
 ### Clothes
 
-TODO some intro about most of my clothing was some synthetic fiber
-     that dries up quickly (although in practice it was extremely humid)
+Most of the clothes we brought with us were made of some synthetic
+fabric that was extremely lightweight and quick to dry up.
 
-* TODO 4 magliette tecniche, ne bastavano 2-3
-* TODO pantaloni da montagna
-* TODO felpa super leggera ma che teneva caldo
-* TODO mutande tecniche 4 paia, anche qui 2-3 bastavano
-* TODO un cambio completo (mutande, calzini, maglietta, maglia a maniche
-  lunghe, pantaloncini) non tecnico, per stare in rifugio.
-* TODO una felpa pesante che non ho mai usato, quella leggera è bastata
+* 4 t-shirts (2 or 3 would have been enough)
+* 4 pairs of underwear (again, 2 or 3 would have been enough)
+* Zip-off hiking trousers that could be converted to shorts (but
+  I ended up almost always using the in trouser form)
+* A full set of "normal" clothes (underwear, socks, t-shirt, shorts) that
+  I used only in the huts
+* A lightweight hoodie that somehow kept me warm amazingly well. I used
+  it for any temperature betwee 2°C to 20°C, as it did not feel
+  uncomfortable when it was too hot for a regular hoodie.
+* A regular cotton hoodie, that I ended up never using.
 * Slippers.
 * A baseball cap.
-* A rain poncho. I did not like using it, because it made me sweat a lot
+* A rain poncho. I did not like wearing it, because it made me sweat a lot
   and I ended up getting wet anyway. But in some moments it was necessary.
 * Rain trousers. I ended up never using these, my regular hiking trousers
   were somewhat waterproof, and the rain poncho covered all the rest.
@@ -136,14 +143,15 @@ TODO some intro about most of my clothing was some synthetic fiber
 ### Food and medicine
 
 * The only food we pack were protein bars. We brought 3 per person per
-  day, but this was way too much. I ended up eating one per day (TODO was
-  it around 100g?) on average, because we were often able to eat something
-  (like a slice of [*Strüdel*](TODO link)) in the huts we walked by during
-  the day.
-* [Energy tablets](TODO link or something). Some quick source of energy boost,
+  day, but this was way too much. I ended up eating one ~100g bar per day
+  on average, because we were often able to eat something
+  (like a slice of [*Strüdel*](https://en.wikipedia.org/wiki/Apple_strudel))
+  in the huts we walked by during the day.
+* Energy tablets. Some quick source of energy boost,
   they were mostly vitamins with some caffeine.
-* Plasters, both regular ones and [blister platers](TODO link?)
-* Painkillers and other basic medicine: (TODO list: naproxene, paracetamol)
+* Plasters, both regular ones and
+  [blister platers](https://en.wikipedia.org/wiki/Compeed).
+* Painkillers and other basic medicine.
 
 ### Other stuff
 
