@@ -28,7 +28,7 @@ pictures.
 * [Day 2 - Trail 666](./day2)
 * [Day 3 - A knee-breaking descent](./day3)
 * [Day 4 - The forest and the pastures](./day4)
-* [Day 5 - TODO](./day5)
+* [Day 5 - Entering the Pala Group](./day5)
 * [Day 6 - TODO](./day6)
 * [Day 7 - TODO](./day7)
 * [Day 8 - TODO](./day8)
