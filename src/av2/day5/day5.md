@@ -1,4 +1,4 @@
-# Day 5 - Entering the Pala Group
+# Day 5 - Entering the Pala group
 
 |[← Day 4](../day4)|[Alta Via 2](../)|[Day 6 →](../day6)|
 |:-|:-:|-:|
@@ -63,7 +63,7 @@ The trail continues almost flat in this unusual scenery until we
 descend to [Passo Valles](https://it.wikipedia.org/wiki/Passo_Valles) (2032m)
 at around 11:50. We are now entering the fascinating section of
 the *Pale di San Martino*, also known in Englis as the
-[Pala Group]((https://en.wikipedia.org/wiki/Pala_group), of.which
+[Pala group]((https://en.wikipedia.org/wiki/Pala_group), of.which
 the Mulaz and the Focobon group are the northernmost peaks.
 
 But first we need a break. We stop at a bar on the pass for a coffee
