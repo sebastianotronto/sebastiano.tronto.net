@@ -119,7 +119,18 @@ In the end, this is what we packed:
   to keep the contents warm, but I ended up never filling it with hot
   water or tea. It would have been better to just bring two lightweight
   plastic bottles.
-* Maps. TODO chiedi a papà i numeri delle cartine tabacco.
+* Maps: [Tabacco](https://www.tabaccoeditrice.it/en/home-english/) maps number
+  [30 (Brixen-Villnössertal)](https://www.tabaccoeditrice.it/en/cartografie_en/125000-coast/030_en/),
+  [6 (Val di Fassa e Dolimiti Fassane)](https://www.tabaccoeditrice.it/en/cartografie_en/125000-coast/06_en/),
+  [22 (Pale di San Martino)](https://www.tabaccoeditrice.it/en/cartografie_en/125000-coast/022_en/),
+  plus an older map of the same brand for the Feltre area, that followed
+  a different numbering scheme. We also had offline maps from
+  [OpenStreetMaps](https://www.openstreetmap.org/#map=12/46.5905/11.7540) on
+  our phones - we used
+  [Organic Maps](https://organicmaps.app/) and [Mapy](https://mapy.com) as
+  clients - but a paper backup is always conveniente, especially because of
+  the size. The Tabacco maps were also more accurate in some specific parts,
+  because they also had some codes for describing each trail's type or difficulty.
 
 ### Clothes
 
@@ -162,18 +173,12 @@ fabric that was extremely lightweight and quick to dry up.
 
 TODO maybe move this stuff in the other sections above
 
-* Sleeping bag. A very light one (TODO cerca nome in inglese
-  del sacco lenzuolo) is enough, since every hut provided heavy
-  blankets, but not (TODO nome delle lenzuola da sotto?)
-  TODO add that one must use it, it's a rule in most huts.
-* One towel, [the most important piece of equipment](TODO link hitchhiker's guide or smth).
+* Sleeping bag. A very light one is enough, since every hut provided heavy
+  blankets, but not linens, and guests have to bring their own.
+* One towel, [the most thing to bring](https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy).
 * Soap, toothbrush and toothpaste.
 * Wet wipes.
-* Wallet, phone, phone charger and a power bank. The only app I used was
-  [Organic Maps](https://play.google.com/store/apps/details?id=app.organicmaps),
-  an offline maps app based on
-  [OpenStreeMap](https://www.openstreetmap.org/#map=12/46.5905/11.7540) data.
-  Also available on [F-Droid](https://f-droid.org/packages/app.organicmaps/).
+* Wallet, phone, phone charger and a power bank.
 * A small planner and a pen, to keep a journal of the trip.
 
 At 12kg water included, the backpack is quite heavy. I could have saved a
