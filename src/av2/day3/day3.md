@@ -13,6 +13,8 @@
 *Download the [gpx file](../gpx/av2-day3.gpx) or see the route on
 [outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/alta-badia/-2025-alta-via-2-day-3/325541657/?share=%7E3zdmpbrn%244ossqbcq)*
 
+## The lunar path to Rifugio Boè
+
 Our clothes are still wet by the time we wake up. The summer nights
 in the Alps are just too humid. But at least we can finally see some
 sun. The weather is going to be much better for the next few days.
@@ -85,6 +87,12 @@ because of a cable car that makes it accessible even to families with
 kids. I am not sure I like this kind of over-turism in in places that
 would otherwise be hard to reach.
 
+## A painful descent
+
+As we reach the foržela, the view opens up on a more diverse landscape
+of grass, rock and forests. After a very short break, we start walking
+down to the Pordoi Pass.
+
 The descent is on a long and steep [scree](https://en.wikipedia.org/wiki/Scree).
 I have never liked walking down this kind of trail, but now that my knee
 is screaming for mercy I am really hating it. I would have rather walked it
@@ -94,8 +102,9 @@ up twice than down once.
 <p align="center">*The steep descent to the Pordoi Pass.*</p>
 
 We reach the [Pordoi Pass](https://en.wikipedia.org/wiki/Pordoi_Pass)
-at 13:30.  I need some rest before continuing, so we decide to stop
-until 14:10. Luckily the weather is nice - or not terrible, at least -
+at 13:30. I need a long break before continuining, so we decide to
+lay down next to a tiny church just after the pass.
+Luckily the weather is nice - or not terrible, at least -
 and we can enjoy a nice view of the surroundings.
 
 ![View from the Pordoi Pass](../img/22-1358-pordoi-pass.jpg)
@@ -105,6 +114,10 @@ and we can enjoy a nice view of the surroundings.
 <p align="center">
 *The view in the direction of [Cianacei](https://en.wikipedia.org/wiki/Canazei).*
 </p>
+
+## Her majesty, the Marmolada
+
+At 14:10, after about 40 minutes of relax, we are ready to get up.
 
 The walk up an easy trail among ski paths.  Here too there are plenty of
 turists, and I can't blame them for choosing to walk in such a beautiful

@@ -1,4 +1,4 @@
-# Day 4 - The quiet forest and the relaxing pastures
+# Day 4 - The forest and the pastures
 
 |[← Day 3](../day3)|[Alta Via 2](../)|[Day 5 →](../day5)|
 |:-|:-:|-:|

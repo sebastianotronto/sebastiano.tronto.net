@@ -28,6 +28,11 @@ is something I enjoyed regardless of my goal of training for the hike;
 I even decided to take part in a local half-marathon (21.1km) run.
 
 ![Me, ready for a half marathon](../img/0-leiden-half-marathon.jpg)
+<p align="center">
+*At the starting gate of the
+[Leiden half marathon](https://marathon.nl/). Two hours and six
+minutes later, I am not going to be smiling like that.*
+</p>
 
 The gym part was less entartaining for me, I never liked exercising
 indoors.  But I managed to train somewhat consistently once or twice a
@@ -171,10 +176,13 @@ TODO maybe move this stuff in the other sections above
   Also available on [F-Droid](https://f-droid.org/packages/app.organicmaps/).
 * A small planner and a pen, to keep a journal of the trip.
 
-TODO add picture of me with backpack?
-
 At 12kg water included, the backpack is quite heavy. I could have saved a
 couple of kilos, but in the end we used almost everything that we brought.
+
+![Me with my backpack on, at home](../img/19-0000-backpack.jpg)
+<p align="center">
+*Ready to go!*
+</p>
 
 |[← Alta Via 2](../)|[Day 1 →](../day1)|
 |:-|-:|
