@@ -3,11 +3,15 @@
 |[← Day 5](../day5)|[Alta Via 2](../)|[Day 7 →](../day7)|
 |:-|:-:|-:|
 
-![Map of the route, day 6](../img/25-0000-map.png)
-<p align="center">
+## Route of the day
+
+<details>
+<summary><strong>Click to see map</strong></summary>
+<img src="../img/25-0000-map.png">
+</details>
+
 *Download the [gpx file](../gpx/av2-day6.gpx) or see the route on
 [outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/province-of-belluno/-2025-alta-via-2-day-6/325542632/?share=%7E3zdmb4fp%244ossqbdc)*
-</p>
 
 ## The starry night
 
@@ -134,12 +138,61 @@ river at the bottom center of this picture. On the left, you
 can see the tiny line that is the Farangle trail.*
 </p>
 
-At 12:30 we reach the bottom of *Valgrande*. We are at
-*Pian dei Cantoni* (2310m).
+At 12:30 we reach the bottom of *Valgrande* (*Pian dei Cantoni*, 2310m).
 
 ## To Rifugio Rosetta and beyond
 
-TODO
+The way up to Rifugio Rosetta is steep, but short. The previous
+part was not phisically demanding, but it was dangerous and
+technically fairly challenging. I am relieved that now I can just
+let my leg bring me up, and I reach the hut at 13:05.
+
+![Rifugio Rosetta](../img/25-1321-rosetta.jpg)
+<p align="center">*Rifugio Rosetta*.</p>
+
+[Rifugio Rosetta](https://www.rifugiorosetta.it) (2581m) is easily
+reachable with a cable car, and because of this it is very crowded,
+similarly to the area around Piz Boè that we passed through on
+[day 3](../day3).
+
+This is a good time for a break, so we decide to sit down, drink
+a glass of [skiwasser](https://en.wikipedia.org/wiki/Skiwasser), and
+eat another slice of strüdel. Yes, we ate a lot of those. The one
+they serve in this hut is particularly good, with plenty of fresh
+fruit and pine nuts.
+
+We get up and leave the hut at 14:05.  The weather gets cold and foggy,
+but luckily for us it won't last long.  Our plan is to walk down until
+*Col de le Fede* (2200m) and then up again to *Pass dei Ball* (2433m).
+
+The way down is slow and tedious, and my knee starts hurting again.
+
+![Down from Rifugio Rosetta](../img/25-1519-down-from-rosetta.jpg)
+<p align="center">*Walking down from Rifugio Rosetta*.</p>
+
+The way up to the pass is steep, and there is a long section equipped
+with a steel rope. But the equipped part is actually very easy compared
+to other similar trails that we have walked this morning and in the
+previous days.
+
+![My dad walking on the equipped trail](../img/25-1606-rope.jpg)
+<p align="center">*My dad walking on this equipped section.*</p>
+
+After reaching Pass dei Ball, we walk down slowly to
+[Rifugio Pradidali](https://www.rifugiopradidali.com/eng/Home.html)
+(2278m), which we reach at 17:05.
+
+Later we would discover that there is an alternative route to
+go from Rosetta to Pradidali, which starts by walking up to the
+East and skips both the slow and tedious descent and the
+more steep section before Pass dei Ball. This alternative path was
+probably slightly easier, but it would not have saved us that much
+time and effort.
+
+The Pradidali is a nice hut, but there is no phone signal nor WiFi.
+The showers are still expensive, and when it is my turn the water boiler
+has run out of gas, and I can either wait for it to be replaced or do a
+freezing cold shower. I don't want to wait, so arctic shower here I come!
 
 |[← Day 5](../day5)|[Alta Via 2](../)|[Day 7 →](../day7)|
 |:-|:-:|-:|
