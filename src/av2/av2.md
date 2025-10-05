@@ -30,7 +30,7 @@ pictures.
 * [Day 4 - The forest and the pastures](./day4)
 * [Day 5 - Entering the Pala group](./day5)
 * [Day 6 - The Farangole trail](./day6)
-* [Day 7 - TODO](./day7)
+* [Day 7 - The longest day](./day7)
 * [Day 8 - TODO](./day8)
 * [Day 9 - TODO](./day9)
 * [After the hike](./after)
