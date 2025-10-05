@@ -1,4 +1,4 @@
-# Day 9 - TODO
+# Day 9 - Cutting short
 
 |[← Day 8](../day8)|[Alta Via 2](../)|[After the hike →](../after)|
 |:-|:-:|-:|

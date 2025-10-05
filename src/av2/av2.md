@@ -31,6 +31,6 @@ pictures.
 * [Day 5 - Entering the Pala group](./day5)
 * [Day 6 - The Farangole trail](./day6)
 * [Day 7 - The longest day](./day7)
-* [Day 8 - TODO](./day8)
-* [Day 9 - TODO](./day9)
+* [Day 8 - The Troi dei Caserin](./day8)
+* [Day 9 - Cutting it short](./day9)
 * [After the hike](./after)

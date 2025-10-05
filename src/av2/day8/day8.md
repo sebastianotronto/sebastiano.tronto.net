@@ -1,4 +1,4 @@
-# Day 8 - TODO
+# Day 8 - The Troi dei Caserin
 
 |[← Day 7](../day7)|[Alta Via 2](../)|[Day 9 →](../day9)|
 |:-|:-:|-:|
