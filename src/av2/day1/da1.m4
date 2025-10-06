@@ -1,8 +1,8 @@
+m4_navtable(← Preparation,../preparation,Alta Via 2,../,Day 2 →,../day2)
+
 # Day 1 - The Odles in the rain
 
-|[← Preparation](../preparation)|[Alta Via 2](../)|[Day 2 →](../day2)|
-|:-|:-:|-:|
-
+m4_caption({{{{{August 20, 2025}}}}})
 
 ## Route of the day
 
@@ -42,7 +42,8 @@ Just before we reach Kreutztal, our starting point, it starts raining.
 ## The hike begins
 
 ![My dad and I, ready to start hiking](../img/20-0924-kreutztal.jpg)
-<p align="center">*My dad and I, ready to start hiking.*</p>
+
+m4_caption({{{{{My dad and I, ready to start hiking.}}}}})
 
 By the time we reach Kreutztal (2000m on sea level), park the car and
 put on our rain clothes, it is already 9:30. And this is going to be
@@ -55,9 +56,10 @@ get close enough to take a picture of our first checkpoint.
 At least the view from up there is... something.
 
 ![The Odles, surrounded by clouds](../img/20-1033-odles-clouds.jpg)
-<p align="center">*The
-[Odles](https://www.val-gardena.com/en/dolomites/geisler-mountain-group/),
-surrounded by clouds.*</p>
+
+m4_caption({{{{{The
+<a href="https://www.val-gardena.com/en/dolomites/geisler-mountain-group">Odles</a>
+surrounded by clouds.}}}}})
 
 The clouds came and went, but this is pretty much the clearest the
 skies have been the whole morning. Besides the cold and the rain being
@@ -73,8 +75,9 @@ Luckily it did not take us long to find the right way, and we kept descending
 in a [larch](https://en.wikipedia.org/wiki/Larch) forest.
 
 ![Trail in the forest](../img/20-1150-forest.jpg)
-<p align="center">*A trail in a forest between Plosehütte and
-Schlüterhütte - Rifugio Genova.*</p>
+
+m4_caption({{{{{A trail in a forest between Plosehütte and
+Schlüterhütte - Rifugio Genova.}}}}})
 
 The descent is pleasant. We even manage to catch some break from the
 heavy rain, and take a few more pictures of the Odles.
@@ -93,9 +96,9 @@ at that point, which left us wondering if we were doing the right thing.
 We are then blocked by a more difficult trail feature: cows.
 
 ![Cows blocking the road](../img/20-1324-cows.jpg)
-<p align="center">
-*Cows are blocking the road. Yes, that little gap is the only way forward.*
-</p>
+
+m4_caption({{{{{Cows are blocking the road.
+Yes, that little gap is the only way forward.}}}}})
 
 After overcoming this zoological obstacle, we reached the
 Schlüterhütte - Rifugio Genova at 16:00 and we stop for a slice of
@@ -108,9 +111,9 @@ first day.  But unfortunately we cannot stop here. At 16:30 we begin
 the long descent towards Lungiarü (1398m).
 
 ![Me pointing down towards the fog](../img/20-1703-descent.jpg)
-<p align="center">
-*Down there, that's where we have to go. Do you see it? Me neither.*
-</p>
+
+m4_caption({{{{{
+Down there, that's where we have to go. Do you see it? Me neither.}}}}})
 
 We walk for two hours in the rain and the fog before reaching the
 village. Two hours may not sound like much, but it felt like an
@@ -121,5 +124,4 @@ The village of Lungiarü, in
 we have no energy for sightseeing. All we can do before falling asleep
 is a shower, dinner, and trying to dry our clothes for the next day.
 
-|[← Preparation](../preparation)|[Alta Via 2](../)|[Day 2 →](../day2)|
-|:-|:-:|-:|
+m4_navtable(← Preparation,../preparation,Alta Via 2,../,Day 2 →,../day2)

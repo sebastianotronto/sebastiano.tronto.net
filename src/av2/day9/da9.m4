@@ -1,7 +1,8 @@
+m4_navtable(← Day 8,../day8,Alta Via 2,../,After the hike →,../after)
+
 # Day 9 - Cutting short
 
-|[← Day 8](../day8)|[Alta Via 2](../)|[After the hike →](../after)|
-|:-|:-:|-:|
+m4_caption({{{{{August 28, 2025}}}}})
 
 ## Route of the day
 
@@ -13,5 +14,4 @@
 *Download the [gpx file](../gpx/av2-day9.gpx) or see the route on
 [outdooractive.com](https://www.outdooractive.com/en/route/hiking-trail/province-of-belluno/-2025-alta-via-2-day-9/325543151/?share=%7E3zdmfdkz%244ossqbdb)*
 
-|[← Day 8](../day8)|[Alta Via 2](../)|[After the hike →](../after)|
-|:-|:-:|-:|
+m4_navtable(← Day 8,../day8,Alta Via 2,../,After the hike →,../after)

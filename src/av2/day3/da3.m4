@@ -1,7 +1,8 @@
+m4_navtable(← Day 2,../day2,Alta Via 2,../,Day 4 →,../day4)
+
 # Day 3 - A knee-breaking descent
 
-|[← Day 2](../day2)|[Alta Via 2](../)|[Day 4 →](../day4)|
-|:-|:-:|-:|
+m4_caption({{{{{August 22, 2025}}}}})
 
 ## Route of the day
 
@@ -20,7 +21,8 @@ in the Alps are just too humid. But at least we can finally see some
 sun. The weather is going to be much better for the next few days.
 
 ![View from the Pisciadù hut](../img/22-0702-pisciadu.jpg)
-<p align=center>*A beatiful view from the Pisciadù hut at dawn.*</p>
+
+m4_caption({{{{{A beatiful view from the Pisciadù hut at dawn.}}}}})
 
 The beds in the hut were comfortable and we slept well. After a comical
 incident with my dad's boots - he put on someone else's pair, not knowing
@@ -28,7 +30,8 @@ that I had brought his back into our room, and spent a good 15 minutes
 searching for them - we are ready to leave the hut at 8:20.
 
 ![The Pisciadù the lake and Piz Pisciadù](../img/22-0756-pisciadu-lake.jpg)
-<p align="center">*The Pisciadù lake and Piz Pisciadù (peak Pisciadù).*</p>
+
+m4_caption({{{{{The Pisciadù lake and Piz Pisciadù (peak Pisciadù).}}}}})
 
 The days starts with a short but somewhat steep section of the trail.
 There are some steel ropes and we use our simple harness once again,
@@ -46,7 +49,8 @@ cold, probably only a couple of degrees above 0°C, and there is some
 unpleasantly cold breeze.
 
 ![My dad resting on a rock](../img/22-0946-fog.jpg)
-<p align="center">*My dad resting on a rock, trying to keep warm.*</p>
+
+m4_caption({{{{{My dad resting on a rock, trying to keep warm.}}}}})
 
 The fog comes and goes, letting us see the beautiful panorama for
 a few brief moments.
@@ -69,11 +73,12 @@ We reach [Rifugio Boè](https://www.rifugioboe.it), a recently renovated
 hut at 2873m, before 11:00.
 
 ![Piz Boè](../img/22-1145-piz-boe.jpg)
-<p align="center">
-*A view of Piz Boè (peak Boè) from Rifugio Boè (Boè hut). The hut
+
+m4_caption({{{{{
+A view of Piz Boè (peak Boè) from Rifugio Boè (Boè hut). The hut
 on the top of Piz Boè is, perhaps confusingly, called
-[Capanna Piz Fassa](https://www.rifugiocapannapizfassa.com/en/).*
-</p>
+<a href="https://www.rifugiocapannapizfassa.com/en">Capanna Piz Fassa</a>.
+}}}}})
 
 We have now left Sout Tyrol. The rest of the Alta Via 2 route
 roughly follows the border between the provinces of Trento and
@@ -99,7 +104,8 @@ is screaming for mercy I am really hating it. I would have rather walked it
 up twice than down once.
 
 ![The steep descent to the Pordoi Pass](../img/22-1236-pordoi-descent.jpg)
-<p align="center">*The steep descent to the Pordoi Pass.*</p>
+
+m4_caption({{{{{The steep descent to the Pordoi Pass.}}}}})
 
 We reach the [Pordoi Pass](https://en.wikipedia.org/wiki/Pordoi_Pass)
 at 13:30. I need a long break before continuining, so we decide to
@@ -108,12 +114,13 @@ Luckily the weather is nice - or not terrible, at least -
 and we can enjoy a nice view of the surroundings.
 
 ![View from the Pordoi Pass](../img/22-1358-pordoi-pass.jpg)
-<p align="center">*The mountains surrounding the Pordoi Pass.*</p>
+
+m4_caption({{{{{The mountains surrounding the Pordoi Pass.}}}}})
 
 ![View towards Canazei](../img/22-1431-canazei.jpg)
-<p align="center">
-*The view in the direction of [Cianacei](https://en.wikipedia.org/wiki/Canazei).*
-</p>
+
+m4_caption({{{{{The view in the direction of
+<a href="https://en.wikipedia.org/wiki/Canazei">Cianacei</a>.}}}}})
 
 ## Her majesty, the Marmolada
 
@@ -138,15 +145,16 @@ And finally we have a good view on the Marmolada, the Queen of the
 Dolomites.
 
 ![Me in front of the Marmolada](../img/22-1510-marmolada.jpg)
-<p align="center">
-*The Marmolada, the highest mountain in the Dolomites, and its glacier.
+
+m4_caption({{{{{
+The Marmolada, the highest mountain in the Dolomites, and its glacier.
 At the feet of the massif you can see the
-[Fedaia Lake](https://en.wikipedia.org/wiki/Fedaia_Lake), around which
+<a href="https://en.wikipedia.org/wiki/Fedaia_Lake">Fedaia lake</a>, around which
 there are a couple of huts, including the one where we are staying tonight.
 In the distance you can see the
-[Pelmo](https://en.wikipedia.org/wiki/Monte_Pelmo) and the
-[Civetta](https://en.wikipedia.org/wiki/Monte_Civetta).*
-</p>
+<a href="https://en.wikipedia.org/wiki/Monte_Pelmo">Pelmo</a> and the
+<a href="https://en.wikipedia.org/wiki/Monte_Civetta">Civetta</a>.
+}}}}})
 
 We stop at [Rifugio Viel Dal Pan](https://www.rifugiovieldalpan.com/)
 (2432m) for a short break at 15:30. From there, the steep descent towards
@@ -158,7 +166,7 @@ of the lake to [Rifugio Fedaia](https://www.rifugiofedaia.com/). The
 closer [Rifugio Castiglioni](https://www.rifugiomarmolada.it/), where
 we stop for a beer, was fully booked when we planned our trip.
 
-![Fedaia Lake](../img/22-1730-fedaia.jpg)
+![Fedaia lake](../img/22-1730-fedaia.jpg)
 
 We walk fast on the old road next to the lake, chatting with a local
 resident who helps us keep up the pace.  We arrive at our hotel at 18:05,
@@ -168,5 +176,4 @@ to find a comfortable room with private bathroom waiting for us.
 This day was longer than we planned, partly because of my knee.
 But the scenery was beautiful.
 
-|[← Day 2](../day2)|[Alta Via 2](../)|[Day 4 →](../day4)|
-|:-|:-:|-:|
+m4_navtable(← Day 2,../day2,Alta Via 2,../,Day 4 →,../day4)

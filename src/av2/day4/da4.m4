@@ -1,7 +1,8 @@
+m4_navtable(← Day 3,../day3,Alta Via 2,../,Day 5 →,../day5)
+
 # Day 4 - The forest and the pastures
 
-|[← Day 3](../day3)|[Alta Via 2](../)|[Day 5 →](../day5)|
-|:-|:-:|-:|
+m4_caption({{{{{August 23, 2025}}}}})
 
 ## Route of the day
 
@@ -30,20 +31,22 @@ are at a lower altitude than we have been for most of the other days,
 it is also much warmer than, say, yesterday morning.
 
 ![A view from the trail in the forest](../img/23-1115-view.jpg)
-<p align="center">
-*A view from the forest, on the way up from Malga Ciapèla to Forca Rossa.*
-</p>
+
+m4_caption({{{{{
+A view from the forest, on the way up from Malga Ciapèla to Forca Rossa.
+}}}}})
 
 The forest soon leaves space to grassy slopes and naked rock.  The way
 up is still pleasant, and we have met almost no other hiker so far -
 in stark contrast with the previous day.
 
 ![Grassy slops up to Forca Rossa](../img/23-1220-forca-rossa.jpg)
-<p align="center">
-*The lower clay-red peak on the center-left of the picture is Forca Rossa,
+
+m4_caption({{{{{
+The lower clay-red peak on the center-left of the picture is Forca Rossa,
 where we are headed. "Rossa" in Italian means "red" - it's nice when things
-are what their name says they are, isn't it?*
-</p>
+are what their name says they are, isn't it?
+}}}}})
 
 We arrive at *Forca Rossa* (2500m) at 13:05. Only in the last few minutes
 my knee gave me some problems, but it is not so bad that it makes me
@@ -55,15 +58,16 @@ be some kind of force field blocking tourists from entering the province
 of Belluno.
 
 ![View from Forca Rossa to the Belluno side](../img/23-1325-forca-rossa-bl.jpg)
-<p align="center">*View from Forca Rossa to the Belluno side.*</p>
+
+m4_caption({{{{{View from Forca Rossa to the Belluno side.}}}}})
 
 ![My dad and I chilling](../img/23-1333-chilling.jpg)
-<p align="center">
-*My dad and I chilling - quite literally, because of the wind.*
-</p>
+
+m4_caption({{{{{My dad and I chilling - quite literally, because of the wind.}}}}})
 
 ![View from Forca Rossa to the Trentino side](../img/23-1338-forca-rossa-tn.jpg)
-<p align="center">*View from Forca Rossa to the Trentino side.*</p>
+
+m4_caption(View from Forca Rossa to the Trentino side.)
 
 ## Walking down green pastures
 
@@ -73,7 +77,8 @@ of protein bars and taking many pictures, we start walking down towards
 Fuciade at 13:40.
 
 ![The path to Fuciade](../img/23-1420-pastures.jpg)
-<p align="center">*Walking down to Fuciade.*</p>
+
+m4_caption(Walking down to Fuciade.)
 
 The way down is quite relaxing. We walk among green pastures, where
 cows and horses grazed freely. That is, until they are less romantically
@@ -87,11 +92,10 @@ descending quickly leads away from the crowd.  This place gave a sense
 of tranquillity.
 
 ![Me relaxing in Fuciade](../img/23-1512-fuciade.jpg)
-<p align="center">
-*Me relaxing in Fuciade while I enjoy a glass of
-[Radler](https://en.wikipedia.org/wiki/Shandy#Radler) - don't be fooled
-by the Coca-Cola can.*
-</p>
+
+m4_caption({{{{{Me relaxing in Fuciade while I enjoy a glass of
+<a href="https://en.wikipedia.org/wiki/Shandy#Radler">radler</a>
+- don't be fooled by the Coca-Cola can.}}}}})
 
 After a short short break, we move to
 [Rifugio Flora Alpina](https://floralpina.it) (1800m), that we reach
@@ -101,14 +105,14 @@ and the only peaks that are not hidden by trees are the
 [Focobón group](https://it.wikipedia.org/wiki/Gruppo_del_Focobon).
 
 ![The Mulaz and the Focobon group](../img/23-1818-focobon.jpg)
-<p align="center">
-*A spectacular view of the Mulaz and the Focobón group. As the light
+
+m4_caption({{{{{
+A spectacular view of the Mulaz and the Focobón group. As the light
 changed and the clouds moved, the colors changed as well. I spent quite
-some time just sitting outside the hut, admiring these peaks.*
-</p>
+some time just sitting outside the hut, admiring these peaks.
+}}}}})
 
 Now, for the first time since we started our journey, we some time 
 to relax before dinner. We enjoy a sauna and a hot tub.
 
-|[← Day 3](../day3)|[Alta Via 2](../)|[Day 5 →](../day5)|
-|:-|:-:|-:|
+m4_navtable(← Day 3,../day3,Alta Via 2,../,Day 5 →,../day5)

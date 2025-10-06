@@ -1,7 +1,8 @@
+m4_navtable(← Day 6,../day6,Alta Via 2,../,Day 8 →,../day8)
+
 # Day 7 - The longest day
 
-|[← Day 6](../day6)|[Alta Via 2](../)|[Day 8 →](../day8)|
-|:-|:-:|-:|
+m4_caption({{{{{August 26, 2025}}}}})
 
 ## Route of the day
 
@@ -26,44 +27,49 @@ range. Our plan was to follow the easier route, and we stick to it.
 We leave the Pradidali at 7:30.
 
 ![Rifugio Pradidali](../img/26-0735-pradidali.jpg)
-<p align="center">
-*Rifugio Pradidali and a mountain behind it, in a beautiful sunny morning.
+
+m4_caption({{{{{
+Rifugio Pradidali and a mountain behind it, in a beautiful sunny morning.
 Maybe I should have taken notes of the names of the peaks I photographed.
-Oh well, too late now.*
-</p>
+Oh well, too late now.
+}}}}})
 
 ![Val Canali](../img/26-0801-val-canali.jpg)
-<p align="center">*Val Canali.*</p>
+
+m4_caption(Val Canali.)
 
 The descent is quite diverse, alternating between rocks, gravel, grass
 and forest.  There are some steel ropes that seem oddly placed in a very
 simple section, but they would probably be useful in a rainy day.
 
 ![Walking down](../img/26-0814-walking-down.jpg)
-<p align="center">
-*Walking down an easy trail, in a typical Dolomite landscape.*
-</p>
+
+m4_caption({{{{{
+Walking down an easy trail, in a typical Dolomite landscape.
+}}}}})
 
 At 9:50 we reach the ruins of *malga Pradidali* (1428 meters on sea level).
 So far it has been a nice sunny day, and the walk has been easy.  But the
 end of the day will be very different.
 
 ![The ruins of malga Pradidali](../img/26-0954-malga-pradidali.jpg)
-<p align="center">
-*The ruins of malga Pradidali. A "malga" is a building where people
+
+m4_caption({{{{{
+The ruins of malga Pradidali. A "malga" is a building where people
 temporarily lived in the Summer while their cows grazed the high mountain
 pastures that surround it. Malga Antersasc, that we passed by in
-[day one](../day1), is another example. Many malgas are still in use nowadays,
-and they often sell locally-produced dairy products, but unfortunately
-for us we only found ruins in this trip.*
-</p>
+<a href="../day1">day one</a>, is another example. Many malgas are
+still in use nowadays, and they often sell locally-produced dairy products,
+but unfortunately for us we only found ruins in this trip.
+}}}}})
 
 The trail continues in the forest, and at 10:35 we pass by *malga
 Canali* (1307m).  This one *was* in use, and we could have stopped to
 eat something if we wanted, but we did not.
 
 ![The pastures behind malga Canali](../img/26-1040-from-malga-canali.jpg)
-<p align="center">*The pastures behind malga Canali.*</p>
+
+m4_caption(The pastures behind malga Canali.)
 
 We now have to walk up to reach Rifugio Treviso (1631m). The trail in
 the forest becomes steep, but it does not last long. We reach the hut
@@ -83,8 +89,8 @@ walking steep trails for more than a week at this point. We walk slowly,
 but steadily.
 
 ![Forested mountains to the North-West](../img/26-1354-forested-slopes.jpg)
-<p align="center">
-*The forested slopes on the North-West.*
+
+m4_caption(The forested slopes on the North-West.)
 
 On our way up, we meet a couple walking down from the forcella. They
 tell us that they could see nothing at all on the other side, because
@@ -93,12 +99,14 @@ literally, because it is such a sunny day on this side, but indeed
 when we reach the tight pass at 14:30 we can see it with out own eyes.
 
 ![The fog oon the other side](../img/26-1432-fog.jpg)
-<p align="center">*The fog on the other side of forcella d'Oltro.*</p>
+
+m4_caption(The fog on the other side of forcella d'Oltro.)
 
 ![The sunny side where we came from](../img/26-1439-not-fog.jpg)
-<p align="center">
-*The side where we came from, in contrast, is perfectly sunny.*
-</p>
+
+m4_caption({{{{{
+The side where we came from, in contrast, is perfectly sunny.
+}}}}})
 
 We need another short break, but we don't want to stay here for
 too long, because, as often happens in these tight high passes,
@@ -119,10 +127,11 @@ but we are walking on a tight ledge on a grassy slope that requires us
 to focus.
 
 ![Me on the tight ledge](../img/26-1603-tight-ledge.jpg)
-<p align="center">
-*Me on this tight path that, for whatever reason, is leading back
-up instead of down to Pass Cereda. As you can see, I am not amused.*
-</p>
+
+m4_caption({{{{{
+Me on this tight path that, for whatever reason, is leading back
+up instead of down to Pass Cereda. As you can see, I am not amused.
+}}}}})
 
 Only after we reach the altitude of 2150m do we start going down,
 but this time very slowly. We cannot see very far due to the fog,
@@ -131,10 +140,12 @@ But at least there are some interesting rock formations close to
 us that are worth admiring.
 
 ![Some curious rock formations](../img/26-1619-rocks.jpg)
-<p align="center">*Some interesting rock formations close to the trail.*</p>
+
+m4_caption(Some interesting rock formations close to the trail.)
 
 ![A tree growing on a rock](../img/26-1644-tree.jpg)
-<p align="center">*A tree growing on top of a naked rock.*</p>
+
+m4_caption(A tree growing on top of a naked rock.)
 
 The trail gradually becomes less exposed, but more steep. My knee starts
 hurting once again, but I am not surprised, considering how long we have
@@ -145,9 +156,8 @@ we reach the hotel at the Cereda Pass (1361m) at 18:15. After
 almost 11 hours of walk, my feet and my knees are begging for mercy.
 
 ![Pastures around the Cereda Pass](../img/26-1758-cereda.jpg)
-<p align="center">
-*The pastures around the Cereda Pass.*
-</p>
+
+m4_caption(The pastures around the Cereda Pass.)
 
 We have a private room at [Rifugio Cereda](https://www.rifugiocereda.com/en/),
 where we can have a shower rest well. The food is also amazing: I have
@@ -160,5 +170,4 @@ not in Germany.
 Unfortunately, the weather forecast for the next day are not as good
 as our dinner.
 
-|[← Day 6](../day6)|[Alta Via 2](../)|[Day 8 →](../day8)|
-|:-|:-:|-:|
+m4_navtable(← Day 6,../day6,Alta Via 2,../,Day 8 →,../day8)

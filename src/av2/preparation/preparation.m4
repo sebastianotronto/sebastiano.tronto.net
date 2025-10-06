@@ -1,7 +1,6 @@
-# Preparation
+m4_navtable(← Alta Via 2,../, , ,Day 1 →,../day1)
 
-|[← Alta Via 2](../)|[Day 1 →](../day1)|
-|:-|-:|
+# Preparation
 
 Alta Via 2 is not a hike one can do without planning. Obviously, one must
 be sufficiently trained - though advanced climbing skills are generally
@@ -28,11 +27,12 @@ is something I enjoyed regardless of my goal of training for the hike;
 I even decided to take part in a local half-marathon (21.1km) run.
 
 ![Me, ready for a half marathon](../img/0-leiden-half-marathon.jpg)
-<p align="center">
-*At the starting gate of the
-[Leiden half marathon](https://marathon.nl/). Two hours and six
-minutes later, I am not going to be smiling like that.*
-</p>
+
+m4_caption({{{{{
+At the starting gate of the
+<a href="https://marathon.nl/">Leiden half marathon</a>.
+Two hours and six minutes later, I am not going to be smiling like that.
+}}}}})
 
 The gym part was less entartaining for me, I never liked exercising
 indoors.  But I managed to train somewhat consistently once or twice a
@@ -183,9 +183,7 @@ At 12kg water included, the backpack is quite heavy. I could have saved a
 couple of kilos, but in the end we used almost everything that we brought.
 
 ![Me with my backpack on, at home](../img/19-0000-backpack.jpg)
-<p align="center">
-*Ready to go!*
-</p>
 
-|[← Alta Via 2](../)|[Day 1 →](../day1)|
-|:-|-:|
+m4_caption(Ready to go!)
+
+m4_navtable(← Alta Via 2,../, , ,Day 1 →,../day1)

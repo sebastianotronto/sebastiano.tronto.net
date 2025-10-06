@@ -1,7 +1,8 @@
+m4_navtable(← Day 1,../day1,Alta Via 2,../,Day 3 →,../day3)
+
 # Day 2 - Trail 666
 
-|[← Day 1](../day1)|[Alta Via 2](../)|[Day 3 →](../day3)|
-|:-|:-:|-:|
+m4_caption({{{{{August 21, 2025}}}}})
 
 ## Route of the day
 
@@ -47,10 +48,10 @@ hut, was going to be very steep. However, we found out that it was very
 well kept, which made it easier than we expected.
 
 ![The trail to forcella Puez](../img/21-1103-forcella-puez.jpg)
-<p align="center">
-*The trail up to forcella Puez is reinforced with some trunks that
-turn it almost into a staircase.*
-</p>
+
+m4_caption({{{{{
+The trail up to forcella Puez is reinforced with some trunks that
+turn it almost into a staircase.}}}}})
 
 Unfortunately, as we walked up the weather got much worse, and we were
 forced to wear all our rain clothes again, including gloves.
@@ -106,10 +107,10 @@ is not steep at first.  Luckily, as predicted, after about one our the
 rain stops.
 
 ![A view of the Odles from the Gardena Pass side](../img/21-1559-gardena.jpg)
-<p align="center">
-*Our last view of Gardena Pass and the Odles group, on the way up
-to the Pisciadù hut.*
-<p>
+
+m4_caption({{{{{
+Our last view of Gardena Pass and the Odles group, on the way up
+to the Pisciadù hut.}}}}})
 
 But then we reach the infamous trail 666. This is not a nickname, it
 is the actual number that the [Italian Alpine Club](https://www.cai.it/)
@@ -140,7 +141,8 @@ more than 8 hours of hiking (plus the 9 hours of the previous day). And
 a safety rope is certainly of no use if kept in the backpack.
 
 ![Trail 666](../img/21-1654-trail666.jpg)
-<p align="center">*Trail 666 is really steep.*</p>
+
+m4_caption({{{{{Trail 666 is really steep.}}}}})
 
 Overall, the steel rope and the handles are of great help, and although
 a couple of times I was unsure where to put my feet and risked slipping,
@@ -156,10 +158,10 @@ But at 17:30, exhausted but satisfied, we finally reach the top of
 this climb. The Pisciadù hut (2587m) is just around the corner.
 
 ![My dad at the end of trail 666](../img/21-1734-pisciadu.jpg)
-<p align="center">*My dad at the end of trail 666.*</p>
+
+m4_caption({{{{{My dad at the end of trail 666.}}}}})
 
 We, our clothes and our boots are still wet from all the rain we caught
 throught the day. Let's hope everything dries up during the night.
 
-|[← Day 1](../day1)|[Alta Via 2](../)|[Day 3 →](../day3)|
-|:-|:-:|-:|
+m4_navtable(← Day 1,../day1,Alta Via 2,../,Day 3 →,../day3)
