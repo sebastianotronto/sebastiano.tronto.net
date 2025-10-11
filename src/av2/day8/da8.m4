@@ -74,12 +74,55 @@ m4_caption(Another section of L'Intaiàda.)
 
 ![The steep trail](../img/27-1145-comedon.jpg)
 
-The trail continues very steep, and at 12:05 we reach the
-*Pass del Comedon* (2130m).
+The trail continues very steep, and at 12:05 we reach the *Pass del
+Comedon* (2130m).
+
+![View from the pass](../img/27-1209-comedon-2.jpg)
+
+m4_caption(View from the pass.)
 
 ## A quick break at Bivacco Feltre
 
-TODO include also picture 28, 30, 32, maybe 35
+From the pass we walk down an extremely steep trail, initially very
+exposed, then less scary.
+
+My left knee has been doing well so far, but suddently I feel an acute
+sting of pain that almost makes loose my balance. This is not good. It
+is also very different from the constant, mild to moderate pain that I
+have felt when walking downhill in the past few days. But I push through,
+slowly and steadily.
+
+The fog becomes even thicker, at times we can't see much farther than
+20-30 meters.
+
+![We are close to Bivacco Feltre](../img/27-1254-fog.jpg)
+
+m4_caption({{{{{We are close to Bivacco Feltre, but we can't see it.}}}}})
+
+For a brief moment I catch a glimpse of *Bivacco Feltre* (1930m), a
+[sheet metal shelter](https://en.wikipedia.org/wiki/Bivouac_shelter)
+where hikers can wait for the bad weather to subside, or spend the night
+in case of need.
+
+![Bivacco Feltre](../img/27-1303-bivacco-feltre.jpg)
+
+m4_caption(Bivacco Feltre.)
+
+We reach the bivouac at 13:05, and we decide to take a break. We eat
+a protein bar and refill our water bottles. Unfortunately we can see
+literally nothing besides the meadow around us and the fog.
+
+![The view from Bivacco Feltre](../img/27-1319-fog-view.jpg)
+
+m4_caption({{{{{
+Our view from Bivacco Feltre. The guide book describes the place
+as "pleasant and majestic". I guess I'll have to trust them on this one.
+}}}}})
+
+We need some rest, but we don't want to wait for too long. The journey
+is still long, and if we don't reach our destination before 17:00 we
+will probably be caught by the forecasted thunderstorm. We leave the
+bivouc at 13:30.
 
 ## Al Troi dei Caserin
 
