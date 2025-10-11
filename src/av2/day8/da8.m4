@@ -122,10 +122,75 @@ as "pleasant and majestic". I guess I'll have to trust them on this one.
 We need some rest, but we don't want to wait for too long. The journey
 is still long, and if we don't reach our destination before 17:00 we
 will probably be caught by the forecasted thunderstorm. We leave the
-bivouc at 13:30.
+bivouac at 13:30.
 
-## Al Troi dei Caserin
+## The Troi dei Caserin
 
-TODO
+From the shelter we walk down, loosing about 200 or 300 meters of
+altitude, which we quickly gain back. The fog is still very thick,
+we can't see further than 10m.
+
+The trail so far is not particuarly hard, but there are some interesting
+passages where we have to cross some waterfalls or small water streams.
+Or maybe I found them interesting only because my bad knee prevents me
+from pushing with my left leg and I have to make some complex alternative
+manouvers.
+
+![A waterfall with a small pond](../img/27-1350-waterfall.jpg)
+
+At 14:50 we reach *Col dei Bech* (1960m), which means *Ibex' hill*.
+And in fact, just after Cold dei Bech, in one of the rare moments when
+the fog let us see at more than 15 meters, we did see a small family
+of chamois.  Ok, not quite ibex, but close enough.  Judging from the
+quantity of warm shit that we saw on the trail, they had probably walked
+right ahead of us for a while.
+
+We continue on this trail that becomes increasingly narrow and exposed,
+difficult in some sections. We are on the *Troi dei Caserin* ("the
+Caserins' trail").
+
+![Troi dei Caserin](../img/27-1545-caserin.jpg)
+
+There are some steel ropes in the most dangerous parts, but not for
+long: soon we reach a grassy section, and the trail keeps gets
+ever more narrow. On our left, the emptiness of a hundred-meters
+free fall is hidden by the fog. My aching knee makes everything even
+more challenging.
+
+We did not take many pictures of this part of the journey, mainly
+because we were focusing on keeping our feet on the ground. Apparently,
+my dad and I walked this same trail some 15 years ago, when it was
+covered in half a meter of snow. And I say apparently because, even
+though we both remember that trip very well, we have no recollection
+of taking such a dangerous path in those conditions. But there is no
+alternative road, so we must have done it... somehow.
+
+At 16:45 we reach *Pass de Mura* (1867m). The view opens up, but we
+can't quite see our destination yet.
+
+![Malga Neva (not where we are going)](../img/27-1644-pass-de-mura.jpg)
+
+m4_caption({{{{{
+You see the tiny building down there? Luckily for us, it is not Rifugio
+Boz, but Malga Neva. The Rifugio is closer than that.
+}}}}})
+
+We walk down from the pass and we reach [Rifugio
+Boz](https://www.rifugioboz.it/) (1718m) at 17:05. Just as we walk
+through the door, a strong storm begins.
+
+## At Rifugio Boz
+
+We are tired, hungry and our muscles are sore. As we check in, the
+hut manager asks us if we are walking the Alta Via. We respond
+that yes, we are, and tomorrow we will be going all the way to
+[Rifugio Dal Piaz](https://www.rifugiodalpiaz.com), and we'll
+finally walk down victorious to Croce D'Aune in the evening.
+
+"Are you sure about that?" - she says.
+
+"Why?" - we ask, not sure if she was joking or not.
+
+"Have you seen the weather forecast?"
 
 m4_navtable(← Day 7,../day7,Alta Via 2,../,Day 9 →,../day9)
