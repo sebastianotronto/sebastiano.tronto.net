@@ -185,7 +185,7 @@ We are tired, hungry and our muscles are sore. As we check in, the
 hut manager asks us if we are walking the Alta Via. We respond
 that yes, we are, and tomorrow we will be going all the way to
 [Rifugio Dal Piaz](https://www.rifugiodalpiaz.com), and we'll
-finally walk down victorious to Croce D'Aune in the evening.
+finally walk down victorious to Croce d'Aune in the evening.
 
 "Are you sure about that?" - she says.
 

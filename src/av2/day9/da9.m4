@@ -27,7 +27,7 @@ I don't even think about it".
 
 We are prepared and experienced, but we are powerless against the forces
 of nature. We give up. On August 28, the last day of our Alta Via 2,
-we are not going to Rifugio Dal Piaz, or to Croce D'Aune. We are going
+we are not going to Rifugio Dal Piaz, or to Croce d'Aune. We are going
 down a safer trail, in the forest of the
 [*Val Canzoi*](https://www.dolomitipark.it/en/visiting-the-park/itineraries/on-foot/nature-trails/val-di-canzoi/),
 and we are going to conclude our adventure half a day earlier.

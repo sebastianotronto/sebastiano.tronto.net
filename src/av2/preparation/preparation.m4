@@ -1,4 +1,4 @@
-m4_navtable(← Alta Via 2,../, , ,Day 1 →,../day1)
+m4_navtable(, , Alta Via 2,../,Day 1 →,../day1)
 
 # Preparation
 
@@ -186,4 +186,4 @@ couple of kilos, but in the end we used almost everything that we brought.
 
 m4_caption(Ready to go!)
 
-m4_navtable(← Alta Via 2,../, , ,Day 1 →,../day1)
+m4_navtable(, , Alta Via 2,../,Day 1 →,../day1)
