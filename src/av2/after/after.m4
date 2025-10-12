@@ -27,7 +27,7 @@ Italy, which is conveniently located between Croce d'Aune and Feltre. In
 fact, if you walk Alta Via 2 all the way to Feltre, you pass right in
 front of the Birreria.
 
-TODO foto al pedavena con gli americani
+![Dinner at Birreria Pedavena](../img/29-pedavena.jpg)
 
 ## Award
 

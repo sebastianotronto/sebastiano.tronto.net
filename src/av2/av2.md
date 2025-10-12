@@ -10,13 +10,14 @@ With its 180km of lenght and around 10000 meters of altitude gain, it
 requires multiple days to complete, with most guides suggesting a 12-
 or 13-day itinerary.
 
-In August 2025, my father and I completed this route, walking for 9
-consecutive days. In these pages I want tell you about this adventure.
-If you are interested in hiking similar routes you may find some
-useful information here, but a technical description of the journey
-is not my main goal. If you are just interested in watching the
-pictures we took along the way, you can find them in
-[this google drive folder](https://drive.google.com/drive/folders/1dVb3_vxpRhcRsMq5lOmuu-DCY0bE01pD)
+In August 2025, my father and I completed this route, walking for
+9 consecutive days. In these pages I am going to tell you about
+this adventure, and share some of the pictures that we took.
+If you are interested in hiking similar routes, you may find
+some useful information here, but I am not aiming at writing a
+technical description of the hike.  If you are just interested
+in watching the pictures, you can find them in [this google drive
+folder](https://drive.google.com/drive/folders/1dVb3_vxpRhcRsMq5lOmuu-DCY0bE01pD)
 (until I figure out a good way to host them on this website).
 
 Note: in order to limit the size of this website, the pictures you find
