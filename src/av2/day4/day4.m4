@@ -18,17 +18,21 @@ m4_caption({{{{{August 23, 2025}}}}})
 
 Our fourth day starts at 8:20, with a steep descent on a ski path.
 My knee stil hurts, and this points I am afraid I may have to
-deal with it for the rest of trip.
+deal with it for the rest of the trip.
 
 At 9:30 we pass Malga Ciapela (1450 meters on sea level) and we start
 walking up again. Soon we find an enigmatic sign which is apparently
-trying to communicate that going left or right leads to the same
-places. We spend like 5 minutes figuring this out, and we choose to
-go left.
+trying to communicate that going left or right leads to the same places.
+
+![The confusing sign](../img/23-1012-sign.jpg)
+
+m4_caption(The confusing sign.)
+
+We spend like 5 minutes figuring this out, and we choose to go left.
 
 The path is not steep and walking in the forest is enojyable.  Since we
 are at a lower altitude than we have been for most of the other days,
-it is also much warmer than, say, yesterday morning.
+it is also much warmer than what we got used to.
 
 ![A view from the trail in the forest](../img/23-1115-view.jpg)
 
@@ -99,8 +103,8 @@ m4_caption({{{{{Me relaxing in Fuciade while I enjoy a glass of
 
 After a short short break, we move to
 [Rifugio Flora Alpina](https://floralpina.it) (1800m), that we reach
-shortly at around 16:00. The place is surrounded by the forest,
-and the only peaks that are not hidden by trees are the
+quickly at around 16:00. The place is surrounded by the forest,
+and the only visible peaks are the
 [Mulaz](https://it.wikipedia.org/wiki/Mulaz) and the
 [Focobón group](https://it.wikipedia.org/wiki/Gruppo_del_Focobon).
 
@@ -109,10 +113,10 @@ and the only peaks that are not hidden by trees are the
 m4_caption({{{{{
 A spectacular view of the Mulaz and the Focobón group. As the light
 changed and the clouds moved, the colors changed as well. I spent quite
-some time just sitting outside the hut, admiring these peaks.
+some time just sitting outside the hut, admiring these mountains.
 }}}}})
 
-Now, for the first time since we started our journey, we some time 
+Now, for the first time since we started our journey, we have some time
 to relax before dinner. We enjoy a sauna and a hot tub.
 
 m4_navtable(← Day 3,../day3,Alta Via 2,../,Day 5 →,../day5)

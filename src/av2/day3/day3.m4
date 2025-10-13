@@ -26,23 +26,23 @@ m4_caption({{{{{A beatiful view from the Pisciadù hut at dawn.}}}}})
 
 The beds in the hut were comfortable and we slept well. After a comical
 incident with my dad's boots - he put on someone else's pair, not knowing
-that I had brought his back into our room, and spent a good 15 minutes
+that I had brought his into our room, and spent a good 15 minutes
 searching for them - we are ready to leave the hut at 8:20.
 
 ![The Pisciadù the lake and Piz Pisciadù](../img/22-0756-pisciadu-lake.jpg)
 
 m4_caption({{{{{The Pisciadù lake and Piz Pisciadù (peak Pisciadù).}}}}})
 
-The days starts with a short but somewhat steep section of the trail.
+The day starts with a short but somewhat steep section of the trail.
 There are some steel ropes and we use our simple harness once again,
 although this time we felt we could have done without.
 
 At 9:45 we reach what is likely the highest point of our route,
 an anonymous plateau at 2960 meters on sea level. There are higher
 points on some variations of the route, for example *Punta Penia* in the
-[Marmolada](https://en.wikipedia.org/wiki/Marmolada) massif, but we are
-going to take a lower route, which is the more classical one according
-to my guide book.
+[Marmolada](https://en.wikipedia.org/wiki/Marmolada) massif, but in that
+section we are going to take a lower trail, which is the more classical
+one according to my guide book.
 
 At this point, we are completely immersed in a sea of fog. It is quite
 cold, probably only a couple of degrees above 0°C, and there is some
@@ -52,8 +52,8 @@ unpleasantly cold breeze.
 
 m4_caption({{{{{My dad resting on a rock, trying to keep warm.}}}}})
 
-The fog comes and goes, letting us see the beautiful panorama for
-a few brief moments.
+The fog comes and goes, letting us see the beautiful panorama for a few
+brief moments.
 
 ![Panorama](../img/22-1006-panorama.jpg)
 
@@ -64,32 +64,30 @@ so we are going to walk downhill for most of the day.
 
 At 10:30 we are on top of the *Antersass* (2906m), a minor peak next to
 the more prominent [Piz Boè](https://en.wikipedia.org/wiki/Piz_Bo%C3%A8)
-(3152m). We could have walked arount the Antersass, but the trail to
-climb up to the top and then down is actually easier than the one that
-goes around it. Going to the top of Piz Boè would have been an
-interesting detour, but not quite feasible for our 9-day plan.
+(3152m). We could have walked around the Antersass, but the trail to
+climb up to the top and then down is actually easier.  Going to the top
+of Piz Boè would have been an interesting detour, but not quite feasible
+for our 9-day plan.
 
 We reach [Rifugio Boè](https://www.rifugioboe.it), a recently renovated
 hut at 2873m, before 11:00.
 
 ![Piz Boè](../img/22-1145-piz-boe.jpg)
 
-m4_caption({{{{{
-A view of Piz Boè (peak Boè) from Rifugio Boè (Boè hut). The hut
-on the top of Piz Boè is, perhaps confusingly, called
-<a href="https://www.rifugiocapannapizfassa.com/en">Capanna Piz Fassa</a>.
+m4_caption({{{{{ A view of Piz Boè (peak Boè) from Rifugio Boè (Boè
+hut). The hut on the top of Piz Boè is, perhaps confusingly, called <a
+href="https://www.rifugiocapannapizfassa.com/en">Capanna Piz Fassa</a>.
 }}}}})
 
-We have now left Sout Tyrol. The rest of the Alta Via 2 route
-roughly follows the border between the provinces of Trento and
-Belluno.
+We have now left Sout Tyrol. The rest of the Alta Via 2 route roughly
+follows the border between the provinces of Trento and Belluno.
 
-We leave the hut at 11:20. The fog has returned, but it is not as
-cold as before.
+We leave the hut at 11:20. The fog has returned, but it is not as cold
+as before.
 
 The trail to *Foržela Pordoi* (2848m) is mostly flat, and very crowded,
 because of a cable car that makes it accessible even to families with
-kids. I am not sure I like this kind of over-turism in in places that
+kids. I am not sure I like this kind of over-turism in places that
 would otherwise be hard to reach.
 
 ## A painful descent
@@ -98,45 +96,47 @@ As we reach the foržela, the view opens up on a more diverse landscape
 of grass, rock and forests. After a very short break, we start walking
 down to the Pordoi Pass.
 
-The descent is on a long and steep [scree](https://en.wikipedia.org/wiki/Scree).
-I have never liked walking down this kind of trail, but now that my knee
-is screaming for mercy I am really hating it. I would have rather walked it
-up twice than down once.
+The descent is on a long and steep
+[scree](https://en.wikipedia.org/wiki/Scree).  I have never liked walking
+down this kind of trail, but now that my knee is screaming for mercy I am
+really hating it. I would have rather walked it up twice than down once.
 
 ![The steep descent to the Pordoi Pass](../img/22-1236-pordoi-descent.jpg)
 
 m4_caption({{{{{The steep descent to the Pordoi Pass.}}}}})
 
 We reach the [Pordoi Pass](https://en.wikipedia.org/wiki/Pordoi_Pass)
-at 13:30. I need a long break before continuining, so we decide to
-lay down next to a tiny church just after the pass.
-Luckily the weather is nice - or not terrible, at least -
-and we can enjoy a nice view of the surroundings.
+at 13:30. I need a long break before continuing, so we decide to lay
+down next to a tiny church just after the pass.  Luckily the weather
+is nice - or not terrible, at least - and we can enjoy a nice view of
+the surroundings.
 
 ![View from the Pordoi Pass](../img/22-1358-pordoi-pass.jpg)
 
-m4_caption({{{{{The mountains surrounding the Pordoi Pass.}}}}})
+m4_caption({{{{{
+The <a href="https://en.wikipedia.org/wiki/Sella_group">Sella group</a>
+from the Pordoi Pass.}}}}})
 
 ![View towards Canazei](../img/22-1431-canazei.jpg)
 
-m4_caption({{{{{The view in the direction of
-<a href="https://en.wikipedia.org/wiki/Canazei">Cianacei</a>.}}}}})
+m4_caption({{{{{The view in the direction of <a
+href="https://en.wikipedia.org/wiki/Canazei">Cianacei</a>.}}}}})
 
 ## Her majesty, the Marmolada
 
 At 14:10, after about 40 minutes of relax, we are ready to get up.
 
-The walk up an easy trail among ski paths.  Here too there are plenty of
+We walk up an easy trail among ski paths.  Here too there are plenty of
 turists, and I can't blame them for choosing to walk in such a beautiful
 place. This is a very common touristic destination both in the Summer
 and in the Winter.
 
-We walk past a strange place called
-[Rifugio Fredarola](https://www.fredarola.it/) (2370m), which looks
-more like a night club you could find the center of Milan rather than
-a mountain hut. They are even playing some electronic lounge music.
-It's hard to describe, but it feels oddly out of place here. But for
-people coming from a big city this is just what they expect to find here;
+We walk past a strange place called [Rifugio
+Fredarola](https://www.fredarola.it/) (2370m), which looks more like
+a night club you could find the center of Milan rather than a mountain
+hut. They are even playing some electronic lounge music.  It's hard to
+describe, but it feels oddly out of place here. But maybe for people
+coming from a big city this is just what they expect to find here;
 I guess it is a matter of points of view.
 
 We continue on a wide, mostly flat trail. For now my knee is is doing
@@ -147,13 +147,14 @@ Dolomites.
 ![Me in front of the Marmolada](../img/22-1510-marmolada.jpg)
 
 m4_caption({{{{{
-The Marmolada, the highest mountain in the Dolomites, and its glacier.
-At the feet of the massif you can see the
-<a href="https://en.wikipedia.org/wiki/Fedaia_Lake">Fedaia lake</a>, around which
-there are a couple of huts, including the one where we are staying tonight.
-In the distance you can see the
-<a href="https://en.wikipedia.org/wiki/Monte_Pelmo">Pelmo</a> and the
-<a href="https://en.wikipedia.org/wiki/Monte_Civetta">Civetta</a>.
+The <a href="https://en.wikipedia.org/wiki/Marmolada">Marmolada</a>,
+the highest mountain in the
+Dolomites, and its glacier.  At the feet of the massif you can
+see the <a href="https://en.wikipedia.org/wiki/Fedaia_Lake">Fedaia
+lake</a>, around which there are a couple of huts, including the one
+where we are staying tonight.  In the distance you can see the <a
+href="https://en.wikipedia.org/wiki/Monte_Pelmo">Pelmo</a> and the <a
+href="https://en.wikipedia.org/wiki/Monte_Civetta">Civetta</a>.
 }}}}})
 
 We stop at [Rifugio Viel Dal Pan](https://www.rifugiovieldalpan.com/)
@@ -161,10 +162,10 @@ We stop at [Rifugio Viel Dal Pan](https://www.rifugiovieldalpan.com/)
 the Fedaia Pass (2054m) begins. My knee forces me to walk slowly, so by
 the time we reach the pass it is already 17:30.
 
-The day is almost concluded, but we have to walk to to opposite side
-of the lake to [Rifugio Fedaia](https://www.rifugiofedaia.com/). The
-closer [Rifugio Castiglioni](https://www.rifugiomarmolada.it/), where
-we stop for a beer, was fully booked when we planned our trip.
+The day is almost concluded, but we have to walk to the opposite side of
+the lake to [Rifugio Fedaia](https://www.rifugiofedaia.com/). The closer
+[Rifugio Castiglioni](https://www.rifugiomarmolada.it/), where we stop
+for a beer, was fully booked when we planned our trip.
 
 ![Fedaia lake](../img/22-1730-fedaia.jpg)
 
@@ -173,7 +174,7 @@ resident who helps us keep up the pace.  We arrive at our hotel at 18:05,
 after almost 10 hours of hike (including breaks), and we are very happy
 to find a comfortable room with private bathroom waiting for us.
 
-This day was longer than we planned, partly because of my knee.
-But the scenery was beautiful.
+This day was longer than we planned, partly because of my knee.  But the
+scenery was beautiful.
 
 m4_navtable(← Day 2,../day2,Alta Via 2,../,Day 4 →,../day4)
