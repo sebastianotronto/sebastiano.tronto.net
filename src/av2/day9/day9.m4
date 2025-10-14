@@ -23,7 +23,7 @@ winds are frequent.
 And in the afternoon of August 28, the last day of our Alta Via 2, there
 are going to be strong thunderstorms. The manager at Rifugio Boz told
 us "I have walked this trail many times, but with a weather like this,
-I don't even think about it".
+I would never dare".
 
 We are prepared and experienced, but we are powerless against the forces
 of nature. We give up. On August 28, the last day of our Alta Via 2,
@@ -37,7 +37,7 @@ and we are going to conclude our adventure half a day earlier.
 ![Rifugio Boz with the Sass de Mura on the background](../img/28-0730-boz-sass-de-mura.jpg)
 
 m4_caption({{{{{Rifugio Boz with the
-[Sass de Mura](https://en.wikipedia.org/wiki/Sass_de_Mura)
+<a href="https://en.wikipedia.org/wiki/Sass_de_Mura">Sass de Mura</a>
 in the background.}}}}})
 
 We leave the hut at 7:35. The are two ways to walk down to Val Canzoi:
@@ -60,13 +60,13 @@ are also visible from our home.
 
 ![The view from Passo Alvis](../img/28-0755-pizoc.jpg)
 
-m4_({{{{{The view from Passo Alvis. In the back, partly hidden by the
-clouds, you can see the [Pizzocco](https://en.wikipedia.org/wiki/Pizzocco),
+m4_caption({{{{{The view from Passo Alvis. In the back, partly hidden by the
+clouds, you can see the <a href="https://en.wikipedia.org/wiki/Pizzocco">
+Pizzocco</a>,
 the main mountain that rises above our home town. We are coming home!}}}}})
 
 We walk down from the pass. The descent starts steep, but the trail is
-not difficult. We see for the last time a family of chamoix, running
-away from us.
+not difficult. We see one last family of chamoix, running away from us.
 
 At 8:40 we reach Malga Alvis (1573m).
 
@@ -87,7 +87,7 @@ The *Lago della Stua* is now visible.
 
 ![Lago della Stua](../img/28-0928-lago-della-stua.jpg)
 
-m4_(Lago della Stua in Val Canzoi.)
+m4_caption(Lago della Stua in Val Canzoi.)
 
 We keep going down. My knee starts hurting again, but we are almost there.
 Overall I enjoyed this last part of the journey. The trail in this

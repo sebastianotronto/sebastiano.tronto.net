@@ -19,20 +19,22 @@ m4_caption({{{{{August 27, 2025}}}}})
 Today the final part of Alta Via 2 begins. We are entering the *Vette
 Feltrine*, a part that is perhaps less well-known by tourists, but no
 less beautiful. The trails we'll have to walk are going to be narrow,
-often steep. The weather forecasts for the day are not great, but we
-should reach our [Rifugio Boz](https://www.rifugioboz.it/) (1718 meters
+often steep.
+
+The weather forecasts for the day are not great, but we
+should reach [Rifugio Boz](https://www.rifugioboz.it/) (1718 meters
 on sea level) before it starts raining. For now there is just a thick fog,
 and the weather is unpleasantly hot and humid.
 
 ![Rifugio Cereda, with the Pala Group in the background](../img/27-0740-cereda.jpg)
 
-m4_caption({{{{{Our last view on Rifugio Cereda and the Pala Group.}}}}})
+m4_caption({{{{{Our last sight of Rifugio Cereda and the Pala Group.}}}}})
 
-We leave at 7:45. At first we walk on a secondary road, then on a dirt
-road.  Both my guide booklet and the signs try to make us walk downhill
-towards the nearby villages of Matiuz and Padreterno, but there is a
-clearly faster road that stays in the forest until we reach the start
-of the actual trail.
+We leave at 7:45. At first we walk on a secondary paved road, then on
+a dirt road.  Both my guide booklet and the signs try to make us walk
+downhill towards the nearby villages of Matiuz and Padreterno, but there
+is a clearly faster road that stays in the forest and leads to the
+start of the actual trail.
 
 ![Some signs, none pointing to where we are going](../img/27-0833-sign.jpg)
 
@@ -41,11 +43,11 @@ The top sign is marked as "AV2", for Alta Via 2. There is a gap that
 was probably filled by a sign pointing left, which is the way we took.
 I suspect someone - perhaps the local forest authorities - removed
 the sign because they did not want people to go that way, but I
-can't imagine way. Or perhaps the sign simply fell off.
+can't imagine why. Or perhaps the sign simply fell off.
 }}}}})
 
 After about one hour of walk in the forest, the actual trail begins.
-The humidity is very high, still unpleasant. Unfortunately this also
+The humidity is very intense, still unpleasant. Unfortunately this also
 means that the pictures of the day are very... foggy.
 
 ![The valley in the fog](../img/27-0945-fog.jpg)
@@ -66,7 +68,7 @@ m4_caption({{{{{Admittedly not the best picture of L'Intaiàda.}}}}})
 The trail continues, narrow and exposed, but well equipped with some
 sturdy metal ropes where needed. It requires some attention, but I don't
 find it scary or particularly difficult; there is always some rock or
-support piece I can hang on to rest of think about the next step.
+support piece I can hang on to rest while I think about the next steps.
 
 ![Another section of L'Intaiàda](../img/27-1107-intaiada-2.jpg)
 
@@ -109,8 +111,8 @@ in case of need.
 m4_caption(Bivacco Feltre.)
 
 We reach the bivouac at 13:05, and we decide to take a break. We eat
-a protein bar and refill our water bottles. Unfortunately we can see
-literally nothing besides the meadow around us and the fog.
+a protein bar and refill our water bottles. Unfortunately, we can see
+literally nothing besides the meadow around us, and the fog.
 
 ![The view from Bivacco Feltre](../img/27-1319-fog-view.jpg)
 
@@ -127,14 +129,14 @@ bivouac at 13:30.
 ## The Troi dei Caserin
 
 From the shelter we walk down, loosing about 200 or 300 meters of
-altitude, which we quickly gain back. The fog is still very thick,
-we can't see further than 10m.
+altitude. We quickly gain them back, as the trail continues upwards.
+The fog is still very thick, we can't see further than 10m.
 
 The trail so far is not particuarly hard, but there are some interesting
-passages where we have to cross some waterfalls or small water streams.
-Or maybe I found them interesting only because my bad knee prevents me
-from pushing with my left leg and I have to make some complex alternative
-manouvers.
+passages where we have to cross some waterfalls and some small water
+streams.  Or maybe I found them interesting only because my bad knee
+prevented me from pushing with my left leg and I had to make some complex
+alternative manouvers.
 
 ![A waterfall with a small pond](../img/27-1350-waterfall.jpg)
 
@@ -152,18 +154,17 @@ Caserins' trail").
 ![Troi dei Caserin](../img/27-1545-caserin.jpg)
 
 There are some steel ropes in the most dangerous parts, but not for
-long: soon we reach a grassy section, and the trail keeps gets
-ever more narrow. On our left, the emptiness of a hundred-meters
-free fall is hidden by the fog. My aching knee makes everything even
-more challenging.
+long: soon we reach a grassy section, and the trail becomes ever
+more narrow. On our left, the emptiness of a hundred-meters free fall is
+hidden by the fog. My aching knee makes everything even more challenging.
 
-We did not take many pictures of this part of the journey, mainly
-because we were focusing on keeping our feet on the ground. Apparently,
-my dad and I walked this same trail some 15 years ago, when it was
-covered in half a meter of snow. And I say apparently because, even
-though we both remember that trip very well, we have no recollection
-of taking such a dangerous path in those conditions. But there is no
-alternative road, so we must have done it... somehow.
+We did not take many pictures of this part of the journey, mainly because
+we were focusing on keeping our feet on the ground. Apparently, my dad
+and I walked this same trail some 15 years ago, when it was covered in
+half a meter of snow. And I say apparently because, even though we both
+remember that trip quite well, we have no recollection of taking such a
+dangerous path in those conditions. But there is no alternative road,
+so we must have done it... somehow.
 
 At 16:45 we reach *Pass de Mura* (1867m). The view opens up, but we
 can't quite see our destination yet.
@@ -171,8 +172,8 @@ can't quite see our destination yet.
 ![Malga Neva (not where we are going)](../img/27-1644-pass-de-mura.jpg)
 
 m4_caption({{{{{
-You see the tiny building down there? Luckily for us, it is not Rifugio
-Boz, but Malga Neva. The Rifugio is closer than that.
+You see the tiny building down there? It is not Rifugio
+Boz, but Malga Neva. Luckily for us, the Rifugio is closer than that.
 }}}}})
 
 We walk down from the pass and we reach [Rifugio
@@ -181,11 +182,11 @@ through the door, a strong storm begins.
 
 ## At Rifugio Boz
 
-We are tired, hungry and our muscles are sore. As we check in, the
-hut manager asks us if we are walking the Alta Via. We respond
-that yes, we are, and tomorrow we will be going all the way to
-[Rifugio Dal Piaz](https://www.rifugiodalpiaz.com), and we'll
-finally walk down victorious to Croce d'Aune in the evening.
+We are tired, hungry and our muscles are sore. As we check in, the hut
+manager asks us if we are walking the Alta Via. We respond that yes,
+we are, and tomorrow we will be going all the way to [Rifugio Dal
+Piaz](https://www.rifugiodalpiaz.com), and we'll finally walk down
+victorious to Croce d'Aune in the evening.
 
 "Are you sure about that?" - she says.
 

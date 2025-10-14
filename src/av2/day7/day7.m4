@@ -16,13 +16,14 @@ m4_caption({{{{{August 26, 2025}}}}})
 
 ## A relaxing stroll in Val Canali
 
-Last night we had to check the maps, because we were not sure which route
+Last night we had to check our maps, because we were not sure which route
 we would be going, according to our plan. We did not remember that the
 guide book suggested two possible alternatives to reach the next hut,
 Rifugio Treviso: a higher mountain trail, with some challenging sections,
 and an easier one that starts by walking down the *Val Canali*, a valley
 that leads out of the Pala group and into the *Vette Feltrine* mountain
-range. Our plan was to follow the easier route, and we stick to it.
+range. Our plan was to follow the easier route, and we decided to stick
+to it.
 
 We leave the Pradidali at 7:30.
 
@@ -56,11 +57,11 @@ end of the day will be very different.
 
 m4_caption({{{{{
 The ruins of malga Pradidali. A "malga" is a building where people
-temporarily lived in the Summer while their cows grazed the high mountain
-pastures that surround it. Malga Antersasc, that we passed by in
-<a href="../day1">day one</a>, is another example. Many malgas are
-still in use nowadays, and they often sell locally-produced dairy products,
-but unfortunately for us we only found ruins in this trip.
+temporarily lived in the Summer while their livestock grazed the high
+mountain pastures that surround it. Malga Antersasc, that we passed by on
+<a href="../day1">day one</a>, is another example. Many malgas are still
+in use nowadays, and they often sell locally-produced dairy products,
+but unfortunately for us we only found ruins so far.
 }}}}})
 
 The trail continues in the forest, and at 10:35 we pass by *malga
@@ -95,8 +96,8 @@ m4_caption(The forested slopes on the North-West.)
 On our way up, we meet a couple walking down from the forcella. They
 tell us that they could see nothing at all on the other side, because
 of the fog and the clouds. We are not sure if we should take them
-literally, because it is such a sunny day on this side, but indeed
-when we reach the tight pass at 14:30 we can see it with out own eyes.
+literally, because it is such a sunny day on this side. But indeed,
+when we reach the tight pass at 14:30, we can see it with out own eyes.
 
 ![The fog oon the other side](../img/26-1432-fog.jpg)
 
@@ -109,7 +110,7 @@ The side where we came from, in contrast, is perfectly sunny.
 }}}}})
 
 We need another short break, but we don't want to stay here for
-too long, because, as often happens in these tight high passes,
+too long. As often happens in these high passes,
 the wind is strong and chilling.
 
 We thought this would be the last place above 2000 meters of the whole
@@ -120,7 +121,7 @@ But we were not exactly right.
 
 ## Down? Not so fast, cowboy
 
-The descent to the Cereda Pass starts very steep, and quickly loose
+The descent to the Cereda Pass starts very steep, and we quickly loose
 about 200 meters of altitude. But then the trail starts going up again,
 and slowly but surely we walk up, and up, and up. The road is not steep,
 but we are walking on a tight ledge on a grassy slope that requires us
@@ -135,7 +136,7 @@ up instead of down to Pass Cereda. As you can see, I am not amused.
 
 Only after we reach the altitude of 2150m do we start going down,
 but this time very slowly. We cannot see very far due to the fog,
-and in any case we would still be hyper-focused on where we step.
+and in any case we would still be hyper-focused on our steps.
 But at least there are some interesting rock formations close to
 us that are worth admiring.
 
@@ -159,15 +160,16 @@ almost 11 hours of walk, my feet and my knees are begging for mercy.
 
 m4_caption(The pastures around the Cereda Pass.)
 
-We have a private room at [Rifugio Cereda](https://www.rifugiocereda.com/en/),
-where we can have a shower rest well. The food is also amazing: I have
-what is one of the best plates of
+We have a private room at [Rifugio
+Cereda](https://www.rifugiocereda.com/en/), where
+we can have a shower, and we rest well. The food is
+also amazing: I have what is one of the best plates of
 [*käsespätzle*](https://en.wikipedia.org/wiki/K%C3%A4sesp%C3%A4tzle)
 of my life. By the way, over here the spätzle are prepared with spinach
-and they green not white; I think they do the same in Tyrol, but definitely
-not in Germany.
+and they are green, not white; I think they do the same in Tyrol, but
+definitely not in Germany.
 
-Unfortunately, the weather forecast for the next day are not as good
+Unfortunately, the weather forecasts for the next day are not as good
 as our dinner.
 
 m4_navtable(← Day 6,../day6,Alta Via 2,../,Day 8 →,../day8)
