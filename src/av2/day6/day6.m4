@@ -17,10 +17,10 @@ m4_caption({{{{{August 25, 2025}}}}})
 ## The starry night
 
 During the night I woke up and managed to catch a glimpse of a wonderful
-starry night, the likes of which I have never seen before.
+starry night, the likes of which I had never seen before.
 
 If you live in a place with a lot of light pollution, like every medium
-to large city nowadays, seeing *a few* stars may already be an unusual
+to large city in the World, seeing *a few* stars may already be an unusual
 experience.  At the moment I live in a fairly small city, and we literally
 never see stars over here. We are lucky if we see Venus once in a while.
 
@@ -29,8 +29,9 @@ used to seeing skies full of stars at night. But this time, at 2500
 metres above sea level, in the middle of literally nowhere, the sky was
 soething else.
 
-I did not manage to take a good picture, sorry. I did not feel like going
-out in the freezing cold.
+I did not manage to take a good picture, sorry. I did not feel like
+going out in the freezing cold, and my phone's camera is probably not
+good enough anyway.
 
 ## The Farangole pass
 
@@ -41,21 +42,21 @@ the sunset.
 ![The morning sunset](../img/25-0707-sunset.jpg)
 
 m4_caption({{{{{
-Rifugio Mulaz is closely surrounded by high mountains.  This is the only
-spot where you could see something in the distance.  The sun rises from
-the peaks on the left of this picture, only to hide away behind those
-on the right shortly afterwards.
+Rifugio Mulaz is closely surrounded by high mountains.  This is the
+only spot where you could see something in the distance.  This time
+of the year, the sun rises from the peaks on the left of this picture,
+only to hide away behind those on the right a few minutes later.
 }}}}})
 
 It's a beautiful day, if only a bit cold. This time we get up earlier than
 usual and we are ready to leave at 7:15. The main challenge of the day
-is going to be the *passo delle Farangole* (2932 meters on sea level),
+is going to be the *Passo delle Farangole* (2932 meters on sea level),
 a high mountain pass not far from the hut. Our guide book even suggests
-a possible alternative route for less confident hikers, but we believed
-it to be within our capabilities.
+a possible alternative route for less confident hikers, but we deemed
+it within our capabilities.
 
 After steep, but short, climb to *Forcella Margherita* (2655m) we reach a
-section of the trail that would not be particularly challenging, it was
+section of the trail that would not be particularly challenging, if
 not for the fact that the track is not well marked.
 
 ![The trail after Forcella Margherita](../img/25-0740-after-forcella-margherita.jpg)
@@ -70,25 +71,25 @@ by backtracking their steps when they realized they were out of the
 trail. We do the same a couple of times.
 
 We soon reach the start of the equipped trail that leads to the pass,
-but I am not convinced and I decide to try climbing up the scree next
+but it looks sketchy, so I decide to try climbing up the scree next to
 it. This was probably a mistake, so we soon turn left and attach our
 trusty ropes to the steel supports.
 
-![Me, climbing up to the Farangole pass](../img/25-0830-up-to-farangole-pass.jpg)
+![Me, climbing up to the Farangole Pass](../img/25-0830-up-to-farangole-pass.jpg)
 
-m4_caption(Climbing up to the Farangole pass.)
+m4_caption(Climbing up to the Farangole Pass.)
 
 The track is very steep, and at times
 [exposed](https://en.wikipedia.org/wiki/Exposure_%28heights%29), but the
 steel ropes and the other supporting material is in a good state.
-Overall, this famous Farangole pass is easier than we expected.
+Overall, this famous Farangole Pass is easier than we expected.
 
 ![My dad climbing down from the Farangole pass](../img/25-0851-down-from-farangole.jpg)
 
 m4_caption({{{{{
 And down we go. The steel ladder looks like it ends in the void,
 but actually there is an extra steel beam protruding from the
-rock, and after that there only a 60cm drop.
+rock, and after that there is only a 60cm drop.
 }}}}})
 
 After clearing the pass at around 9:00, we feel satisfied and proud of
@@ -96,7 +97,7 @@ ourselves. My knee does not even hurt anymore.
 
 Little did we now that the truly difficult part is the Farangole *trail*,
 which we'll have to go through later this morning.  But for now, in our
-blisfful ignorance, we enjoy the beautiful weather and we take plenty
+blissful ignorance, we enjoy the beautiful weather and we take plenty
 of pictures as we walk down from the pass.
 
 ![North view, towards the pass](../img/25-0910-blue-sky.jpg)
@@ -120,7 +121,7 @@ As the trail gets tight and very exposed, we realize that maybe
 proceed carefully, attaching our home-made harness when a steel rope
 is available. Unfortunately, most of the trail is on a narrow ledge
 surrounded by grass and soft soil, where no piece of supporting material
-can be fixed. At least it is not wet.
+can be fixed. At least it is not wet today.
 
 ![My dad walking on the Farangole trail](../img/25-1109-dad-farangole.jpg)
 
@@ -142,8 +143,8 @@ pictures than we did earlier.
 m4_caption({{{{{
 The view from the last part of the Farangole trail, towards
 the East. Soon we'll have to walk down to the dry bed of the
-river at the bottom center of this picture. On the left, you
-can see the tiny line that is the Farangle trail.
+river you can see at the bottom of this picture. The tiny line
+on the hill on the left is the Farangole trail.
 }}}}})
 
 At 12:30 we reach the bottom of *Valgrande* (*Pian dei Cantoni*, 2310m).
@@ -151,9 +152,9 @@ At 12:30 we reach the bottom of *Valgrande* (*Pian dei Cantoni*, 2310m).
 ## To Rifugio Rosetta and beyond
 
 The way up to Rifugio Rosetta is steep, but short. The previous
-part was not phisically demanding, but it was dangerous and
+part was not physically demanding, but it was dangerous and
 technically fairly challenging. I am relieved that now I can just
-let my leg bring me up, and I reach the hut at 13:05.
+let my legs bring me up, and I reach the hut at 13:05.
 
 ![Rifugio Rosetta](../img/25-1321-rosetta.jpg)
 
