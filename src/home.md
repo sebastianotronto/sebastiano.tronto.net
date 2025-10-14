@@ -1,6 +1,6 @@
 # Sebastiano Tronto
 
-![A picture of me](me.png "Me")
+![A picture of me](me2.jpg "Me")
 
 Hello! I am a software developer based in Leiden, The Netherlands.
 

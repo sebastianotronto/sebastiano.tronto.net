@@ -1,5 +1,7 @@
 #!/bin/sh
 
+basedir="$(pwd)"
+
 recursivebuild() {
 	local destdir=$(echo "$1" | sed 's|^src|http|')
 	mkdir -p "$destdir"
@@ -13,17 +15,35 @@ recursivebuild() {
 	done
 }
 
+# This function is currently unused, but we keep it in case we need to
+# preprocess some m4 files.
+mdpreprocess() {
+	file="$1"
+	if [ "$(echo "$file" | sed 's/.*\.//')" = "m4" ]; then
+		printf 'm4_include(macros.m4)m4_dnl\n%s\n' "$(cat "$file")" | \
+			m4 -P -I "$basedir/utils"
+	else
+		cat "$file"
+	fi
+}
+
 copyfile() {
 	file=$1
 	dest=$2
 	ind=$dest/index.html
 	extension=$(echo "$file" | sed 's/.*\.//')
 	case "$extension" in
+	# m4 preprocess is currently disabled
+	#m4)
+	#	noext=$(echo "$file" | sed 's/\..*//')
+	#	mdpreprocess "$file" > $noext.md
+	#	;;
 	md)
 		t="$(markdowntitle "$file")"
 		sed "s/TITLE/$t/" < top.html > "$ind"
-		lowdown --html-no-skiphtml --html-no-escapehtml \
-			"$file" >> "$ind"
+		mdpreprocess "$file" | \
+			lowdown --html-no-skiphtml --html-no-escapehtml \
+			>> "$ind"
 		cat bottom.html >> "$ind"
 		;;
 	html)
