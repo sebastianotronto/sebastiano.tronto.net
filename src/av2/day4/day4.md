@@ -1,8 +1,12 @@
-m4_navtable(← Day 3,../day3,Alta Via 2,../,Day 5 →,../day5)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day3">← Day 3</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day5">Day 5 →</a> </th>
+</tr> </thead> </table>
 
 # Day 4 - The forest and the pastures
 
-m4_caption({{{{{August 23, 2025}}}}})
+<p align="center"><em>August 23, 2025</em></p>
 
 ## Route of the day
 
@@ -26,7 +30,7 @@ trying to communicate that going left or right leads to the same places.
 
 ![The confusing sign](../img/23-1012-sign.jpg)
 
-m4_caption(The confusing sign.)
+<p align="center"><em>The confusing sign.</em></p>
 
 We spend like 5 minutes figuring this out, and we choose to go left.
 
@@ -36,9 +40,9 @@ it is also much warmer than what we got used to.
 
 ![A view from the trail in the forest](../img/23-1115-view.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 A view from the forest, on the way up from Malga Ciapèla to Forca Rossa.
-}}}}})
+</em></p>
 
 The forest soon leaves space to grassy slopes and naked rock.  The way
 up is still pleasant, and we have met almost no other hiker so far -
@@ -46,11 +50,11 @@ in stark contrast with the previous day.
 
 ![Grassy slops up to Forca Rossa](../img/23-1220-forca-rossa.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The lower clay-red peak on the center-left of the picture is Forca Rossa,
 where we are headed. "Rossa" in Italian means "red" - it's nice when things
 are what their name says they are, isn't it?
-}}}}})
+</em></p>
 
 We arrive at *Forca Rossa* (2500m) at 13:05. Only in the last few minutes
 my knee gave me some problems, but it is not so bad that it makes me
@@ -63,15 +67,15 @@ of Belluno.
 
 ![View from Forca Rossa to the Belluno side](../img/23-1325-forca-rossa-bl.jpg)
 
-m4_caption({{{{{View from Forca Rossa to the Belluno side.}}}}})
+<p align="center"><em>View from Forca Rossa to the Belluno side.</em></p>
 
 ![My dad and I chilling](../img/23-1333-chilling.jpg)
 
-m4_caption({{{{{My dad and I chilling - quite literally, because of the wind.}}}}})
+<p align="center"><em>My dad and I chilling - quite literally, because of the wind.</em></p>
 
 ![View from Forca Rossa to the Trentino side](../img/23-1338-forca-rossa-tn.jpg)
 
-m4_caption(View from Forca Rossa to the Trentino side.)
+<p align="center"><em>View from Forca Rossa to the Trentino side.</em></p>
 
 ## Walking down green pastures
 
@@ -82,7 +86,7 @@ Fuciade at 13:40.
 
 ![The path to Fuciade](../img/23-1420-pastures.jpg)
 
-m4_caption(Walking down to Fuciade.)
+<p align="center"><em>Walking down to Fuciade.</em></p>
 
 The way down is quite relaxing. We walk among green pastures, where
 cows and horses grazed freely. That is, until they are less romantically
@@ -97,9 +101,9 @@ of tranquillity.
 
 ![Me relaxing in Fuciade](../img/23-1512-fuciade.jpg)
 
-m4_caption({{{{{Me relaxing in Fuciade while I enjoy a glass of
+<p align="center"><em>Me relaxing in Fuciade while I enjoy a glass of
 <a href="https://en.wikipedia.org/wiki/Shandy#Radler">radler</a>
-- don't be fooled by the Coca-Cola can.}}}}})
+- don't be fooled by the Coca-Cola can.</em></p>
 
 After a short short break, we move to
 [Rifugio Flora Alpina](https://floralpina.it) (1800m), that we reach
@@ -110,13 +114,23 @@ and the only visible peaks are the
 
 ![The Mulaz and the Focobon group](../img/23-1818-focobon.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 A spectacular view of the Mulaz and the Focobón group. As the light
 changed and the clouds moved, the colors changed as well. I spent quite
 some time just sitting outside the hut, admiring these mountains.
-}}}}})
+</em></p>
 
 Now, for the first time since we started our journey, we have some time
 to relax before dinner. We enjoy a sauna and a hot tub.
 
-m4_navtable(← Day 3,../day3,Alta Via 2,../,Day 5 →,../day5)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day3">← Day 3</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day5">Day 5 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

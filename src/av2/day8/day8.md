@@ -1,8 +1,12 @@
-m4_navtable(← Day 7,../day7,Alta Via 2,../,Day 9 →,../day9)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day7">← Day 7</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day9">Day 9 →</a> </th>
+</tr> </thead> </table>
 
 # Day 8 - The Troi dei Caserin
 
-m4_caption({{{{{August 27, 2025}}}}})
+<p align="center"><em>August 27, 2025</em></p>
 
 ## Route of the day
 
@@ -28,7 +32,7 @@ and the weather is unpleasantly hot and humid.
 
 ![Rifugio Cereda, with the Pala Group in the background](../img/27-0740-cereda.jpg)
 
-m4_caption({{{{{Our last sight of Rifugio Cereda and the Pala Group.}}}}})
+<p align="center"><em>Our last sight of Rifugio Cereda and the Pala Group.</em></p>
 
 We leave at 7:45. At first we walk on a secondary paved road, then on
 a dirt road.  Both my guide booklet and the signs try to make us walk
@@ -38,13 +42,13 @@ start of the actual trail.
 
 ![Some signs, none pointing to where we are going](../img/27-0833-sign.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The top sign is marked as "AV2", for Alta Via 2. There is a gap that
 was probably filled by a sign pointing left, which is the way we took.
 I suspect someone - perhaps the local forest authorities - removed
 the sign because they did not want people to go that way, but I
 can't imagine why. Or perhaps the sign simply fell off.
-}}}}})
+</em></p>
 
 After about one hour of walk in the forest, the actual trail begins.
 The humidity is very intense, still unpleasant. Unfortunately this also
@@ -52,7 +56,7 @@ means that the pictures of the day are very... foggy.
 
 ![The valley in the fog](../img/27-0945-fog.jpg)
 
-m4_caption({{{{{The valley behind us, in the fog.}}}}})
+<p align="center"><em>The valley behind us, in the fog.</em></p>
 
 ## L'Intaiàda
 
@@ -63,7 +67,7 @@ can be roughly translated as *The Carved-Out*.
 
 ![L'Intaiàda](../img/27-1022-intaiada.jpg)
 
-m4_caption({{{{{Admittedly not the best picture of L'Intaiàda.}}}}})
+<p align="center"><em>Admittedly not the best picture of L'Intaiàda.</em></p>
 
 The trail continues, narrow and exposed, but well equipped with some
 sturdy metal ropes where needed. It requires some attention, but I don't
@@ -72,7 +76,7 @@ support piece I can hang on to rest while I think about the next steps.
 
 ![Another section of L'Intaiàda](../img/27-1107-intaiada-2.jpg)
 
-m4_caption(Another section of L'Intaiàda.)
+<p align="center"><em>Another section of L'Intaiàda.</em></p>
 
 ![The steep trail](../img/27-1145-comedon.jpg)
 
@@ -81,7 +85,7 @@ Comedon* (2130m).
 
 ![View from the pass](../img/27-1209-comedon-2.jpg)
 
-m4_caption(View from the pass.)
+<p align="center"><em>View from the pass.</em></p>
 
 ## A quick break at Bivacco Feltre
 
@@ -99,7 +103,7 @@ The fog becomes even thicker, at times we can't see much farther than
 
 ![We are close to Bivacco Feltre](../img/27-1254-fog.jpg)
 
-m4_caption({{{{{We are close to Bivacco Feltre, but we can't see it.}}}}})
+<p align="center"><em>We are close to Bivacco Feltre, but we can't see it.</em></p>
 
 For a brief moment I catch a glimpse of *Bivacco Feltre* (1930m), a
 [sheet metal shelter](https://en.wikipedia.org/wiki/Bivouac_shelter)
@@ -108,7 +112,7 @@ in case of need.
 
 ![Bivacco Feltre](../img/27-1303-bivacco-feltre.jpg)
 
-m4_caption(Bivacco Feltre.)
+<p align="center"><em>Bivacco Feltre.</em></p>
 
 We reach the bivouac at 13:05, and we decide to take a break. We eat
 a protein bar and refill our water bottles. Unfortunately, we can see
@@ -116,10 +120,10 @@ literally nothing besides the meadow around us, and the fog.
 
 ![The view from Bivacco Feltre](../img/27-1319-fog-view.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 Our view from Bivacco Feltre. The guide book describes the place
 as "pleasant and majestic". I guess I'll have to trust them on this one.
-}}}}})
+</em></p>
 
 We need some rest, but we don't want to wait for too long. The journey
 is still long, and if we don't reach our destination before 17:00 we
@@ -171,10 +175,10 @@ can't quite see our destination yet.
 
 ![Malga Neva (not where we are going)](../img/27-1644-pass-de-mura.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 You see the tiny building down there? It is not Rifugio
 Boz, but Malga Neva. Luckily for us, the Rifugio is closer than that.
-}}}}})
+</em></p>
 
 We walk down from the pass and we reach [Rifugio
 Boz](https://www.rifugioboz.it/) (1718m) at 17:05. Just as we walk
@@ -194,4 +198,14 @@ victorious to Croce d'Aune in the evening.
 
 "Have you seen the weather forecast?"
 
-m4_navtable(← Day 7,../day7,Alta Via 2,../,Day 9 →,../day9)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day7">← Day 7</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day9">Day 9 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

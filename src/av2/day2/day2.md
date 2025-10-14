@@ -1,8 +1,12 @@
-m4_navtable(← Day 1,../day1,Alta Via 2,../,Day 3 →,../day3)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day1">← Day 1</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day3">Day 3 →</a> </th>
+</tr> </thead> </table>
 
 # Day 2 - Trail 666
 
-m4_caption({{{{{August 21, 2025}}}}})
+<p align="center"><em>August 21, 2025</em></p>
 
 ## Route of the day
 
@@ -32,7 +36,7 @@ not too bad either. We even manage to see some mountains!
 
 ![Some mountains](../img/21-0900-up.jpg)
 
-m4_caption(The Puez-Odle group.)
+<p align="center"><em>The Puez-Odle group.</em></p>
 
 In about an hour we reach *malga Antersasc* (2084m on sea
 level).  Around this small abandoned building we see a few
@@ -43,10 +47,10 @@ you need some pretty good camera to catch them from a distance.
 
 ![Me looking a tree](../img/21-0923-tree.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 Sorry for the lack of marmot pictures. Here
 is a shot of myself staring at a tree growing on top of a rock instead.
-}}}}})
+</em></p>
 
 After a short break, we get back on the trail and start walking towards
 the [Puez hut](https://www.rifugiopuez.it/en/).  We could already tell
@@ -56,9 +60,9 @@ maintained, which made it easier than we expected.
 
 ![The trail to forcella Puez](../img/21-1103-forcella-puez.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The trail up to forcella Puez is reinforced with some trunks that
-turn it almost into a staircase.}}}}})
+turn it almost into a staircase.</em></p>
 
 Unfortunately, as we walked up, the weather got much worse.
 We were forced to wear all our rain clothes again, including gloves.
@@ -116,18 +120,18 @@ stops.
 ![A view of the Odles from the Gardena Pass
 side](../img/21-1559-gardena.jpg)
 
-m4_caption({{{{{Our last view of Gardena Pass and the Odle group,
-on the way up to the Pisciadù hut.}}}}})
+<p align="center"><em>Our last view of Gardena Pass and the Odle group,
+on the way up to the Pisciadù hut.</em></p>
 
 But then we reach the infamous trail 666.
 
 ![The beginning of trail 666](../img/21-1600-666.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The beginning of trail 666. This is not a nickname, it is
 the actual number that the <a href="https://www.cai.it">
 Italian Alpine Club</a> gave to this trail.
-}}}}})
+</em></p>
 
 Actually, this is the easiest of two
 possible ways to the Pisciadù, the other being the [Ferrata
@@ -155,7 +159,7 @@ a safety rope is certainly of no use if kept in the backpack.
 
 ![Trail 666](../img/21-1654-trail666.jpg)
 
-m4_caption({{{{{Trail 666 is really steep.}}}}})
+<p align="center"><em>Trail 666 is really steep.</em></p>
 
 Overall, the steel rope and the handles are of great help, and although
 a couple of times I was unsure where to put my feet and I almost slept,
@@ -172,9 +176,19 @@ climb. The Pisciadù hut (2587m) is just around the corner.
 
 ![My dad at the end of trail 666](../img/21-1734-pisciadu.jpg)
 
-m4_caption({{{{{My dad at the end of trail 666.}}}}})
+<p align="center"><em>My dad at the end of trail 666.</em></p>
 
 We, our clothes and our boots are still wet from all the rain we caught
 earlier in the day. Let's hope everything dries up during the night.
 
-m4_navtable(← Day 1,../day1,Alta Via 2,../,Day 3 →,../day3)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day1">← Day 1</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day3">Day 3 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

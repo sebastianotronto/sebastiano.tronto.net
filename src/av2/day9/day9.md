@@ -1,8 +1,12 @@
-m4_navtable(← Day 8,../day8,Alta Via 2,../,After the hike →,../after)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day8">← Day 8</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../after">After the hike →</a> </th>
+</tr> </thead> </table>
 
 # Day 9 - Cutting it short
 
-m4_caption({{{{{August 28, 2025}}}}})
+<p align="center"><em>August 28, 2025</em></p>
 
 ## Route of the day
 
@@ -36,9 +40,9 @@ and we are going to conclude our adventure half a day earlier.
 
 ![Rifugio Boz with the Sass de Mura on the background](../img/28-0730-boz-sass-de-mura.jpg)
 
-m4_caption({{{{{Rifugio Boz with the
+<p align="center"><em>Rifugio Boz with the
 <a href="https://en.wikipedia.org/wiki/Sass_de_Mura">Sass de Mura</a>
-in the background.}}}}})
+in the background.</em></p>
 
 We leave the hut at 7:35. The are two ways to walk down to Val Canzoi:
 either we climb up to *Passo Alvis*, or to *Passo Finestra*. We
@@ -47,8 +51,8 @@ ends close to a bar where we can wait for someone to pick us up.
 
 ![Walking to Passo Alvis](../img/28-0740-walk.jpg)
 
-m4_caption({{{{{We walk together with other 3 hikers to Passo Alvis.
-We are not the only ones who decided to cut the Alta Via short.}}}}})
+<p align="center"><em>We walk together with other 3 hikers to Passo Alvis.
+We are not the only ones who decided to cut the Alta Via short.</em></p>
 
 The weather is not bad for now. There are clouds, but it is not raining.
 But the afternoon storm is going to be massive.
@@ -60,10 +64,10 @@ are also visible from our home.
 
 ![The view from Passo Alvis](../img/28-0755-pizoc.jpg)
 
-m4_caption({{{{{The view from Passo Alvis. In the back, partly hidden by the
+<p align="center"><em>The view from Passo Alvis. In the back, partly hidden by the
 clouds, you can see the <a href="https://en.wikipedia.org/wiki/Pizzocco">
 Pizzocco</a>,
-the main mountain that rises above our home town. We are coming home!}}}}})
+the main mountain that rises above our home town. We are coming home!</em></p>
 
 We walk down from the pass. The descent starts steep, but the trail is
 not difficult. We see one last family of chamoix, running away from us.
@@ -72,7 +76,7 @@ At 8:40 we reach Malga Alvis (1573m).
 
 ![Malga Alvis](../img/28-0850-malga-alvis.jpg)
 
-m4_caption(Malga Alvis.)
+<p align="center"><em>Malga Alvis.</em></p>
 
 It starts raining. We take shelter inside the malga. The building
 is not used for its original purpose anymore, but it is maintained
@@ -87,7 +91,7 @@ The *Lago della Stua* is now visible.
 
 ![Lago della Stua](../img/28-0928-lago-della-stua.jpg)
 
-m4_caption(Lago della Stua in Val Canzoi.)
+<p align="center"><em>Lago della Stua in Val Canzoi.</em></p>
 
 We keep going down. My knee starts hurting again, but we are almost there.
 Overall I enjoyed this last part of the journey. The trail in this
@@ -102,4 +106,14 @@ We reach the nearby bar, we sit down, we drink a
 [spritz](https://en.wikipedia.org/wiki/Spritz_(cocktail)).
 
 
-m4_navtable(← Day 8,../day8,Alta Via 2,../,After the hike →,../after)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day8">← Day 8</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../after">After the hike →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

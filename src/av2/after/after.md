@@ -1,4 +1,8 @@
-m4_navtable(← Day 9,../day9, Alta Via 2,../, , )
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day9">← Day 9</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href=""></a> </th>
+</tr> </thead> </table>
 
 # After the hike
 
@@ -66,4 +70,14 @@ the mountains and valleys my dad and I walked through just a week earlier.
 
 ![The Dolomites from the plane](../img/99-03-farewell.jpg)
 
-m4_navtable(← Day 9,../day9, Alta Via 2,../, , )
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day9">← Day 9</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href=""></a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

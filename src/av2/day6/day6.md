@@ -1,8 +1,12 @@
-m4_navtable(← Day 5,../day5,Alta Via 2,../,Day 7 →,../day7)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day5">← Day 5</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day7">Day 7 →</a> </th>
+</tr> </thead> </table>
 
 # Day 6 - The Farangole trail
 
-m4_caption({{{{{August 25, 2025}}}}})
+<p align="center"><em>August 25, 2025</em></p>
 
 ## Route of the day
 
@@ -41,12 +45,12 @@ the sunset.
 
 ![The morning sunset](../img/25-0707-sunset.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 Rifugio Mulaz is closely surrounded by high mountains.  This is the
 only spot where you could see something in the distance.  This time
 of the year, the sun rises from the peaks on the left of this picture,
 only to hide away behind those on the right a few minutes later.
-}}}}})
+</em></p>
 
 It's a beautiful day, if only a bit cold. This time we get up earlier than
 usual and we are ready to leave at 7:15. The main challenge of the day
@@ -61,9 +65,9 @@ not for the fact that the track is not well marked.
 
 ![The trail after Forcella Margherita](../img/25-0740-after-forcella-margherita.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The trail after Forcella Margherita, right before the Farangole pass.
-}}}}})
+</em></p>
 
 In fact, the traces of the hikers who missed the path are *more* visible
 than the actual trail, likely because said hikers made them more clear
@@ -77,7 +81,7 @@ trusty ropes to the steel supports.
 
 ![Me, climbing up to the Farangole Pass](../img/25-0830-up-to-farangole-pass.jpg)
 
-m4_caption(Climbing up to the Farangole Pass.)
+<p align="center"><em>Climbing up to the Farangole Pass.</em></p>
 
 The track is very steep, and at times
 [exposed](https://en.wikipedia.org/wiki/Exposure_%28heights%29), but the
@@ -86,11 +90,11 @@ Overall, this famous Farangole Pass is easier than we expected.
 
 ![My dad climbing down from the Farangole pass](../img/25-0851-down-from-farangole.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 And down we go. The steel ladder looks like it ends in the void,
 but actually there is an extra steel beam protruding from the
 rock, and after that there is only a 60cm drop.
-}}}}})
+</em></p>
 
 After clearing the pass at around 9:00, we feel satisfied and proud of
 ourselves. My knee does not even hurt anymore.
@@ -102,17 +106,17 @@ of pictures as we walk down from the pass.
 
 ![North view, towards the pass](../img/25-0910-blue-sky.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The view North, towards the mountains we have just passed.
-}}}}})
+</em></p>
 
 ![A rocky plateau](../img/25-1009-rocky-plateau.jpg)
 
-m4_caption({{{{{An imposing rocky plateau on the South.}}}}})
+<p align="center"><em>An imposing rocky plateau on the South.</em></p>
 
 ![The view to the North-East](../img/25-1019-north-east.jpg)
 
-m4_caption({{{{{The view to the North-East.}}}}})
+<p align="center"><em>The view to the North-East.</em></p>
 
 ## The Farangole trail
 
@@ -125,13 +129,13 @@ can be fixed. At least it is not wet today.
 
 ![My dad walking on the Farangole trail](../img/25-1109-dad-farangole.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 My dad walking on a narrow section of the Farangole trail.
-}}}}})
+</em></p>
 
 ![Anoher hiker](../img/25-1141-hiker.jpg)
 
-m4_caption({{{{{Another hiker following us on the same trail.}}}}})
+<p align="center"><em>Another hiker following us on the same trail.</em></p>
 
 Since this trail is challenging and dangerous, we have to keep
 constant focus on our steps and the way ahead of us. We have little
@@ -140,12 +144,12 @@ pictures than we did earlier.
 
 ![View from the Farangole trail](../img/25-1158-view.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The view from the last part of the Farangole trail, towards
 the East. Soon we'll have to walk down to the dry bed of the
 river you can see at the bottom of this picture. The tiny line
 on the hill on the left is the Farangole trail.
-}}}}})
+</em></p>
 
 At 12:30 we reach the bottom of *Valgrande* (*Pian dei Cantoni*, 2310m).
 
@@ -158,7 +162,7 @@ let my legs bring me up, and I reach the hut at 13:05.
 
 ![Rifugio Rosetta](../img/25-1321-rosetta.jpg)
 
-m4_caption(Rifugio Rosetta)
+<p align="center"><em>Rifugio Rosetta</em></p>
 
 [Rifugio Rosetta](https://www.rifugiorosetta.it) (2581m) is easily
 reachable with a cable car, and because of this it is very crowded,
@@ -179,7 +183,7 @@ The way down is slow and tedious, and my knee starts hurting again.
 
 ![Down from Rifugio Rosetta](../img/25-1519-down-from-rosetta.jpg)
 
-m4_caption(Walking down from Rifugio Rosetta.)
+<p align="center"><em>Walking down from Rifugio Rosetta.</em></p>
 
 The way up to the pass is steep, and there is a long section equipped
 with a steel rope. But the equipped part is actually very easy compared
@@ -188,7 +192,7 @@ previous days.
 
 ![My dad walking on the equipped trail](../img/25-1606-rope.jpg)
 
-m4_caption(My dad walking on this equipped section.)
+<p align="center"><em>My dad walking on this equipped section.</em></p>
 
 After reaching Pass dei Ball, we walk down slowly to
 [Rifugio Pradidali](https://www.rifugiopradidali.com/eng/Home.html)
@@ -206,4 +210,14 @@ The showers are still expensive, and when it is my turn the water boiler
 has run out of gas, and I can either wait for it to be replaced or do a
 freezing cold shower. I don't want to wait, so arctic shower here I come!
 
-m4_navtable(← Day 5,../day5,Alta Via 2,../,Day 7 →,../day7)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day5">← Day 5</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day7">Day 7 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

@@ -1,4 +1,8 @@
-m4_navtable(, , Alta Via 2,../,Day 1 →,../day1)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href=""></a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day1">Day 1 →</a> </th>
+</tr> </thead> </table>
 
 # Preparation
 
@@ -27,9 +31,9 @@ for the hike; I even took part in a local half-marathon run.
 
 ![Me, ready for a half marathon](../img/0-leiden-half-marathon.jpg)
 
-m4_caption({{{{{ At the starting gate of the <a
+<p align="center"><em> At the starting gate of the <a
 href="https://marathon.nl/">Leiden half marathon</a>.  Two hours and
-six minutes later, I am not going to be smiling like that.  }}}}})
+six minutes later, I am not going to be smiling like that.  </em></p>
 
 The gym part was less entartaining for me, I never liked exercising
 indoors.  But I managed to train somewhat consistently for 15-30 minutes
@@ -185,6 +189,16 @@ couple of kilos, but in the end we used almost everything that we brought.
 
 ![Me with my backpack on, at home](../img/19-0000-backpack.jpg)
 
-m4_caption(Ready to go!)
+<p align="center"><em>Ready to go!</em></p>
 
-m4_navtable(, , Alta Via 2,../,Day 1 →,../day1)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href=""></a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day1">Day 1 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

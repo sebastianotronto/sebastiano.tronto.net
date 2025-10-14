@@ -15,6 +15,8 @@ recursivebuild() {
 	done
 }
 
+# This function is currently unused, but we keep it in case we need to
+# preprocess some m4 files.
 mdpreprocess() {
 	file="$1"
 	if [ "$(echo "$file" | sed 's/.*\.//')" = "m4" ]; then
@@ -31,7 +33,12 @@ copyfile() {
 	ind=$dest/index.html
 	extension=$(echo "$file" | sed 's/.*\.//')
 	case "$extension" in
-	md|m4)
+	# m4 preprocess is currently disabled
+	#m4)
+	#	noext=$(echo "$file" | sed 's/\..*//')
+	#	mdpreprocess "$file" > $noext.md
+	#	;;
+	md)
 		t="$(markdowntitle "$file")"
 		sed "s/TITLE/$t/" < top.html > "$ind"
 		mdpreprocess "$file" | \

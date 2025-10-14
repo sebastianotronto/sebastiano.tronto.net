@@ -1,8 +1,12 @@
-m4_navtable(← Day 2,../day2,Alta Via 2,../,Day 4 →,../day4)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day2">← Day 2</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day4">Day 4 →</a> </th>
+</tr> </thead> </table>
 
 # Day 3 - A knee-breaking descent
 
-m4_caption({{{{{August 22, 2025}}}}})
+<p align="center"><em>August 22, 2025</em></p>
 
 ## Route of the day
 
@@ -22,7 +26,7 @@ sun. The weather is going to be much better for the next few days.
 
 ![View from the Pisciadù hut](../img/22-0702-pisciadu.jpg)
 
-m4_caption({{{{{A beatiful view from the Pisciadù hut at dawn.}}}}})
+<p align="center"><em>A beatiful view from the Pisciadù hut at dawn.</em></p>
 
 The beds in the hut were comfortable and we slept well. After a comical
 incident with my dad's boots - he put on someone else's pair, not knowing
@@ -31,7 +35,7 @@ searching for them - we are ready to leave the hut at 8:20.
 
 ![The Pisciadù the lake and Piz Pisciadù](../img/22-0756-pisciadu-lake.jpg)
 
-m4_caption({{{{{The Pisciadù lake and Piz Pisciadù (peak Pisciadù).}}}}})
+<p align="center"><em>The Pisciadù lake and Piz Pisciadù (peak Pisciadù).</em></p>
 
 The day starts with a short but somewhat steep section of the trail.
 There are some steel ropes and we use our simple harness once again,
@@ -50,7 +54,7 @@ unpleasantly cold breeze.
 
 ![My dad resting on a rock](../img/22-0946-fog.jpg)
 
-m4_caption({{{{{My dad resting on a rock, trying to keep warm.}}}}})
+<p align="center"><em>My dad resting on a rock, trying to keep warm.</em></p>
 
 The fog comes and goes, letting us see the beautiful panorama for a few
 brief moments.
@@ -74,10 +78,10 @@ hut at 2873m, before 11:00.
 
 ![Piz Boè](../img/22-1145-piz-boe.jpg)
 
-m4_caption({{{{{ A view of Piz Boè (peak Boè) from Rifugio Boè (Boè
+<p align="center"><em> A view of Piz Boè (peak Boè) from Rifugio Boè (Boè
 hut). The hut on the top of Piz Boè is, perhaps confusingly, called <a
 href="https://www.rifugiocapannapizfassa.com/en">Capanna Piz Fassa</a>.
-}}}}})
+</em></p>
 
 We have now left Sout Tyrol. The rest of the Alta Via 2 route roughly
 follows the border between the provinces of Trento and Belluno.
@@ -103,7 +107,7 @@ really hating it. I would have rather walked it up twice than down once.
 
 ![The steep descent to the Pordoi Pass](../img/22-1236-pordoi-descent.jpg)
 
-m4_caption({{{{{The steep descent to the Pordoi Pass.}}}}})
+<p align="center"><em>The steep descent to the Pordoi Pass.</em></p>
 
 We reach the [Pordoi Pass](https://en.wikipedia.org/wiki/Pordoi_Pass)
 at 13:30. I need a long break before continuing, so we decide to lay
@@ -113,14 +117,14 @@ the surroundings.
 
 ![View from the Pordoi Pass](../img/22-1358-pordoi-pass.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The <a href="https://en.wikipedia.org/wiki/Sella_group">Sella group</a>
-from the Pordoi Pass.}}}}})
+from the Pordoi Pass.</em></p>
 
 ![View towards Canazei](../img/22-1431-canazei.jpg)
 
-m4_caption({{{{{The view in the direction of <a
-href="https://en.wikipedia.org/wiki/Canazei">Cianacei</a>.}}}}})
+<p align="center"><em>The view in the direction of <a
+href="https://en.wikipedia.org/wiki/Canazei">Cianacei</a>.</em></p>
 
 ## Her majesty, the Marmolada
 
@@ -146,7 +150,7 @@ Dolomites.
 
 ![Me in front of the Marmolada](../img/22-1510-marmolada.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The <a href="https://en.wikipedia.org/wiki/Marmolada">Marmolada</a>,
 the highest mountain in the
 Dolomites, and its glacier.  At the feet of the massif you can
@@ -155,7 +159,7 @@ lake</a>, around which there are a couple of huts, including the one
 where we are staying tonight.  In the distance you can see the <a
 href="https://en.wikipedia.org/wiki/Monte_Pelmo">Pelmo</a> and the <a
 href="https://en.wikipedia.org/wiki/Monte_Civetta">Civetta</a>.
-}}}}})
+</em></p>
 
 We stop at [Rifugio Viel Dal Pan](https://www.rifugiovieldalpan.com/)
 (2432m) for a short break at 15:30. From there, the steep descent towards
@@ -177,4 +181,14 @@ to find a comfortable room with private bathroom waiting for us.
 This day was longer than we planned, partly because of my knee.  But the
 scenery was beautiful.
 
-m4_navtable(← Day 2,../day2,Alta Via 2,../,Day 4 →,../day4)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day2">← Day 2</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day4">Day 4 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

@@ -1,8 +1,12 @@
-m4_navtable(← Preparation,../preparation,Alta Via 2,../,Day 2 →,../day2)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../preparation">← Preparation</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day2">Day 2 →</a> </th>
+</tr> </thead> </table>
 
 # Day 1 - The Odles in the rain
 
-m4_caption({{{{{August 20, 2025}}}}})
+<p align="center"><em>August 20, 2025</em></p>
 
 ## Route of the day
 
@@ -43,7 +47,7 @@ Just before we reach Kreutztal, our starting point, it starts raining.
 
 ![My dad and I, ready to start hiking](../img/20-0924-kreutztal.jpg)
 
-m4_caption({{{{{My dad and I, ready to start hiking.}}}}})
+<p align="center"><em>My dad and I, ready to start hiking.</em></p>
 
 By the time we reach Kreutztal (2000 meters on sea level), park the car
 and put on our rain clothes, it is already 9:30. And this is going to
@@ -58,9 +62,9 @@ At least the view from up there is... something.
 
 ![The Odles, surrounded by clouds](../img/20-1033-odles-clouds.jpg)
 
-m4_caption({{{{{The <a
+<p align="center"><em>The <a
 href="https://www.val-gardena.com/en/dolomites/geisler-mountain-group">Odles</a>
-surrounded by clouds.}}}}})
+surrounded by clouds.</em></p>
 
 The clouds came and went, but this is pretty much the clearest the
 skies have been the whole morning. Besides the cold and the rain being
@@ -77,8 +81,8 @@ descending in a [larch](https://en.wikipedia.org/wiki/Larch) forest.
 
 ![Trail in the forest](../img/20-1150-forest.jpg)
 
-m4_caption({{{{{A trail in a forest between Plosehütte and
-Schlüterhütte - Rifugio Genova.}}}}})
+<p align="center"><em>A trail in a forest between Plosehütte and
+Schlüterhütte - Rifugio Genova.</em></p>
 
 The descent is pleasant. We even manage to catch some break from the
 heavy rain, and take a few more pictures of the Odles.
@@ -100,8 +104,8 @@ We are then blocked by a more difficult trail feature: cows.
 
 ![Cows blocking the road](../img/20-1324-cows.jpg)
 
-m4_caption({{{{{Cows are blocking the road.  Yes, that little gap is
-the only way forward.}}}}})
+<p align="center"><em>Cows are blocking the road.  Yes, that little gap is
+the only way forward.</em></p>
 
 After overcoming this zoological obstacle, we reached the
 Schlüterhütte - Rifugio Genova at 16:00 and we stop for a slice of
@@ -109,7 +113,7 @@ Schlüterhütte - Rifugio Genova at 16:00 and we stop for a slice of
 
 ![Rifugio Genova in the fog](../img/20-1603-schluterhutte.jpg)
 
-m4_caption(Rifugio Genova - Schlüterhütte in the fog.)
+<p align="center"><em>Rifugio Genova - Schlüterhütte in the fog.</em></p>
 
 ## The long descent to the village
 
@@ -119,8 +123,8 @@ descent towards Lungiarü (1398m).
 
 ![Me pointing down towards the fog](../img/20-1703-descent.jpg)
 
-m4_caption({{{{{Down there, that's where we have to go. Do you see
-it? Me neither.}}}}})
+<p align="center"><em>Down there, that's where we have to go. Do you see
+it? Me neither.</em></p>
 
 We walk for two hours in the rain and the fog before reaching the
 village. Two hours may not sound like much, but it felt like an eternity.
@@ -130,14 +134,24 @@ Just before the village, we pass by a place called
 which means "Mill Valley" in Ladin.
 
 ![A watermill](../img/20-1816-mill.jpg)
-m4_caption({{{{{
+<p align="center"><em>
 A watermill. In this area it was common to build half-pipes
 with larch trunks to lead the water to the mill.
-}}}}})
+</em></p>
 
 The village of Lungiarü, in [Val
 Badia](https://en.wikipedia.org/wiki/Val_Badia), is quite nice, but we
 have no energy left for sightseeing. All we can do before falling asleep
 is a shower, dinner, and trying to dry our clothes for the next day.
 
-m4_navtable(← Preparation,../preparation,Alta Via 2,../,Day 2 →,../day2)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../preparation">← Preparation</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day2">Day 2 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+

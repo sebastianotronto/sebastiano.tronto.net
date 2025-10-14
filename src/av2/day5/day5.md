@@ -1,8 +1,12 @@
-m4_navtable(← Day 4,../day4,Alta Via 2,../,Day 6 →,../day6)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day4">← Day 4</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day6">Day 6 →</a> </th>
+</tr> </thead> </table>
 
 # Day 5 - Entering the Pala group
 
-m4_caption({{{{{August 24, 2025}}}}})
+<p align="center"><em>August 24, 2025</em></p>
 
 ## Route of the day
 
@@ -18,11 +22,11 @@ m4_caption({{{{{August 24, 2025}}}}})
 
 ![The Focobon group at dawn](../img/24-0648-focobon.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 This photo is the same at the last one of the previous day,
 but it is one of my best shots. It is also quite fascinating how the light
 at dawn mixes up all the colors compared to previous day's picture.
-}}}}})
+</em></p>
 
 After a long sleep, we are ready to leave Flora Alpina at 8:20. Our
 first checkpoint is the
@@ -43,7 +47,7 @@ which I guess could be described as a rocky meadow.
 
 ![The rocky meadow](../img/24-1027-pale-di-gargol.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 The Pale di Gargol. The term "pala" means "shovel" in Italian,
 but according to the
 <a href="https://it.wikipedia.org/wiki/Pale_di_San_Martino#Il_toponimo">
@@ -51,7 +55,7 @@ Italian Wikipedia page</a> about the
 <a href="https://en.wikipedia.org/wiki/Pala_group">Pale di San Martino</a>
 mountains, in the local language it once denoted a grassy slope at the
 feet of a mountain range.
-}}}}})
+</em></p>
 
 Once again, the landscape has changed to show us something completely
 different from that we have seen so far. The constant shifting from rocks,
@@ -61,8 +65,8 @@ Alta Via 2.
 
 ![Walking down to Passo Valles](../img/24-1129-panorama.jpg)
 
-m4_caption({{{{{Walking down to Passo Valles.
-In the background, the Pale di San Martino.}}}}})
+<p align="center"><em>Walking down to Passo Valles.
+In the background, the Pale di San Martino.</em></p>
 
 The trail continues almost flat in this unusual scenery until we
 descend to [Passo Valles](https://it.wikipedia.org/wiki/Passo_Valles) (2032m)
@@ -81,7 +85,7 @@ Veneggia (2217m). The view opens up to the wild valley in the south.
 
 ![The view from Forcella Veneggia](../img/24-1252-forcella-veneggia.jpg)
 
-m4_caption({{{{{The view from Forcella Veneggia.}}}}})
+<p align="center"><em>The view from Forcella Veneggia.</em></p>
 
 So far, the day has not been particularly challenging. Later on
 we'll have to pass some difficult sections, but for now we continue
@@ -114,9 +118,9 @@ muscles, which so far had been enjoying a more relaxing day.
 
 ![The climb to Rifugio Mulaz](../img/24-1552-climb-to-mulaz.jpg)
 
-m4_caption({{{{{
+<p align="center"><em>
 Some steel ropes help make the climb to Rifugio Mulaz less dangerous.
-}}}}})
+</em></p>
 
 We reach Rifugio Mulaz (2570m) at 16:40, after a little more
 than 8 hours from when we left Flora Alpina. Somehow, despite the
@@ -125,7 +129,7 @@ long walk between them, both these places are in the territory of
 
 ![Reaching Rifugio Mulaz](../img/24-1638-mulaz.jpg)
 
-m4_caption(Reaching Rifugio Mulaz)
+<p align="center"><em>Reaching Rifugio Mulaz</em></p>
 
 From this hut, the only landscape you can see, in any direction, is naked
 rock. There is a tiny window from where you can see a valley, but the
@@ -139,4 +143,14 @@ Oh and by the way, up here every resource is very scarce. There is
 no drinkable tap water, and showers cost 8€ for 5 minutes. But I
 really need one today.
 
-m4_navtable(← Day 4,../day4,Alta Via 2,../,Day 6 →,../day6)
+<table style="width: 100%; table-layout: fixed;"> <thead> <tr>
+	<th style="text-align: left"> <a href="../day4">← Day 4</a> </th>
+	<th style="text-align: center"> <a href="../">Alta Via 2</a> </th>
+	<th style="text-align: right"> <a href="../day6">Day 6 →</a> </th>
+</tr> </thead> </table>
+
+
+
+
+
+
