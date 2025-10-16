@@ -41,7 +41,7 @@ good enough anyway.
 
 At Rifugio Mulaz, the sun rises at 6:40 and sets at around 7:05.
 In the morning. Luckily for you, I got up early enough to catch
-the sunset.
+the *sunset*.
 
 ![The morning sunset](../img/25-0707-sunset.jpg)
 
