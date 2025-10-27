@@ -275,8 +275,8 @@ console.log("The answer is " + result);
 but not, for example when running in a browser. We'll see in the next
 session what to do in that case, but for now let's stick to this.)*
 
-Unfortunately, this will not work for a couple of reasons. The reason
-first is that Emscripten is going to add an underscore `_` to all our
+Unfortunately, this will not work for a couple of reasons. The first
+reason is that Emscripten is going to add an underscore `_` to all our
 function names; so we'll have to call `library._multiply()`. But this
 still won't work, because by default the compiler does not *export* all
 the functions in your code - that is, it does not make them visible to
@@ -1061,7 +1061,7 @@ function that, directly or indirectly, calls an async JavaScript
 function, will now return a
 [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 when called from JavaScript. But wether an async function is called is
-determined at runtime, so you C function may return a value one time
+determined at runtime, so your C function may return a value one time
 and a promise another time, depending on how exactly it runs!*
 
 So we are going to add `--pre-js init_idbfs.js` to our compiler options,
