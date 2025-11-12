@@ -196,6 +196,19 @@ Yes, this new setup works and I am always happy when things work.
 Of course, one might make the case that things worked before as well...
 
 I am happy that I could work my way around a basic smtpd configuration.
-Besides being useful knowledge on its own, it may make a second attempt
+Besides being useful knowledge on its own, I may make a second attempt
 at self-hosting my email less daunting. I don't know if I am ever going
 to try that, though.
+
+## Update (November 2025)
+
+After happily using this system for more than 3 years, I have now
+switched to a more standard IMAP setup, where incoming mail is synced
+with my mailbox.org server using [isync](https://isync.sourceforge.io/).
+I did this for a few of reasons:
+
+* I am not that interested anymore in most of the mailing lists I
+  had signed up for, so a simpler folder structure now works for me.
+  I am not filtering my mail into separate folders automatically.
+* I did not want to rely too much on my ad-hoc server setup for my email.
+* I am less scared of IMAP now.
