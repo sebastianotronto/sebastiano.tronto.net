@@ -38,7 +38,13 @@ server. As long as you have an http server that can serve static html
 files and a way to upload your files to this server, you can easily manage
 your website in a similar way. I am not going to explain how to do all of this
 here; if you need help I suggest you have a look at
-[Roman Zolotarev's website](https://rgz.ee).
+[Roman Zolotarev's website](https://rgz.ee) (*Update: as of November 2025,
+it seems that Roman has removed all content from his website.
+[His new website](https://romanzolotarev.com/) does not have much content
+either, although some of the old pages are still accessible if you know
+the full URL, for exaple
+[his Markdown cheatsheet](https://romanzolotarev.com/markdown.html) or
+[his OpenBSD-related pages](https://romanzolotarev.com/openbsd/).*)
 
 As for my local machine, the one I am actually using to write these blog
 posts, I just use a Markdown translator, a text editor, rsync

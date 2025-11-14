@@ -192,4 +192,8 @@ and, more annoyingly for the few gemini users, I am going to use
 http(s) links even when a gemini counterpart is available.
 
 *Update: as of August 2023, my website is still available on gemini,
-but new blog posts are no longer mirrored there*
+but new blog posts are no longer mirrored there.*
+
+*Update: as of November 2025, as a result of a general cleanup of my
+server's configuration, my website is no longer available on
+gemini and I am not interested in setting it up again.*
