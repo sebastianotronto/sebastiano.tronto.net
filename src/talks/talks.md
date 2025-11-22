@@ -113,6 +113,11 @@
 
 ## Software
 
+* *WebAssembly and Emscripten*. 
+  ALTEN Advanced Software Evening, December 2025.
+  [Slides: [html, 1.7Mb](./wasm);
+   Examples: [zip, 83Kb](./wasm/examples.zip)]
+
 * *L'importanza del software libero nella ricerca (ITA)*.
   Linux day in Feltre, October 2019.
   [Slides: [pdf, 804Kb](linuxday2019.pdf);

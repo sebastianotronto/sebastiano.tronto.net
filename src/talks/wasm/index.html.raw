@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>WebAssembly and Emscripten</title>
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Import highlight.js script and style sheet -->
+	<script id="highlight.js" src="
+		https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"
+	></script>
+	<link rel="stylesheet" href="
+		https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs.css"
+	>
+
+	<!-- Custom style -->
+	<style>
+		html { height: 100vh; width: 98vw; margin: 0 2vw 0 0; font-family: sans-serif; }
+		h1 {
+			font-size: 3.5vw;
+			background-color: #a4b5c5;
+			margin: 0;
+			padding: 2px 10px 2px 10px;
+			border-bottom-left-radius: 6px;
+			border-bottom-right-radius: 6px;
+		}
+		body { font-size: 2.2vw; height: 100%; width: 100%; }
+		a, a:visited { color: #0f2899; text-decoration: none; }
+		a:hover { text-decoration: underline; }
+		figcaption { text-align: center; font-size: 1.5vw; }
+		em { font-style: normal; color: blue; }
+
+		.slide { outline: none; height: 100vh; width: 100%; }
+		.slide {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.slide ul { margin-left: 1.5vw; }
+		.slide ol { margin-left: 1.5vw; }
+		.slide p { margin-left: 1.5vw; }
+		.slide li { margin: 3.0vh 0; }
+
+		.slide.titlepage p, a { text-align: center; }
+		.slide.titlepage span.title { font-size: 3.6vw; font-weight: bold; }
+		.slide.titlepage span.author { }
+
+
+		.slide div.centertext { text-align: center; margin: auto; width: 60%; }
+
+		.columns {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.footer {
+			font-size: 1.8vw;
+			padding: 2px 10px 2px 10px;
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+			background-color: #a4b5c5;
+		}
+		.footer table { width: 100%; }
+		.footer-title { font-weight: bold; }
+		.footer-link { text-align: right; }
+
+		#bench {
+			border-collapse: collapse;
+			width: 99%;
+		}
+		#bench th, #bench td {
+			border: 1px solid black;
+			padding: 5px;
+			text-align: center;
+		}
+		#bench th { white-space: normal; }
+	</style>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/cpp-in-the-web.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 70%;
+background-color: rgba(255, 255, 255, 0.85);
+background-blend-mode: overlay;">
+
+<p></p>
+
+<p><span class="title">WebAssembly and Emscripten</span></p>
+<p><span class="author">Sebastiano Tronto</span></p>
+<p><span class="event">ALTEN Advanced Software Evening</span></p>
+
+</div>
+
+
+<div class="slide" tabindex="-1">
+<h1>Your browser runs code</h1>
+
+<div class="columns">
+
+<div style="text-align: center;">
+<input id="aInput" size=10 style="font-size: 24px;">
+<br>
++
+<br>
+<input id="bInput" size=10 style="font-size: 24px;">
+<br>
+<button id="resultButton" style="font-size: 24px;">=</button>
+<br>
+<span id="resultText" style="font-size: 30px;"></span>
+</div>
+
+<pre><code class="language-javascript"
+style="border: 0.2vw solid; font-size: 2.2vw;">
+var aInput = document.getElementById("aInput");
+var bInput = document.getElementById("bInput");
+var button = document.getElementById("resultButton");
+var resultText = document.getElementById("resultText");
+
+button.addEventListener("click", () => {
+        var a = Number(aInput.value);
+        var b = Number(bInput.value);
+        resultText.innerText = a + b;
+});
+</code></pre></div>
+
+</div>
+
+
+
+<div class="slide" tabindex="-1">
+<h1>WebAssembly</h1>
+
+<div class="columns">
+
+<a href="https://webassembly.org/">
+<img src="images/wasm-logo.png" style="width: 80%;">
+</a>
+
+<div>
+<p style="text-align: center;">
+WASM first appeared in 2017 as a more performant language for the browser.
+</p>
+
+<p style="text-align: center;">
+It runs in a VM and can interact with JavaScript, but not with the DOM.
+</p>
+</div>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>WebAssembly - code example</h1>
+
+<div class="columns">
+
+<pre><code class="language-wasm"
+style="border: 0.2vw solid; font-size: 2.1vw;">
+(func (param i64) (result i64)
+  local.get 0
+  i64.eqz
+  if (result i64)
+      i64.const 1
+  else
+      local.get 0
+      local.get 0
+      i64.const 1
+      i64.sub
+      call 0
+      i64.mul
+  end)
+</code></pre>
+
+<div></div>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>WebAssembly - code example</h1>
+
+<div class="columns">
+
+<pre><code class="language-wasm"
+style="border: 0.2vw solid; font-size: 2.1vw;">
+(func (param i64) (result i64)
+  local.get 0
+  i64.eqz
+  if (result i64)
+      i64.const 1
+  else
+      local.get 0
+      local.get 0
+      i64.const 1
+      i64.sub
+      call 0
+      i64.mul
+  end)
+</code></pre>
+
+<div>
+Same thing in Python:
+<pre><code class="language-python"
+style="border: 0.2vw solid; font-size: 2.1vw;">
+def f(n):
+    if n == 0:
+        return 1
+    else
+        return n * f(n-1)
+</code></pre>
+</div>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Emscripten</h1>
+
+<a href="https://emscripten.org/index.html">
+<img src="images/emscripten-logo-full.png">
+</a>
+
+<p style="text-align: center;">
+<strong>
+"Emscripten is a complete compiler toolchain to WebAssembly, using LLVM,
+with a special focus on speed, size, and the Web platform."
+</strong>
+</p>
+
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Hello, world!</h1>
+
+<div class="columns">
+
+<ol>
+<li>Write an Hello World program in C or C++</li>
+<li>Compile with <pre>emcc -o index.html hello.c</pre></li>
+<li>Run a web server and
+<a href="./examples/1-hello-world">open a browser</a>!</li>
+</ol>
+
+<img src="images/meme.png" style="width: 35%;">
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Writing a library</h1>
+
+<i>Thanks Emscripten, we'll write our own HTML!</i>
+
+<div class="columns">
+
+<img src="./images/sum.jpg" style="width: 70%;">
+
+<div>
+<ul>
+<li><strong>Goal:</strong>
+write a library with a function to sum two numbers,
+and use it in a simple web page</li>
+<li>See <a href=./examples/2-sum>examples/2-sum</a></li>
+<li>Some extra options are needed:</li>
+</ul>
+<pre><code class="language-shell">
+emcc -sEXPORTED_FUNCTIONS=_sum \
+     -sMODULARIZE \
+     -sEXPORT_NAME=SumLibrary \
+     -o sum_library.mjs \
+     sum_library.c
+</code></pre>
+</div>
+
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Exercise: count prime numbers</h1>
+<div class="columns">
+<ul>
+<li>Write a web app that takes a single integer n as input
+and prints <strong>the number of prime numberss less than n</strong> when
+the user presses a button.</li>
+<li>Solution: <a href=./examples/3-primes>examples/3-primes</a></li>
+</ul>
+<img src="./images/meme2.jpg" style="width: 70%;">
+</div>
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>Performance benchmark</h1>
+<table id="bench">
+<tr>
+	<th></th>
+	<th>Firefox <br>WASM (-O3)</th><th>Firefox <br>JS</th>
+	<th>Chromium <br>WASM (-O3)</th><th>Chromium <br>JS</th>
+</tr>
+<tr>
+	<td>1e7 Primes (iterative)</td>
+	<td>4.5s</td><td>4.4s</td>
+	<td>4.7s</td><td>4.6s</td>
+<tr>
+<tr>
+	<td>1e7 Primes (sieve)</td>
+	<td>0.76s</td><td>0.82s</td>
+	<td>0.92s</td><td>0.80s</td>
+<tr>
+<tr>
+	<td>Matrix multiplication</td>
+	<td>0.81s</td><td>5.3s</td>
+	<td>1.5s</td><td>4.6s</td>
+<tr>
+</table>
+<img src="./images/fast.jpg" style="width: 30%; margin: auto;">
+</div>
+
+<div class="slide" tabindex="-1">
+<h1>More exercises</h1>
+
+<p>See <a href="https://github.com/sebastianotronto/emscripten-tutorial">
+github.com/sebastianotronto/emscripten-tutorial</a></p>
+
+<div class="columns">
+<ul>
+<li><strong>Fix UI freezing:</strong> very large numbers in example 3
+can block the UI. Can you fix this?</li>
+<li><strong>More faster:</strong> use multi-threading
+(<a href="https://en.wikipedia.org/wiki/Pthreads">pthreads</a> or
+<a href="https://en.cppreference.com/w/cpp/thread/thread.html">std::thread</a>) to make our examples faster. Watch out for
+<a href="https://spectreattack.com/">Spectre</a>!</li>
+<li><strong>Show progress:</strong> using callback functions, make our
+long-running examples show their progress in the web page.</li>
+</ul>
+
+<img src="./images/pencil.jpg" style="width: 60%; margin: auto;">
+
+</div>
+</div>
+
+
+<div class="slide titlepage" tabindex="-1"
+style="background-image: url('images/beer.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 80%;
+background-color: rgba(255, 255, 255, 0.65);
+background-blend-mode: overlay;">
+<p></p>
+<p><span class="title">Drinks!</span></p>
+<p></p>
+</div>
+
+<script>
+	// The list of all slides of the presentation.
+	const slides = document.querySelectorAll(".slide");
+
+	// Navigation keys.
+	const keysNext = ["ArrowRight", "ArrowDown", " "];
+	const keysPrev = ["ArrowLeft", "ArrowUp"];
+
+	// Function to move to a given slide.
+	// This also focuses the slide, so any key press will be
+	// handled by the correct slide's event handler.
+	function goto(slide) {
+		slide.focus();
+		slide.scrollIntoView({
+			behavior: "instant",
+			block: "start"
+		});
+	}
+
+	// Handle key press events.
+	function onkeydown(i, e) {
+		if (keysNext.includes(e.key) && i+1 < slides.length) {
+			goto(slides[i+1]);
+		}
+		if (keysPrev.includes(e.key) && i > 0) {
+			goto(slides[i-1]);
+		}
+	}
+
+	// Disabled for these slides, it messes with interactive elements;
+	// see also the part that adds event listeners below.
+	//
+	// Handle click or tap events.
+	// Tapping on the right half of the screen scrolls forwards,
+	// tapping on the left half scrolls backwards.
+	//function onclick(i, e) {
+	//	const w = slides[i].offsetWidth;
+	//	const x = e.clientX;
+	//
+	//	if (x > w/2 && i+1 < slides.length) {
+	//		goto(slides[i+1]);
+	//	}
+	//	if (x < w/2 && i > 0) {
+	//		goto(slides[i-1]);
+	//	}
+	//}
+
+	// Disable default action of the navigation keys (e.g. scrolling).
+	document.addEventListener("keydown", function(e) {
+		if (keysNext.includes(e.key) || keysPrev.includes(e.key)) {
+			e.preventDefault();
+		}
+	});
+
+	// Function to add a footer to every slide.
+	function slideFooter() {
+		const start = "<div class=\"footer\"><table class=\"footer-table\"><tr>";
+		const title = "WebAssembly and Emscripten"
+		const link = "<a href=https://tronto.net/talks/wasm>tronto.net/talks/wasm</a>";
+		const end = "</tr></table></div>";
+		const content =
+			"<td class=\"footer-title\">" + title + "</td>" +
+			"<td class=\"footer-link\">" + link + "</td>";
+
+		return start + content + end;
+	}
+
+	// Add slide footers and event handlers.
+	for (let i = 0; i < slides.length; i++) {
+		slides[i].innerHTML += slideFooter();
+		slides[i].addEventListener("keydown", e => onkeydown(i, e));
+		//slides[i].addEventListener("click", e => onclick(i, e));
+	}
+
+	// Focus and scroll into view the first slide.
+	goto(slides[0]);
+
+	// Call highlight.js
+	hljs.highlightAll();
+</script>
+
+<!-- Script for first example slide -->
+<script>
+var aInput = document.getElementById("aInput");
+var bInput = document.getElementById("bInput");
+var button = document.getElementById("resultButton");
+var resultText = document.getElementById("resultText");
+
+button.addEventListener("click", () => {
+        var a = Number(aInput.value);
+        var b = Number(bInput.value);
+        resultText.innerText = a + b;
+});
+</script>
+
+</body>
+</html>

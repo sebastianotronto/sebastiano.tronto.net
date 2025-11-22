@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Count prime numbers (sieve)</title>
+	<script src="./script.js" type="module" defer></script>
+</head>
+
+<body>
+	<input id="input" />
+	<button id="wasmButton">Count with WASM</button>
+	<button id="jsButton">Count with JS</button>
+	<br />
+	<p id="resultText"></p>
+</body>
+
+</html>
