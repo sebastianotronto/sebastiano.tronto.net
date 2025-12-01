@@ -86,3 +86,28 @@ opens up an editor and [Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser))
 session to set me up to speed, but that is not as interesting.
 
 Happy coding!
+
+### Update 2025-12-01
+
+An interesting addition to my script: now it can also download and save
+the `<code>` blocks and save them each in a separate file. This can
+be useful because these blocks contain example input whose solution is
+provided in the problem's page. The relevant code snippet, based on
+`curl` and `sed`, is this:
+
+```
+url="https://adventofcode.com/$year/day/$daynozero"
+curl "$url" | sed -n '/<pre><code>/,/<\/code><\/pre>/ p' | (\
+        i=1
+        rm -f "code-$i.txt"
+        while read line; do
+                if [ "$line" = "</code></pre>" ]; then
+                        i=$((i + 1))
+                        rm -f "code-$i.txt"
+                else
+                        echo "$line" | sed 's/<.*>//g' >> "code-$i.txt"
+                fi
+        done
+)
+```
+
