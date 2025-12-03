@@ -286,7 +286,7 @@ emcc -sEXPORTED_FUNCTIONS=_sum \
 <div class="columns">
 <ul>
 <li>Write a web app that takes a single integer n as input
-and prints <strong>the number of prime numberss less than n</strong> when
+and prints <strong>the number of prime numbers less than n</strong> when
 the user presses a button.</li>
 <li>Solution: <a href=./examples/3-primes>examples/3-primes</a></li>
 </ul>
