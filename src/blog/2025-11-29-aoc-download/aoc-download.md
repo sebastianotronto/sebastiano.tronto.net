@@ -100,7 +100,8 @@ url="https://adventofcode.com/$year/day/$daynozero"
 curl "$url" | sed -n '/<pre><code>/,/<\/code><\/pre>/ p' | (\
         i=1
         rm -f "code-$i.txt"
-        while read line; do
+	IFS=''
+        while read -r line; do
                 if [ "$line" = "</code></pre>" ]; then
                         i=$((i + 1))
                         rm -f "code-$i.txt"
@@ -110,4 +111,3 @@ curl "$url" | sed -n '/<pre><code>/,/<\/code><\/pre>/ p' | (\
         done
 )
 ```
-
