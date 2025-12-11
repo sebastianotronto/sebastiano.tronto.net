@@ -1,14 +1,20 @@
 # Talks
 
-## Cubing
+## Software
 
-* *Cubo di Rubik e Speedcubing (ITA)*.
-  Invited talk at Università di Cagliari, January 2020.
-  [Slides: [pdf, 2.0Mb](cubo-cagliari.pdf)]
+* *WebAssembly and Emscripten*. 
+  ALTEN Advanced Software Evening, December 2025.
+  [Slides: [html, 1.7Mb](./wasm);
+   Examples: [zip, 83Kb](./wasm/examples.zip)]
 
-* *The Rubik's cube group structure in 2 minutes*.
-  Speed talk at the AAN Symposium, May 2019.
-  [Slides: [pdf, 1.2Mb](cube-2min-slides.pdf)]
+* *L'importanza del software libero nella ricerca (ITA)*.
+  Linux day in Feltre, October 2019.
+  [Slides: [pdf, 804Kb](linuxday2019.pdf);
+   [Video](https://www.youtube.com/watch?v=FB0YIYNp3rw)]
+
+* *Linux from scratch (ITA)*
+  Linux day in Sedico, October 2012.
+  [Video](https://www.youtube.com/watch?v=h7xW7iq-ApA).
 
 ## Math
 
@@ -111,18 +117,12 @@
   University of Luxembourg Number Theory seminar, November 2018.
   [Notes: [pdf, 208Kb](notes-katz.pdf)]
 
-## Software
+## Cubing
 
-* *WebAssembly and Emscripten*. 
-  ALTEN Advanced Software Evening, December 2025.
-  [Slides: [html, 1.7Mb](./wasm);
-   Examples: [zip, 83Kb](./wasm/examples.zip)]
+* *Cubo di Rubik e Speedcubing (ITA)*.
+  Invited talk at Università di Cagliari, January 2020.
+  [Slides: [pdf, 2.0Mb](cubo-cagliari.pdf)]
 
-* *L'importanza del software libero nella ricerca (ITA)*.
-  Linux day in Feltre, October 2019.
-  [Slides: [pdf, 804Kb](linuxday2019.pdf);
-   [Video](https://www.youtube.com/watch?v=FB0YIYNp3rw)]
-
-* *Linux from scratch (ITA)*
-  Linux day in Sedico, October 2012.
-  [Video](https://www.youtube.com/watch?v=h7xW7iq-ApA).
+* *The Rubik's cube group structure in 2 minutes*.
+  Speed talk at the AAN Symposium, May 2019.
+  [Slides: [pdf, 1.2Mb](cube-2min-slides.pdf)]
