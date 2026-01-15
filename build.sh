@@ -15,7 +15,7 @@ recursivebuild() {
 	done
 }
 
-# This function is currently unused, but we keep it in case we need to
+# This function is currently useless, but we keep it in case we need to
 # preprocess some m4 files.
 mdpreprocess() {
 	file="$1"
@@ -45,6 +45,13 @@ copyfile() {
 			lowdown --html-no-skiphtml --html-no-escapehtml \
 			>> "$ind"
 		cat bottom.html >> "$ind"
+		;;
+	noheadermd)
+		t="$(markdowntitle "$file")"
+		sed "s/TITLE/$t/" < top-nobar.html > "$ind"
+		mdpreprocess "$file" | \
+			lowdown --html-no-skiphtml --html-no-escapehtml \
+			>> "$ind"
 		;;
 	html)
 		t="$(htmltitle "$file")"
