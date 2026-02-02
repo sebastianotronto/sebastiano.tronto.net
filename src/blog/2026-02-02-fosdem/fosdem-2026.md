@@ -226,7 +226,7 @@ Talks](https://fosdem.org/2026/schedule/event/G3ZWYU-lightning_lightning_talks_2
 session. Every speaker was given 256 seconds to present. I
 was expecting the talks to be humorous, but actually most of
 them were a bit boring. Shout out to the speakers who talked
-about [smart TVs](https://runxiyu.org/), the [PostgreSQL Compatibility
+about smart TVs, the [PostgreSQL Compatibility
 Index](https://drunkdba.medium.com/postgresql-compatibility-index-the-fellowship-of-the-database-4005f818f97c)
 and [rendering windows in a terminal](https://github.com/dextero/smithay),
 I found these ones very entertaining!
