@@ -81,7 +81,7 @@ idiomatic way to do certain things changes, and old code starts to
 
 *Python2 was killed and now a bunch of tiny programs (mostly
 [Project Euler](https://projecteuler.net) solutions that I have
-no reason to "port" do not run anymore :( I want my print statements
+no reason to "port") do not run anymore :( I want my print statements
 back!*
 
 *It seems Java has a new way of doing GUIs every time I look at it.

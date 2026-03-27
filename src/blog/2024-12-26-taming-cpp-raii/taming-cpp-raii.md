@@ -279,4 +279,4 @@ of control over the low-level details, and some powerful tools to make
 use of it, in exchange for a lot of complexity that you must, at the
 very least, be aware of.
 
-*Next in the series: [RAII](../2025-01-21-taming-cpp-templates)*
+*Next in the series: [templates](../2025-01-21-taming-cpp-templates)*
