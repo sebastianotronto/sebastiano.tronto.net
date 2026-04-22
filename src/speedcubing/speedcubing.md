@@ -6,8 +6,7 @@ I have been practicing
 [speedcubing](https://en.wikipedia.org/wiki/Speedcubing) since 2008,
 and since 2011 I have competed in more than 70 officially recognized
 [WCA](https://www.worldcubeassociation.org) competitions.
-I am currently a senior member of the WCA Disciplinary Committee and
-a WCA Junior Delegate.
+I am currently delegate for the WCA.
 
 I use the Roux method to solve the Rubik's cube in about 8 seconds
 on average.  I currently hold the world record for the single best
