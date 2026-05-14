@@ -71,14 +71,18 @@ doas cp "$tmp_doas_file" /etc/doas.d/20-wheel.conf
 print_log "Configuring the console"
 
 tmp_kmap_file=$(mktemp)
-tmp_loadkmap_file=$(mktemp)
-printf 'keycode 1 = Caps_Lock\nkeycode 58 = Escape\n' > "$tmp_kmap_file"
-doas loadkeys "$tmp_kmap_file"
-dumpkmap > us-swapesc.bmap
-gzip us-swapesc.bmap
-doas mv us-swapesc.bmap.gz /etc/keymap/
-printf 'KEYMAP=/etc/keymap/us-swapesc.bmap.gz\n' > "$tmp_loadkmap_file"
-doas mv "$tmp_loadkmap_file" /etc/conf.d/loadkmap
+if (dumpkmap > /dev/null 2>&1); then
+	tmp_loadkmap_file=$(mktemp)
+	printf 'keycode 1 = Caps_Lock\nkeycode 58 = Escape\n' > "$tmp_kmap_file"
+	doas loadkeys "$tmp_kmap_file"
+	dumpkmap > us-swapesc.bmap
+	gzip us-swapesc.bmap
+	doas mv us-swapesc.bmap.gz /etc/keymap/
+	printf 'KEYMAP=/etc/keymap/us-swapesc.bmap.gz\n' > "$tmp_loadkmap_file"
+	doas mv "$tmp_loadkmap_file" /etc/conf.d/loadkmap
+else
+	echo "dumpkmap failed, skipping console keybaord settings"
+fi
 
 tmp_blacklist_file=$(mktemp)
 cp /etc/modprobe.d/blacklist.conf "$tmp_blacklist_file"
