@@ -51,12 +51,12 @@ My adventures in learning C++ as a C programmer.
 * Episode 2: [RAII](../blog/2024-12-26-taming-cpp-raii)
 * Episode 3: [templates, constraints and concepts](../blog/2025-01-21-taming-cpp-templates)
 
-## Learning Rust
+## tmux tricks
 
-I have recently started learning Rust, documenting the process in a
-small series of blog posts. These posts are all marked by the crab emoji
-'🦀', which is something of a meme in the Rust community, as far as
-I understand.
+Some tips and tricks for using [tmux](https://en.wikipedia.org/wiki/Tmux),
+the terminal multiplexer. In these posts I try to focus on one practical
+aspect of this application at the time, without going too in depth into
+the inner workings of tmux.
 
-* [Cargo culture shock](../blog/2025-06-13-cargo-culture-shock)
-* [Stunned by the borrow checker](../blog/2025-06-26-borrow-checker)
+* Trick #1: [battery status indicator](../blog/2024-07-11-tmux-battery)
+* Trick #2: [copy to clipboard](../blog/2026-05-17-tmux-clipboard)

@@ -1,4 +1,6 @@
-# tmux tricks #1: battery status indicator
+# tmux trick #1: battery status indicator
+
+*This post is part of a [series](../../series)*
 
 [tmux](https://github.com/tmux/tmux/wiki) is a program that allows
 you to create multiple virtual terminals in the same shell and keep
@@ -162,3 +164,5 @@ is created. The `-g` is used to apply this command globally. My
 understanding of this is still superficial, but for now I am happy
 that the battery status is there.  Maybe I'll learn about sessions
 at some point, and I'll write a new blog post about them :)
+
+*Next in the series: [copy to clipboard](../2026-05-17-tmux-clipboard)*
