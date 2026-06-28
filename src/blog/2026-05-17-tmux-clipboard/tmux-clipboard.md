@@ -54,3 +54,5 @@ Here one last trick: with the `tmux show-buffer` command you can print the
 current tmux selection to standard output. You can use this in shell scripts,
 for example, or in more complex tmux key bindings in your configuration file.
 And that's a teaser for the next tmux trick :)
+
+*Next in the series: [open URLs without the mouse](../2026-06-28-tmux-open-urls)*

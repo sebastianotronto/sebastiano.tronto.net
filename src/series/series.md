@@ -60,3 +60,4 @@ the inner workings of tmux.
 
 * Trick #1: [battery status indicator](../blog/2024-07-11-tmux-battery)
 * Trick #2: [copy to clipboard](../blog/2026-05-17-tmux-clipboard)
+* Trick #3: [open URLs without the mouse](../blog/2026-06-28-tmux-open-urls)
