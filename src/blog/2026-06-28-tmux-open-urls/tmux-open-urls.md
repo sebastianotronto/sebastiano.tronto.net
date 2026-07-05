@@ -52,3 +52,27 @@ If a URL is broken into multiple lines, my `urlgrep` script is only going to
 select it until the end of the first line, so you won't be able to open
 it correctly with this configuration. However, I found this to be a common
 issue in many terminal emulators.
+
+## Update 2026-07-05
+
+Shortly after this post was published, a reader emailed me his modified
+version of the binding:
+
+```
+bind u {
+	capture-pane -J
+	display-popup -w 80% -T "Select URL to open" -E "tmux show-buffer | urlview"
+}
+```
+
+This taught me three things:
+
+1. `urlview` can replace my custom combo of scripts - cool! But I kinda like
+   my scripts, I think I'll keep using them.
+2. Using `display-popup` to show a "window" inside the tmux session. This can
+   be useful e.g. if one is not running a graphical session at all. I can
+   use it together with the `-m fzf` option for my `dmenu-urlselect`.
+3. The `-J` option for `capture-pane` to preserve trailing spaces and join
+   any wrapped lines. This may solve the caveat I mentioned above!
+
+Thanks Johannes!
