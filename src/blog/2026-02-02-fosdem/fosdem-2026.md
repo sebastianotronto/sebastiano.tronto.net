@@ -37,7 +37,7 @@ the end of January.
 
 ### Welcome to FOSDEM
 
-I went to plenary
+I went to the plenary
 [introduction](https://fosdem.org/2026/schedule/event/SFKNTZ-welcome_to_fosdem_2026/)
 where the organizers give some practical information about the conference.
 Besides that, the speaker gave a rather political speach, where he talked
