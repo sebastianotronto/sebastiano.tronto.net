@@ -4,7 +4,7 @@
 
 I have been practicing
 [speedcubing](https://en.wikipedia.org/wiki/Speedcubing) since 2008,
-and since 2011 I have competed in more than 70 officially recognized
+and since 2011 I have competed in more than 100 officially recognized
 [WCA](https://www.worldcubeassociation.org) competitions.
 I am currently delegate for the WCA.
 
@@ -20,8 +20,6 @@ Tutorial](https://fmcsolves.cubing.net/). I also upload irregularly on
 most videos consist just of me solving the cube without any comment
 or explanation.
 
-Below you can find some links
-
 ## Fundamentals
 
 * [Rubik's cube notation](notation), good to know before reading any
@@ -36,6 +34,8 @@ how to solve it step by step, but it will point you in the right direction.
 Jaap Scherphuis. If you are interested in implementing a puzzle solver,
 do check out this page.
 * [Nissy](https://nissy.tronto.net), a Rubik's cube solver and FMC assistant.
+  See also [nissy-core](https://git.tronto.net/nissy-core), a newer and
+  more performant library implementing similar features.
 * [Cube coordinates](coordinates), an explanation of how "coordinates" in
   the sense of [Kociemba](https://kociemba.org/cube.htm) can be implemented
   for efficient Rubik's cube computations and solving.
@@ -54,9 +54,7 @@ including my 16 moves single (YouTube video).
 
 * [An old 3BLD tutorial](guidabld.pdf) for beginners, in Italian.
 * [My new alg sheet](https://docs.google.com/spreadsheets/d/1iIuCNs_GXQAQFEssZam5lQ4cm3R_MRw9uQkb0GIThvo/edit?usp=sharing).
-At the moment it has only corners (UFR), 4BLD wings (UFr), 4BLD x-centers
-(Ubl) and 5BLD t-centers. Also available in csv format (see links
-in the A1 cell in each sheet). Work in progress.
+  Work in progress.
 
 ## Other links
 
