@@ -177,7 +177,7 @@ that was extremely lightweight and quick to dry up.
 
 * Sleeping bag. A very light one is enough, since every hut provided heavy
   blankets, but not linens, and guests have to bring their own.
-* One towel, [the most thing to
+* One towel, [the most important thing to
   bring](https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy).
 * Soap, toothbrush and toothpaste.
 * Wet wipes.
