@@ -1,6 +1,6 @@
 # Sebastiano Tronto
 
-![A picture of me](me2.jpg "Me")
+![A picture of me](me2.jpg)
 
 Hello! I am a software developer based in Leiden, The Netherlands.
 
@@ -11,7 +11,9 @@ and [my talks](talks).
 During my free time I enjoy tinkering with my computer, [programming](git)
 and playing with the [Rubik's cube](speedcubing).
 
-In August 2025 I completed
-[Alta Via 2](https://en.wikipedia.org/wiki/Alta_Via_2), a 9-day hiking
-route through the Dolomites. I wrote about this adventure in [this page](./av2)
-- check it out if you want to see some beautiful pictures!
+In the Summer I often return to my hometown in Northern Italy to hike in
+the [Dolomites](https://en.wikipedia.org/wiki/Dolomites). For some of my
+longer hikes, such as [Alta Via 2](https://en.wikipedia.org/wiki/Alta_Via_2),
+I make a dedicated page on the [hiking section](hikes) of this website.
+Check it out if you are interested in planning a multi-day hike yourself,
+or if you just want to see some beautiful pictures!
