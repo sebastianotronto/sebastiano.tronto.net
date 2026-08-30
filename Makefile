@@ -1,4 +1,4 @@
-DEST="sebastiano@tronto.net:/var/www/htdocs/sebastiano.tronto.net"
+DEST="sebastiano@new.tronto.net:/var/www/new.tronto.net"
 RSYNC=$$( (command -V rsync 2>&1 > /dev/null && echo rsync) || echo openrsync)
 
 all: clean
@@ -11,6 +11,6 @@ clean:
 deploy: synchttp
 
 synchttp:
-	${RSYNC} -rv --delete --rsync-path=openrsync http/ ${DEST}
+	${RSYNC} -rv --delete http/ ${DEST}
 
 .PHONY: all clean deploy synchttp

@@ -3,9 +3,8 @@ header nav table { width: 100%; }
 .logo img { max-width: 3em; margin: 0 0 0 0; }
 .links { text-align: right; font-weight: bold; }
 .links a { font-weight: bold; color: black; }
-footer table { font-style: italic; width: 100%; }
-.hosted { text-align: right; }
-.hosted a, .contact a { font-weight: bold; }
+.contact { text-align: right; }
+.contact a { font-weight: bold; }
 
 /* Content */
 html { margin: 1em auto; max-width: 42em; font-family: sans-serif }

@@ -1,6 +1,7 @@
 #!/bin/sh
 
 basedir="$(pwd)"
+bottomtmp="$(mktemp)"
 
 recursivebuild() {
 	local destdir=$(echo "$1" | sed 's|^src|http|')
@@ -44,7 +45,7 @@ copyfile() {
 		mdpreprocess "$file" | \
 			lowdown --html-no-skiphtml --html-no-escapehtml \
 			>> "$ind"
-		cat bottom.html >> "$ind"
+		cat "$bottomtmp" >> "$ind"
 		;;
 	noheadermd)
 		t="$(markdowntitle "$file")"
@@ -55,7 +56,7 @@ copyfile() {
 		;;
 	html)
 		t="$(htmltitle "$file")"
-		cat top.html "$file" bottom.html | sed "s/TITLE/$t/" > "$ind"
+		cat top.html "$file" "$bottomtmp" | sed "s/TITLE/$t/" > "$ind"
 		;;
 	raw)
 		namenoraw="$(basename "$file" | sed 's/\.raw$//')"
@@ -118,7 +119,7 @@ makeblogindexandfeed() {
 	done
 
 	echo '</table>' >> "$bf"
-	cat bottom.html >> "$bf"
+	cat "$bottomtmp" >> "$bf"
 
 	{ echo ""; echo "</channel>"; echo "</rss>"; } >> "$ff"
 }
@@ -164,5 +165,6 @@ month() {
 	esac
 }
 
+sed "s/LASTUPDATE/$(date +'%Y-%m-%d')/" <bottom.html >"$bottomtmp"
 makeblogindexandfeed
 recursivebuild src
