@@ -71,7 +71,7 @@ edit some configuration files that are outside of `$HOME` (for example,
 in `/etc`), and so on.
 
 I tried to automate these steps as much as I could turned them into [a
-script](https://git.tronto.net/config/file/scripts/setup-config-alpine.html). I
+script](https://git.tronto.net/config/tree/scripts/setup-config-alpine). I
 won't explain everything it does here, you can just read through it if you want -
 it is pretty self-explanatory. This script also takes care of cloning the dotfiles
 repository I mentioned above, so when I set up a new system I just need to download

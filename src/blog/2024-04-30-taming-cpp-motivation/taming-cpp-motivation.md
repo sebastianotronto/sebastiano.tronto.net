@@ -40,7 +40,7 @@ You can find the code I wrote in
 
 To sort a list of a hundred million integers, in C we can use `qsort()`
 from `stdlib.h` (see
-[sort.c](https://git.tronto.net/taming-cpp/file/sort-benchmark/integers/sort.c.html)):
+[sort.c](https://git.tronto.net/taming-cpp/tree/sort-benchmark/integers/sort.c)):
 
 ```
 qsort(a, ARRAYSIZE, sizeof(int), compar);
@@ -55,7 +55,7 @@ int compar(const void *x, const void *y) {
 ```
 
 In C++ we can use `sort()` from `algorithm` (see
-[sort.cpp](https://git.tronto.net/taming-cpp/file/sort-benchmark/integers/sort.cpp.html)):
+[sort.cpp](https://git.tronto.net/taming-cpp/tree/sort-benchmark/integers/sort.cpp)):
 
 ```
 std::sort(a, a+ARRAYSIZE,
@@ -69,7 +69,7 @@ instead of a comparison function.
 Modern C++ also offers parallelized
 version of common algorithms as part of the standard library, so if
 we want to completely humiliate poor C we can use this (see
-[sort_parallel.cpp](https://git.tronto.net/taming-cpp/file/sort-benchmark/integers/sort_parallel.cpp.html)):
+[sort_parallel.cpp](https://git.tronto.net/taming-cpp/tree/sort-benchmark/integers/sort_parallel.cpp)):
 
 ```
 std::sort(std::execution::par, a, a+ARRAYSIZE,
@@ -94,9 +94,9 @@ Even without parallelization, C++ is twice as fast as C!
 You might think that C++ is somehow optimizing for integer
 sorting. But this is not the case, as demonstrated by a similar experiment
 with *pairs* of integers (see
-[sort.c](https://git.tronto.net/taming-cpp/file/sort-benchmark/pairs/sort.c.html),
-[sort.cpp](https://git.tronto.net/taming-cpp/file/sort-benchmark/pairs/sort.cpp.html) and
-[sort_parallel.cpp](https://git.tronto.net/taming-cpp/file/sort-benchmark/pairs/sort_parallel.cpp.html)
+[sort.c](https://git.tronto.net/taming-cpp/tree/sort-benchmark/pairs/sort.c),
+[sort.cpp](https://git.tronto.net/taming-cpp/tree/sort-benchmark/pairs/sort.cpp) and
+[sort_parallel.cpp](https://git.tronto.net/taming-cpp/tree/sort-benchmark/pairs/sort_parallel.cpp)
 - I used a non-standard mixed lexicographic order to be reasonably sure the
 compiler does not come up with any ad-hoc optimization):
 

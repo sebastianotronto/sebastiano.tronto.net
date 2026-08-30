@@ -61,7 +61,7 @@ But there is a more interesting way to make this program fail by only
 changing the definition of `BadType`. In fact, you can make this program
 do pretty much everything you want by changing `BadType`'s *constructor*
 to suit your needs (see
-[surprising-error.cpp](https://git.tronto.net/taming-cpp/file/raii/surprising-error.cpp.html)):
+[surprising-error.cpp](https://git.tronto.net/taming-cpp/tree/raii/surprising-error.cpp)):
 
 ```
 class BadType {
@@ -83,7 +83,7 @@ And it does not stop here either: whenever a variable
 of a class type goes out of scope, the corresponding
 [destructor](https://en.cppreference.com/w/cpp/language/destructor)
 is called - see
-[constructor-hello-world.cpp](https://git.tronto.net/taming-cpp/file/raii/constructor-hello-world.cpp.html):
+[constructor-hello-world.cpp](https://git.tronto.net/taming-cpp/tree/raii/constructor-hello-world.cpp):
 
 ```
 #include <iostream>
@@ -254,7 +254,7 @@ from a function is a classic example, but they also come up when using
 [smart pointers](https://en.cppreference.com/book/intro/smart_pointers).
 
 I made a
-[comprehensive example](https://git.tronto.net/taming-cpp/file/raii/all-constructors.cpp.html)
+[comprehensive example](https://git.tronto.net/taming-cpp/tree/raii/all-constructors.cpp)
 of how all of these operations work, so you can see when exactly each
 of them is called. Do check it out if you are interested!
 

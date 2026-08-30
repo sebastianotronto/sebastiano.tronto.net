@@ -1,5 +1,11 @@
 # Self-hosted git pages with stagit (featuring ed, the standard editor)
 
+**Update 2026-08-30: Since August 2026, I am no longer using stagit to
+host my git pages. Instead, I use [cgit](https://git.zx2c4.com/cgit/about).
+I have updated all the links in this page to point to a frozen copy of
+my stagit-based git page before the switch. If you want to visit my new
+git page, go to [git.tronto.net](https://git.tronto.net)**
+
 This is a follow-up to my earlier blog entry
 [How I update my website](../2022-08-14-website).
 
@@ -14,9 +20,9 @@ via web pages, on your personal server? In this post I am going to show
 you how I do it, in the usual minimalist and
 not-using-what-I-do-not-understand style.
 
-You can see the final result on my [git pages](https://git.tronto.net).
+You can see the final result on my [git pages](https://stagit.tronto.net).
 The scripts and other files I use to set this up are accessible
-[here](https://git.tronto.net/git-hooks).
+[here](https://stagit.tronto.net/git-hooks).
 
 ## Hosting git repositories on your own server
 
@@ -54,7 +60,7 @@ a bunch of html files that you can simply move to your www hosting directory.
 After generating the pages you can personalize them by copying your logo,
 [favicon](https://en.wikipedia.org/wiki/Favicon) or CSS style sheet. You can
 use `stagit-index` to generate
-[an index page for your repositories](https://git.tronto.net/). Since everything
+[an index page for your repositories](https://stagit.tronto.net/). Since everything
 consists of html files, you can simply edit them to personalize your git pages
 even further - and below you'll see some examples.
 
@@ -155,8 +161,8 @@ add or change:
 * I would like to have a download button so that people who don't use git
   can still download my files. This makes sense especially for those
   repos that are mostly documents, such as my
-  [lecture notes](https://git.tronto.net/mathsoftware) or my
-  [FMC tutorial](https://git.tronto.net/fmctutorial).
+  [lecture notes](https://stagit.tronto.net/mathsoftware) or my
+  [FMC tutorial](https://stagit.tronto.net/fmctutorial).
 * I would like to convert README.md files to html.
 
 If I were calling stagit by hand after each `git push`, I
@@ -280,7 +286,7 @@ stagit-index /home/git/*.git | sed 's|/log\.html||g' > "$basedir/index.html"
 And that's it. Well, I also copy the style files and add a bottom bar,
 and change the title from a `<span class="desc">` to an `<h1>` element,
 again using `ed`. If you want to see the details you can check them out
-[here](https://git.tronto.net/git-hooks/file/post-receive-stagit.html).
+[here](https://stagit.tronto.net/git-hooks/file/post-receive-stagit.html).
 
 ## Conclusions
 

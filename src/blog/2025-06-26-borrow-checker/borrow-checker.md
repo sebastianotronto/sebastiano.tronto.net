@@ -2,12 +2,11 @@
 
 As I mentioned in my [last post](../2025-06-13-cargo-culture-shock),
 in the last couple of weeks I have been learning Rust. I have written
-[a small library](https://git.tronto.net/zmodn-rs/file/README.md.html) for
+[a small library](https://git.tronto.net/zmodn-rs) for
 [integers modulo N](https://en.wikipedia.org/wiki/Modular_arithmetic)
 (the original C++ version was mentioned in
 [this post](../2025-01-21-taming-cpp-templates), rewritten
-[my implementation](https://git.tronto.net/ecm/file/README.md.html)
-of the
+[my implementation](https://git.tronto.net/ecm) of the
 [ECM algorithm](https://en.wikipedia.org/wiki/Lenstra_elliptic-curve_factorization)
 (mentioned in [this other post](../2025-02-27-elliptic-curves-javascript))
 and I am now playing around with some past

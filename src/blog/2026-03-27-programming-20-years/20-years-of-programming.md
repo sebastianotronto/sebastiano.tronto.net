@@ -60,7 +60,7 @@ it creates a few more.
 
 I managed to recover some of the
 programs I wrote between 2006 and 2010 in [a git
-repository](https://git.tronto.net/ancient-projects/file/README.md.html).
+repository](https://git.tronto.net/ancient-projects).
 The most successful one is JBriscola, a single-player game of
 [briscola](https://en.wikipedia.org/wiki/Briscola) with a decent AI. It is
 actually quite fun to play, and a few of my friends played it regularly
@@ -153,8 +153,7 @@ a PhD.  But at the beginning of my PhD, in 2019, I wrote
 some code for work: my supervisor and a colleague of mine had
 devised an algorithm to compute the degrees of certain [field
 extensions](https://en.wikipedia.org/wiki/Field_extension),
-and I [implemented
-it](https://git.tronto.net/kummer-degrees/file/README.md.html).
+and I [implemented it](https://git.tronto.net/kummer-degrees).
 
 I don't know if this is what got me back into coding for fun, or if it
 was just a matter of time, but by the end of 2019 I was already thinking

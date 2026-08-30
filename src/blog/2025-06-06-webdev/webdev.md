@@ -19,7 +19,7 @@
 ## Introduction
 
 I have recently worked on making a web application out of
-[my latest Rubik's cube optimal solver](https://git.tronto.net/nissy-core/file/README.md.html).
+[my latest Rubik's cube optimal solver](https://git.tronto.net/nissy-core).
 This involved building a rather complex C code base (with
 multithreading, SIMD, callback functions and whatnot) to
 [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly) via
@@ -77,7 +77,7 @@ With this out of the way, let's get started!
 
 The examples used in this tutorial are all contained in a git repository,
 which you can find either on
-[my git page](https://git.tronto.net/emscripten-tutorial/file/README.md.html) or
+[my git page](https://git.tronto.net/emscripten-tutorial) or
 [on github](https://github.com/sebastianotronto/emscripten-tutorial).
 
 In order to follow them you are going to need:
@@ -161,7 +161,7 @@ but in case you are interested you can check out
 You can find the code for this example, as well as scripts to
 build it and run the web server, in the directory `00_hello_world`
 of the git repository
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)).
 
 Anyway, now we can build our C code to run in a web page.  But this is
@@ -324,7 +324,7 @@ The answer is 42
 
 The code for this example can be found in the `01_library` folder in
 the git repository
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)).
 
 ## Intermezzo II: JavaScript and the DOM
@@ -593,7 +593,7 @@ is included directly in `script.mjs`.
 
 You can find the full the code for this example the folder
 `02_library_modularized` in the git repository
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)).
 
 ## Multithreading
@@ -740,7 +740,7 @@ the server you are using; with darkhttpd you can use the `--header` option.
 With your server correctly set up, you can enjoy a multithreaded program
 running in your browser!  As always, you can check out this example from
 the `03_threads` folder of the git repository
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)).
 
 ## Intermezzo III: Web Workers and Spectre
@@ -860,7 +860,7 @@ whose `data` property contains the object that was sent with `postMessage()`.
 
 You can check out this example in the directory `04_no_block` in the
 repository
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)).
 Try also large numbers, in the range of millions or tens of millions, and
 compare it with the previous example - but not don't go too large, we
@@ -948,7 +948,7 @@ Other than that, you just need to add a couple of compiler flags:
   out module at runtime with `addFunction()`.
 
 And as you can check by running the example `05_callback` from the repo
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)),
 everything works as expected, both in Node.js and in a web page.  To make
 the examples more interesting, the web page one is not only not logging the
@@ -1120,7 +1120,7 @@ And with all this, we are ready to run our optimized version of the
 `primes_in_range()` algorithm, all from within our browser! As always,
 you can check out the complete code in the folder `06_storage` of
 the repository
-([git.tronto.net](https://git.tronto.net/emscripten-tutorial/file/README.md.html),
+([git.tronto.net](https://git.tronto.net/emscripten-tutorial),
 [github](https://github.com/sebastianotronto/emscripten-tutorial)).
 
 If generating this data on the user's side seems redundant, you can

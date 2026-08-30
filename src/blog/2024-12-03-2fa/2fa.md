@@ -64,9 +64,9 @@ $ athtool -b --totp "SECRET_KEY"
 And that's it. However, you should not write you secret key in plain text
 like this: instead you should keep it encrypted and decrypt it just
 when you need it to generate a code. I do this by using my simple
-[2fa](https://git.tronto.net/scripts/file/2fa.html)
+[2fa](https://git.tronto.net/scripts/tree/2fa)
 script, which is based on my
-[secret](https://git.tronto.net/scripts/file/secret.html)
+[secret](https://git.tronto.net/scripts/tree/secret)
 tool that encrypts and decrypts stuff using openssl and a master
 password - which is obviously
 [correcthorsebatterystaple](https://xkcd.com/936/).

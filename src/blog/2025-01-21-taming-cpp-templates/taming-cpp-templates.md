@@ -44,7 +44,7 @@ You can find the code examples for this post in the
 [companion repository for this series](https://git.tronto.net/taming-cpp),
 and if you want you can also have a look at the final version
 of my tiny library
-[on my git page](https://git.tronto.net/zmodn/file/README.md.html). For
+[on my git page](https://git.tronto.net/zmodn). For
 this post I am going to use Clang as a compiler, because I find its
 error messages more readable most of the times.
 
@@ -69,7 +69,7 @@ cannot, for example, assign an `std::vector<int>` object to an
 As an example, let's take a simple standard library class such as
 [`std::pair`](https://en.cppreference.com/w/cpp/utility/pair).
 It could be implemented as follows (see
-[pair.cpp](https://git.tronto.net/taming-cpp/file/templates/pair.cpp.html)):
+[pair.cpp](https://git.tronto.net/taming-cpp/tree/templates/pair.cpp)):
 
 ```
 template<typename S, typename T>
@@ -151,7 +151,7 @@ which in case you don't know are just a simplified syntax for pointers.)
 Let's take this simple example to show an important property of templates.
 Let's say that, perhaps by mistake, we implemented the swap function
 using different template types for `a` and `b` (see
-[swap.cpp](https://git.tronto.net/taming-cpp/file/templates/swap.cpp.html)):
+[swap.cpp](https://git.tronto.net/taming-cpp/tree/templates/swap.cpp)):
 
 ```
 template<typename S, typename T>
@@ -204,7 +204,7 @@ to make these error messages more meaningful - we'll see some examples below.
 Objects, not just types, can be template parameters. A classic example
 is [`std::array`](https://en.cppreference.com/w/cpp/container/array),
 a fixed-size container where the capacity is fixed at compile time (see
-[std_array.cpp](https://git.tronto.net/taming-cpp/file/templates/std_array.cpp.html)
+[std_array.cpp](https://git.tronto.net/taming-cpp/tree/templates/std_array.cpp)
 for an example).
 
 Non-type parameters can be constants of any *structural type* - see
@@ -213,13 +213,13 @@ for a precise definition. Remember that you can only specialize them
 with compile-time (i.e. `constexpr`) constants!
 
 With non-type parameter you can do pretty wild stuff, see for example
-[factorial.cpp](https://git.tronto.net/taming-cpp/file/templates/factorial.cpp.html)
+[factorial.cpp](https://git.tronto.net/taming-cpp/tree/templates/factorial.cpp)
 - although this specific example is not very useful, since it can easily
 be replaced by a constexpr function.
 
 Fun fact: if you use `auto`, you don't even have to specify a type for
 a non-type parameter. For example, the following code works just fine (see
-[println.cpp](https://git.tronto.net/taming-cpp/file/templates/println.cpp.html)):
+[println.cpp](https://git.tronto.net/taming-cpp/tree/templates/println.cpp)):
 
 ```
 #include <iostream>
@@ -278,7 +278,7 @@ template for
 where `N` is a fixed at compile-time.
 
 We may start with something like this (see
-[zmodn-1.cpp](https://git.tronto.net/taming-cpp/file/templates/zmodn-1.cpp.html)):
+[zmodn-1.cpp](https://git.tronto.net/taming-cpp/tree/templates/zmodn-1.cpp)):
 
 ```
 #include <iostream>
@@ -355,7 +355,7 @@ are a way to prevent nasty run-time errors and / or make compiler errors
 more meaningful when using templates; they were added in C++20.
 
 In our case, introducing our constraint is quite simple (see
-[zmodn-2.cpp](https://git.tronto.net/taming-cpp/file/templates/zmodn-2.cpp.html)):
+[zmodn-2.cpp](https://git.tronto.net/taming-cpp/tree/templates/zmodn-2.cpp)):
 
 ```
 template<int N>
@@ -392,7 +392,7 @@ type of N.
 
 In order to do so, I can use a non-type parameter declared `auto` and
 [`decltype()`](https://en.cppreference.com/w/cpp/language/decltype) (see
-[zmodn-3.cpp](https://git.tronto.net/taming-cpp/file/templates/zmodn-3.cpp.html)):
+[zmodn-3.cpp](https://git.tronto.net/taming-cpp/tree/templates/zmodn-3.cpp)):
 
 ```
 template<auto N>
@@ -409,7 +409,7 @@ public:
 
 And of course I should also templatize the `extended_gcd()` function -
 you can see the full code in
-[zmodn-3.cpp](https://git.tronto.net/taming-cpp/file/templates/zmodn-3.cpp.html).
+[zmodn-3.cpp](https://git.tronto.net/taming-cpp/tree/templates/zmodn-3.cpp).
 
 Now we can use any type as a "base" for our modular integer! Well, almost.
 I mentioned above that the type we use must be *structural*, but that is
@@ -417,7 +417,7 @@ relatively easy to satisfy. A bigger problem is that our type must
 allow for compile-time constants - so we need, at least, a `constexpr`
 constructor. I could not find a suitable library online, so I ended
 up writing my own - see
-[bigint.h](https://git.tronto.net/taming-cpp/file/templates/bigint.h.html).
+[bigint.h](https://git.tronto.net/taming-cpp/tree/templates/bigint.h).
 
 The code is simple and not very efficient, but this library is not meant
 to be efficient. I am just using it for educational purposes.
@@ -477,7 +477,7 @@ Along with constraints, C++20 also introduced the possibility to define
 and name a custom set of requirements. This can be done with *concepts*.
 In our example, we can require that our type supports all the operations
 we need (see
-[zmodn-4.cpp](https://git.tronto.net/taming-cpp/file/templates/zmodn-4.cpp.html)):
+[zmodn-4.cpp](https://git.tronto.net/taming-cpp/tree/templates/zmodn-4.cpp)):
 
 ```
 template<typename T>

@@ -40,7 +40,7 @@ Recently I have been learning C++, and I wanted to experiment with some
 of its more advanced features. So I decided to rewrite the whole thing.
 
 I had a clear idea of where I wanted to start: a small
-[library for modular arithmetic](https://git.tronto.net/zmodn/file/README.md.html),
+[library for modular arithmetic](https://git.tronto.net/zmodn),
 with compile-time fixed
 [modulus](https://en.wikipedia.org/wiki/Modular_arithmetic) via templates
 and heavy use of
@@ -57,7 +57,7 @@ algorithm with very large numbers. Unfortunately, I did not take into
 account that with my setup I needed a big integer class that supported
 *compile-time constants* - for example in the form of `constexpr`
 constructors. I could not find any, so I decided to write
-[my own big integer class](https://git.tronto.net/zmodn/file/bigint.h.html).
+[my own big integer class](https://git.tronto.net/zmodn/tree/bigint.h).
 This was less successful: implementing an *efficient* big integer library
 was not as straightforward as the modular integers library. I decided
 not to care about efficiency for the time being, but that would come
@@ -258,7 +258,7 @@ pieces of text and pictures in the slides - shoutout to
 my friend [Jared](https://guissmo.com) for telling me about
 it. Apart from this I don't have anything interesting to comment
 about the CSS part of the slides. You can check the full code
-[here](https://git.tronto.net/ecm/file/index.html.html) if you want;
+[here](https://git.tronto.net/ecm/tree/index.html) if you want;
 everything is in a single HTML file.
 
 The result looks fine, but it does not work perfectly will every screen

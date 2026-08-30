@@ -117,7 +117,7 @@ $ cth do_ src/*
 ```
 
 And it works! You can now find
-[this script](https://git.tronto.net/scripts/file/cth%2Ehtml)
+[this script](https://git.tronto.net/scripts/tree/cth)
 among my other [scripts](https://git.tronto.net/scripts).
 
 *Remark: in bash one can simply do `sed -n "/^$1/,/^}/ p" ${@:2}` to match

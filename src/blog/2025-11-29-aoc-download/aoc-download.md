@@ -79,7 +79,7 @@ And you are good to go!
 Typing out the full command above may look cooler than downloading the file
 by right-clicking "Save page as", but it is just as annoying. So obviously I
 saved that command to
-[a script](https://git.tronto.net/scripts/file/aoc.html)
+[a script](https://git.tronto.net/scripts/tree/aoc)
 that also detects the correct file to download based on the current date
 (or on two optional parameters for the year and the day). My script also
 opens up an editor and [Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser))

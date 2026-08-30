@@ -23,7 +23,7 @@ files, writing a script that adds a header and a footer to the output of
 [lowdown](https://kristaps.bsd.lv/lowdown/), and using
 [rsync](https://en.wikipedia.org/wiki/Rsync) to deploy the files to my server.
 All of this is available on
-[my git page](https://git.tronto.net/sebastiano.tronto.net/), but I won't
+[my git page](https://git.tronto.net/sebastiano.tronto.net), but I won't
 explain every detail of these build scripts here. In particular, my script
 also builds a [gemini](https://sebastiano.tronto.net/blog/2022-06-04-gemini/)
 version of my website, which I won't discuss here.
@@ -88,9 +88,9 @@ Without this trick the correct URL would have been
 `sebastiano.tronto.net/git.html` or something, which I don't like.
 
 The main working directory also contains the 
-[`top.html`](https://git.tronto.net/sebastiano.tronto.net/file/top%2Ehtml%2Ehtml)
+[`top.html`](https://git.tronto.net/sebastiano.tronto.net/tree/top.html)
 and
-[`bottom.html`](https://git.tronto.net/sebastiano.tronto.net/file/bottom%2Ehtml%2Ehtml)
+[`bottom.html`](https://git.tronto.net/sebastiano.tronto.net/tree/bottom.html)
 files. These files are not uploaded directly to my server - they are not
 even well-formed html files! - but they are used to build all other
 html pages.

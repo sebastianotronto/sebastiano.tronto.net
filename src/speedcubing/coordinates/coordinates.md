@@ -46,12 +46,10 @@ To work with cube coordinates, we need to implement the following:
   can be applied.
 
 For the implementation, see
-[coord.c](https://git.tronto.net/nissy-nx/file/src/coord.c.html)
+[coord.c](https://git.tronto.net/nissy-nx/tree/src/coord.c)
 and
-[coord.h](https://git.tronto.net/nissy-nx/file/src/coord.h.html),
-as well as the definition of
-[coordinate](https://git.tronto.net/nissy-nx/file/src/cubetypes.h.html#l181)
-in cubetypes.h.
+[coord.h](https://git.tronto.net/nissy-nx/tree/src/coord.h),
+as well as the definition of coordinate in cubetypes.h.
 
 ## Coordinate types
 
@@ -252,7 +250,7 @@ the outermost loop above:
 ```
 
 The code for this can be found in
-[pruning.c](https://git.tronto.net/nissy-nx/file/src/pruning.c.html).
+[pruning.c](https://git.tronto.net/nissy-nx/tree/src/pruning.c).
 The use of pthread made it more complicated, so it can be hard to follow
 without reading this page first.
 
@@ -272,7 +270,7 @@ instead of a full representation of the cube is computing the
 inverse. While it is possible to compute the inverse somewhat efficiently
 from a representation of the cube made of a smart selection of coordinate
 values, it is not necessarily efficient.
-See [fst.c](https://git.tronto.net/nissy-nx/file/src/fst.c.html#l113)
+See [fst.c](https://git.tronto.net/nissy-nx/tree/src/fst.c)
 for an implementation.
 
 For these reasons, I am not using the coordinate approach described here

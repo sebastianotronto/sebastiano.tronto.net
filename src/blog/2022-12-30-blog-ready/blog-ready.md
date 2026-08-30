@@ -13,10 +13,9 @@ messy at some point! It would be nice to divide these posts by year...
 ## Adding year sections to my blog index
 
 Very easy: in my
-[build.sh](https://git.tronto.net/sebastiano.tronto.net/file/build.sh.html)
+[build.sh](https://git.tronto.net/sebastiano.tronto.net/tree/build.sh)
 script that I run to
-[build my website](../2022-08-14-website), there is a
-[`makeblog()`](https://git.tronto.net/sebastiano.tronto.net/file/build.sh.html#l52)
+[build my website](../2022-08-14-website), there is a `makeblog()`
 function that takes care of building the index page and RSS feed for my blog.
 
 It is enough to add the following lines inside its main loop:

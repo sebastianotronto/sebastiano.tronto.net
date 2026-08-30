@@ -62,7 +62,7 @@ reader UI.
 In the first version I made, my feeds were separated in folders,
 one per file, and one could select multiple feeds or even entire
 folders via dmenu using
-[dmenu-filepicker](https://git.tronto.net/scripts/file/dmenu-filepicker.html)
+[dmenu-filepicker](https://git.tronto.net/scripts/tree/dmenu-filepicker)
 for file selection.
 Once the session was terminated, all shown feeds were marked as
 "read" by writing the timestamp of the last read item on a cache
