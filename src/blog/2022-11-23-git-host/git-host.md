@@ -1,10 +1,10 @@
 # Self-hosted git pages with stagit (featuring ed, the standard editor)
 
-**Update 2026-08-30: Since August 2026, I am no longer using stagit to
+*Update 2026-08-30: Since August 2026, I am no longer using stagit to
 host my git pages. Instead, I use [cgit](https://git.zx2c4.com/cgit/about).
 I have updated all the links in this page to point to a frozen copy of
 my stagit-based git page before the switch. If you want to visit my new
-git page, go to [git.tronto.net](https://git.tronto.net)**
+git page, go to [git.tronto.net](https://git.tronto.net).*
 
 This is a follow-up to my earlier blog entry
 [How I update my website](../2022-08-14-website).
