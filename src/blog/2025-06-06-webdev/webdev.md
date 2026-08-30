@@ -27,7 +27,7 @@ multithreading, SIMD, callback functions and whatnot) to
 JavaScript and HTML for the frontend.
 
 This whole process was complex, tiring and at times frustrating -
-but eventually [it was a success](https://tronto.net:48)! Not only
+but eventually [it was a success](https://h48.tronto.net)! Not only
 I accomplished my goal, but I have learnt a lot along the way. After
 finishing the work, I decided to write down all that I have learnt and
 share it with the world with this post.
