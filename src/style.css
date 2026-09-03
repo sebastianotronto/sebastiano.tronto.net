@@ -3,7 +3,7 @@ header nav table { width: 100%; }
 .logo img { max-width: 3em; margin: 0 0 0 0; }
 .links { text-align: right; font-weight: bold; }
 .links a { font-weight: bold; color: black; }
-.contact { text-align: right; }
+.lastupdate { text-align: right; }
 .contact a { font-weight: bold; }
 
 /* Content */
