@@ -87,8 +87,8 @@ Alternatively, one may configure httpd to chroot at `/`, making things
 more practical but loosing the security benefits. But at this point,
 I decided I wanted to try out a different stack - new VPS provider, new
 OS, new web server. This is something I had been thinking about for
-about a year at this point, and I'll talk about the reasons in the
-next post.
+about a year at this point, and I'll talk about the reasons in [my
+next post](../2026-09-13-host-migration).
 
 But if you plan to host cgit on OpenBSD, do not be discouraged!
 Everything can be set up with just a little manual work.
