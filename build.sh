@@ -16,8 +16,6 @@ recursivebuild() {
 	done
 }
 
-# This function is currently useless, but we keep it in case we need to
-# preprocess some m4 files.
 mdpreprocess() {
 	file="$1"
 	if [ "$(echo "$file" | sed 's/.*\.//')" = "m4" ]; then
@@ -75,6 +73,17 @@ htmltitle() {
 	grep '<!--TITLE: ' "$1" | sed 's/^<!--TITLE: //' | sed 's/-->$//'
 }
 
+feedify() {
+	printf '\n<![CDATA[\n'
+	printf '<p><emph>Note: internal links to '
+	printf '<a href="https://sebastiano.tronto.net">sebastiano.tronto.net</a> '
+	printf 'may be broken in feed view. Read this page online or fix them '
+	printf 'manually if you want to follow them.</emph></p>\n\n'
+	sed -n '/<main>/,/<\/main>/p; s/]]>/]]]]>\n<![CDATA[/g' "$1" \
+		| head -n -2 | tail -n +3
+	printf '\n]]>\n'
+}
+
 makeblogindexandfeed() {
 	mkdir -p http/blog
 	bf=http/blog/index.html
@@ -95,6 +104,9 @@ makeblogindexandfeed() {
 		d="$(echo "$i" | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')"
 		t="$(markdowntitle $f)"
 		link="https://sebastiano.tronto.net/blog/$i"
+		#cont="$(sed -n '/<main>/,/<\/main>/p' http/blog/$i/index.html |\
+			#head -n -2 | tail -n +3)"
+		cont="$(feedify http/blog/$i/index.html)"
 
 		thisyear="$(echo "$d" | sed 's/-.*//')"
 		if [ "$thisyear" != "$lastyear" ]; then
@@ -113,6 +125,7 @@ makeblogindexandfeed() {
 		  echo "<link>$link</link>";
 		  echo "<guid isPermaLink=\"true\">$link</guid>";
 		  echo "<description>$t</description>";
+		  echo "<content:encoded>$cont</content:encoded>";
 		  echo "<pubDate>$dd $mon $thisyear 00:00:00 GMT</pubDate>";
 		  echo "</item>";
 		  echo ""; } >> $ff
@@ -166,5 +179,5 @@ month() {
 }
 
 sed "s/LASTUPDATE/$(date +'%Y-%m-%d')/" <bottom.html >"$bottomtmp"
-makeblogindexandfeed
 recursivebuild src
+makeblogindexandfeed
