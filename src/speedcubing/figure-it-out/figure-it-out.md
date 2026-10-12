@@ -176,7 +176,8 @@ Suppose that you manage, via blockbuilding, to reach the following state:
 alg="R' D R   // Insertion
      U   // Interchange
      R' D' R   // Inverse insertion
-     U'   // Inverse interchange"></twisty-player>
+     U'   // Inverse interchange">
+</twisty-player>
 </center>
 
 First of all, this would be an amazing achievement! The whole cube is
@@ -245,7 +246,7 @@ is also important. For example, consider the following case:
 alg="R' D R   // Insertion
      U   // Interchange
      R' D' R   // Inverse insertion
-     U'   // Inverse interchange"></twisty-player>
+     U'   // Inverse interchange">
 </twisty-player>
 </center>
 
@@ -274,7 +275,8 @@ Let's highlight the difference between the two 3-cycles. In the first one:
 alg="R' D R   // Insertion
      U   // Interchange
      R' D' R   // Inverse insertion
-     U'   // Inverse interchange"></twisty-player>
+     U'   // Inverse interchange">
+</twisty-player>
 </center>
 
 1. The red-green-white corner must go to the place of the white-red-blue one,
@@ -294,7 +296,7 @@ While in the second case:
 alg="U L' U'   // Insertion
      R'   // Interchange
      U L U'   // Inverse insertion
-     R   // Inverse interchange"></twisty-player>
+     R   // Inverse interchange">
 </twisty-player>
 </center>
 
@@ -327,7 +329,7 @@ are also left with some unsolved edges? For example, consider this case:
 alg="E'   // Interchange
      L' U2 L   // Insertion
      E   // Inverse interchange
-     L' U2 L   // Inverse insertion"></twisty-player>
+     L' U2 L   // Inverse insertion">
 </twisty-player>
 </center>
 
@@ -369,7 +371,8 @@ alg="L   // Set-up
      R D2 R'   // Insertion
      U   // Inverse interchange
      R D2 R'   // Inverse insertion
-     L'   // Inverse set-up"></twisty-player>
+     L'   // Inverse set-up">
+</twisty-player>
 </center>
 
 No matter how much you try, you are not going to find valid interchange
