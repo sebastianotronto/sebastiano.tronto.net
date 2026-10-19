@@ -71,7 +71,7 @@ liked: 71€ per year for a VM with 1GB of RAM and 50GB of
 storage. For comparison, I am now paying 22€ per year for
 a VM with the same RAM and 30GB of storage. To be fair,
 OpenBSD Amsterdam is a small, independent provider, and they
-donate a most of their revenuw to the OpenBSD foundation; I was
+donate a most of their revenue to the OpenBSD foundation; I was
 happy to support them. But I am also happy to save 49€
 per year.
 
